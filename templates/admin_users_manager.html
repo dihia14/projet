@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Users Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="{{ url_for('static', filename='output.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- main content  -->
+  <body class="bg-gray-100 p-4">
+    <div class="container mx-auto">
+      <header class="flex justify-between items-center pb-4 border-b">
+        <h1 class="text-2xl font-bold">Gestion des Utilisateurs</h1>
+        <button
+          onclick="location.href='/admin'"
+          class="btn-custom text-white px-4 py-2 rounded-md"
+        >
+          Back
+        </button>
+      </header>
+
+      <div class="overflow-x-auto bg-white rounded-lg shadow-md p-4">
+        <table class="min-w-full bg-white border border-gray-200">
+          <thead>
+            <tr
+              class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal"
+            >
+              <th class="py-3 px-6 text-left">ID</th>
+              <th class="py-3 px-6 text-left">Nom d'utilisateur</th>
+              <th class="py-3 px-6 text-left">Email</th>
+              <th class="py-3 px-6 text-left">Privilèges</th>
+              <th class="py-3 px-6 text-left">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for user in users %}
+            <tr class="border-b border-gray-200 hover:bg-gray-100">
+              <!-- 0:ID , 1:username, 2:mail, 3: privilege -->
+              <td class="py-3 px-6">{{ user[0] }}</td>
+              <td class="py-3 px-6">{{ user[1] }}</td>
+              <td class="py-3 px-6">{{ user[2] }}</td>
+              <td class="py-3 px-6">{{ user[3] }}</td>
+              <td class="py-3 px-6">
+                <!-- Bouton pour supprimer -->
+                <form action="/delete_user/{{ user[0] }}" method="POST">
+                  <button type="submit" class="text-red-500 hover:underline">
+                    X
+                  </button>
+                </form>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

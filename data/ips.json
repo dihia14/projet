@@ -1,0 +1,34 @@
+{
+    "194.199.112.227": {
+        "lat": 49.1837,
+        "lon": -0.356,
+        "country": "France",
+        "city": "Caen"
+    },
+    "46.193.4.192": {
+        "lat": 48.8566,
+        "lon": 2.35222,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:193a:fe8c:ecc3:fae3:9fab:93f": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "194.3.29.42": {
+        "lat": 48.8566,
+        "lon": 2.35222,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a01:e0a:35c:2060:f5f2:1423:da3:45b3": {
+        "lat": 52.3783,
+        "lon": 4.90073,
+        "country": "The Netherlands",
+        "city": "Amsterdam"
+    }
+}
+
+

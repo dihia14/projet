@@ -1,0 +1,30 @@
+/* my colors  */
+/* Dark slate gray : hex="283d3b" r="40" g="61" b="59"
+Caribbean Current : hex="197278" r="25" g="114" b="120" 
+Champagne pink :  hex="edddd4" r="237" g="221" b="212"
+Persian red :  hex="c44536" r="196" g="69" b="54"
+Burnt umber : hex="772e25" r="119" g="46" b="37" */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-custom {
+  background-color: #c44536;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #772e25;
+}
+
+.txt-custom {
+  color: #197278;
+}
+
+.bg-custom {
+  background-color: #edddd4;
+}
