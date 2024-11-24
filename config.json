@@ -1,0 +1,4 @@
+{
+    "log_file_http": "/home/dihia/Desktop/test/file.log",
+    "log_rules": "rules/log_rules.json"
+}

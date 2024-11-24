@@ -1,0 +1,17 @@
+[
+    {
+        "pattern": "UNION|SELECT|DROP|' OR '|'%20OR%20'| '1' = '1'",
+        "description": "Injection SQL détectée",
+        "severity": "high"
+    },
+    {
+        "pattern": "\\.\\./\\.\\./",
+        "description": "Tentative de directory traversal",
+        "severity": "medium"
+    },
+    {
+        "pattern": "sqlmap|nikto",
+        "description": "Scan automatisé détecté",
+        "severity": "high"
+    }
+]
