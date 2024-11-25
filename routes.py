@@ -5,7 +5,7 @@ import bcrypt
 import logging
 import requests
 from routes import * 
-from managers.database_manager import add_user_database , get_user, get_users_db, delete_user_database
+from managers.database_manager import add_user_database , get_user, get_users_db, delete_user_database, get_user_infos
 from managers.mail_manager import send_confirmation_mail_user, send_email_alerte_admin
 from managers.password_manager import generate_password
 from managers.ip_manager import * 
@@ -74,8 +74,10 @@ def register_routes(app):
 
 
     @app.route('/')
-    def user():
-    
+    def user_page():
+        
+        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+
         ip_data = load_ip_data()
         if client_ip not in ip_data:
             location = get_ip_location(client_ip)
@@ -99,6 +101,14 @@ def register_routes(app):
         return render_template('admin_users_manager.html', users=users)  #
 
 
+    @app.route('/user_settings_page')
+    def user_settings_page(username):
+        # ID , username, hash password, mail, privilèges 
+        user_info = get_user_infos(username)
+        print(user_info)
+        return render_template('user_settings_page.html', user_info=user_info)  #
+    
+    
     @app.route('/delete_user/<int:user_id>', methods=['POST'])
     def delete_user(user_id):
         delete_user_database(user_id)
@@ -161,8 +171,8 @@ def register_routes(app):
                     return admin()
                 else:
                     logging.info(f"User login successful for : {username}")
-                    return admin()  # juste pour le test apres mettre la page adéquate i.e user()
-                    #return user()
+                    #return admin()  # juste pour le test apres mettre la page adéquate i.e user()
+                    return user_settings_page(username)
             else:
                 logging.error(f"Invalid password for user : {username}")
                 loging_msg = f"Invalid password for : {username}"

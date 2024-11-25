@@ -4099,3 +4099,73 @@
 2024-11-24 17:49:17,403 - INFO - User successfully logged out
 2024-11-24 17:49:17,404 - INFO - 127.0.0.1 - - [24/Nov/2024 17:49:17] "GET /logout HTTP/1.1" 200 -
 2024-11-24 17:49:17,914 - INFO - 127.0.0.1 - - [24/Nov/2024 17:49:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:33:13,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.192.84.239:9000
+2024-11-25 10:33:13,885 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-25 10:33:13,888 - INFO -  * Restarting with stat
+2024-11-25 10:33:14,598 - WARNING -  * Debugger is active!
+2024-11-25 10:33:14,620 - INFO -  * Debugger PIN: 136-553-079
+2024-11-25 10:33:48,796 - INFO - Home page loaded
+2024-11-25 10:33:48,803 - INFO - 127.0.0.1 - - [25/Nov/2024 10:33:48] "GET / HTTP/1.1" 200 -
+2024-11-25 10:33:49,248 - INFO - 127.0.0.1 - - [25/Nov/2024 10:33:49] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-25 10:34:07,707 - INFO - Login attempt for user: TEST
+2024-11-25 10:34:07,711 - WARNING - Attempt to connect with a user not found : TEST
+2024-11-25 10:34:07,711 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-25 10:34:07,804 - INFO - Home page loaded
+2024-11-25 10:34:07,805 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:07] "GET /?loging_msg=Attempt+to+connect+with+a+user+not+found+:+TEST HTTP/1.1" 200 -
+2024-11-25 10:34:08,451 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:34:23,323 - INFO - Login attempt for user: admin
+2024-11-25 10:34:23,667 - INFO - Admin login successful for : admin
+2024-11-25 10:34:23,691 - INFO - Admin page via 46.193.4.192
+2024-11-25 10:34:23,696 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:23] "POST /login HTTP/1.1" 200 -
+2024-11-25 10:34:24,075 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:24] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:34:31,212 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:31] "GET /admin_users_manager HTTP/1.1" 200 -
+2024-11-25 10:34:31,418 - INFO - 127.0.0.1 - - [25/Nov/2024 10:34:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:35:44,166 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/managers/database_manager.py', reloading
+2024-11-25 10:35:44,271 - INFO -  * Restarting with stat
+2024-11-25 10:35:45,491 - WARNING -  * Debugger is active!
+2024-11-25 10:35:45,508 - INFO -  * Debugger PIN: 136-553-079
+2024-11-25 10:36:20,700 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/routes.py', reloading
+2024-11-25 10:36:20,811 - INFO -  * Restarting with stat
+2024-11-25 10:36:22,094 - WARNING -  * Debugger is active!
+2024-11-25 10:36:22,104 - INFO -  * Debugger PIN: 136-553-079
+2024-11-25 10:37:04,541 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.192.84.239:9000
+2024-11-25 10:37:04,543 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-25 10:37:04,545 - INFO -  * Restarting with stat
+2024-11-25 10:37:05,426 - WARNING -  * Debugger is active!
+2024-11-25 10:37:05,447 - INFO -  * Debugger PIN: 136-553-079
+2024-11-25 10:37:12,349 - INFO - Home page loaded
+2024-11-25 10:37:12,354 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:12] "GET / HTTP/1.1" 200 -
+2024-11-25 10:37:12,556 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:18,635 - INFO - Login attempt for user: admin
+2024-11-25 10:37:18,991 - INFO - Admin login successful for : admin
+2024-11-25 10:37:19,012 - INFO - Admin page via 46.193.4.192
+2024-11-25 10:37:19,020 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:19] "POST /login HTTP/1.1" 200 -
+2024-11-25 10:37:19,312 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:21,109 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:21] "GET /admin_users_manager HTTP/1.1" 200 -
+2024-11-25 10:37:21,309 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:23,135 - INFO - Admin page via 46.193.4.192
+2024-11-25 10:37:23,137 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:23] "GET /admin HTTP/1.1" 200 -
+2024-11-25 10:37:23,387 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:23] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:31,099 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:31] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-11-25 10:37:31,175 - INFO - Admin page via 46.193.4.192
+2024-11-25 10:37:31,177 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:31] "GET /admin?error=The+email+is+already+in+use.+Please+choose+another+one. HTTP/1.1" 200 -
+2024-11-25 10:37:31,440 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:34,189 - INFO - User successfully logged out
+2024-11-25 10:37:34,190 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:34] "GET /logout HTTP/1.1" 200 -
+2024-11-25 10:37:34,437 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:43,003 - INFO - Login attempt for user: TEST
+2024-11-25 10:37:43,138 - INFO - Login attempt for user: TEST
+2024-11-25 10:37:43,346 - INFO - User login successful for : TEST
+2024-11-25 10:37:43,352 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:43] "POST /login HTTP/1.1" 200 -
+2024-11-25 10:37:43,442 - INFO - User login successful for : TEST
+2024-11-25 10:37:43,444 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:43] "POST /login HTTP/1.1" 200 -
+2024-11-25 10:37:43,717 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-25 10:37:47,987 - INFO - User successfully logged out
+2024-11-25 10:37:47,988 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:47] "GET /logout HTTP/1.1" 200 -
+2024-11-25 10:37:48,191 - INFO - 127.0.0.1 - - [25/Nov/2024 10:37:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -

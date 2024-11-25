@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello User</title>
+    <!-- Lien pour les styles Tailwind CSS -->
+    <link
+      href="{{ url_for('static', filename='output.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex min-h-screen">
+      <!-- Sidebar -->
+      <div class="w-64 bg-white shadow-md">
+        <div class="p-4">
+          <h1 class="text-lg font-bold">Menu</h1>
+        </div>
+        <nav class="mt-4">
+          <ul>
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#" class="flex items-center space-x-2">
+                <span>📋</span>
+                <span>Profil</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div class="flex-1 p-6">
+        <header class="flex justify-between items-center pb-4 border-b">
+          <h1 class="text-2xl font-bold">Welcome back, {{ user_info[1] }}</h1>
+          <button
+            onclick="location.href='/logout'"
+            class="btn-custom text-white px-4 py-2 rounded-md"
+          >
+            Logout
+          </button>
+        </header>
+
+        <!-- User Information -->
+        <!-- <div class="mt-6">
+          <h2 class="text-xl font-semibold mb-4">Your informations :</h2>
+          <ul class="space-y-2">
+            {% for info in user_info %}
+            <li class="p-4 bg-white rounded shadow-sm text-sm font-mono">
+              {{ info }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div> -->
+        <!-- User Information -->
+        <div class="mt-6">
+          <h2 class="text-xl font-semibold mb-4">Your informations :</h2>
+          <div class="space-y-4">
+            <div class="p-4 bg-white rounded shadow-sm">
+              <p class="text-sm text-gray-600">
+                <strong>Your ID :</strong> {{ user_info[0] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <div class="space-y-4">
+            <div class="p-4 bg-white rounded shadow-sm">
+              <p class="text-sm text-gray-600">
+                <strong>Username :</strong> {{ user_info[1] }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-6">
+          <div class="space-y-4">
+            <div class="p-4 bg-white rounded shadow-sm">
+              <p class="text-sm text-gray-600">
+                <strong>E-mail :</strong> {{ user_info[2] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEw password section ?   -->
+        <!-- <div class="mt-8">
+          <div class="bg-blue-100 p-4 rounded-md">
+            <h3 class="text-lg font-medium"> :</h3>
+            <p class="text-sm text-gray-700 mt-2">
+              Demandez un nouveau password ?
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

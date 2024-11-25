@@ -45,4 +45,12 @@ def delete_user_database(user_id) :
     
     
     
-    
+def get_user_infos(username): 
+    conn = sqlite3.connect('./data/users.db')
+    cursor = conn.cursor()
+    #cursor.execute('SELECT id, username, email, is_admin  FROM users')
+    #cursor.execute('SELECT id, username, email  FROM users WHERE id = ?', (user_id))  #password ? 
+    cursor.execute('SELECT id, username, email, is_admin FROM users WHERE username = ?', (username,))
+    infos = cursor.fetchone()
+    conn.close()
+    return infos
