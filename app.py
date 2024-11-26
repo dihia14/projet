@@ -17,11 +17,23 @@ import rules.brute_force_rule
 
 
 # 
+# logging.basicConfig(
+#     filename='./logs/app.log',
+#     level=logging.INFO,  
+#     format='%(asctime)s - %(levelname)s - %(message)s'  # msg format 
+# )
+
 logging.basicConfig(
     filename='./logs/app.log',
-    level=logging.INFO,  
-    format='%(asctime)s - %(levelname)s - %(message)s'  # msg format 
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filemode='a',
+    force=True
 )
+
+logging.getLogger().handlers[0].setStream(open('/Users/jafjafnora/Desktop/git/projet/logs/app.log', 'a', buffering=1))
+
+
 
 
 app = Flask(__name__, template_folder='./templates')  

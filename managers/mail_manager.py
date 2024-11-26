@@ -30,6 +30,13 @@ def send_email_alerte_admin(username):
     body = f"Une série de tentatives de connexion échouées a été détectée pour l'utilisateur {username}. Veuillez vérifier."
     send_email_zimbra(smtp_server, port, sender_email, sender_password, sender_email, subject, body)
     
+    
+def send_email_alerte_injection_sql(): 
+    print("IN INJECTION")
+    subject="Alerte de tentative INJECTION SQL "
+    body = f"UNE TENTATIVE D'INJECTION SQL À ÉTÉ DETECTÉ. Veuillez vérifier."
+    send_email_zimbra(smtp_server, port, sender_email, sender_password, sender_email, subject, body)
+    
 
 
 
