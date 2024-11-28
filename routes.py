@@ -99,7 +99,25 @@ def register_routes(app):
         session.clear()  
         logging.info("User successfully logged out")
         return render_template('index.html')
+      
+    @app.route('/new_password/<username>')
+    def new_password(username):
+        user_info = db_manager.get_user_infos(username)
+        # ask for another password to generate 
+        new_password = PasswordManager.generate_password()
+        hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
+
+        # send it to the user 
+        email = user_info[2]
+        mail_manager.send_confirmation_mail_user(username, email, new_password, False)
         
+        #update the db 
+        db_manager.update_password_username(username, hashed_password) ##
+        print(f"NEW password requested for user: {username}")
+        return render_template('user_settings_page.html', user_info=user_info)  
+    
+    
+      
     @app.route('/admin')
     def admin():
         
@@ -152,7 +170,7 @@ def register_routes(app):
             error_message=error_message
         )
 
-
+###?? 
     @app.route('/')
     def user_page():
         
@@ -212,7 +230,7 @@ def register_routes(app):
         
         try:
             db_manager.add_user(username, hashed_password, email, is_admin)
-            mail_manager.send_confirmation_mail_user(username, email, password)
+            mail_manager.send_confirmation_mail_user(username, email, password, True)
             return redirect(url_for('admin', success=f"User {username} has been successfully added."))
 
         except sqlite3.IntegrityError as e:
@@ -278,4 +296,49 @@ def register_routes(app):
             loging_msg = f"Attempt to connect with a user not found : {username}"
             return redirect(url_for('index', loging_msg=loging_msg))
             #return render_template('index.html')
+
+
+
+    @app.route('/file_page')
+    def file_page():
+        user_id = "example_user1" #  a voir 
+        files = list_files(user_id) 
+        return render_template('file_page.html', files=files, user_id=user_id)
+
+
+
+    @app.route('/uploads', methods=['POST'])
+    def upload():
+        response, status_code = upload_file(request) 
+        if status_code == 200:
+            user_id = request.form.get("user_id")
+            files = list_files(user_id)  
+            response["files"] = files 
+        return response, status_code
+    
+    
+
+    @app.route('/delete_file', methods=['POST'])
+    def delete_file_route():
+         
+        user_id = request.form.get("user_id")
+        file_name = request.form.get("file_name")
+
+        response, status_code = delete_file(user_id, file_name)
+        files = list_files(user_id)    # a voir apres 
+        
+        return redirect(url_for('file_page'))
+
+
+    @app.route('/download/<user_id>/<filename>')
+    def download_file(user_id, filename):  
+        user_folder = os.path.join("uploads", user_id)
+        file_path = os.path.join(user_folder, filename)
+
+        # envoie du fichier 
+        if os.path.exists(file_path):
+            return send_from_directory(user_folder, filename, as_attachment=True)
+        else:
+            abort(404, description="File not found")
+
 

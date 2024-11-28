@@ -126,3 +126,12 @@ class UserDatabase:
         infos = cursor.fetchone()
         conn.close()
         return infos
+    
+    
+    def update_password_username(self,username, hashed_password) : 
+
+        conn = self._connect()
+        cursor = conn.cursor()
+        cursor.execute('UPDATE users SET password = ? WHERE username = ?',(hashed_password, username))
+        conn.commit()  
+        conn.close()

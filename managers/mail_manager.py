@@ -54,8 +54,11 @@ class EmailManager:
         except Exception as e:
             print(f"Error sending email: {e}")
 
+
+    # is_new_password_generated = True : the initial generated password (i.e when the account is created)
+    # false : when it's a new one asked 
     @classmethod
-    def send_confirmation_mail_user(cls, username, email, password):
+    def send_confirmation_mail_user(cls, username, email, password, is_new_password_generated ):
         """
         Send a confirmation email to a new user.
 
@@ -67,13 +70,27 @@ class EmailManager:
         Returns:
             None
         """
-        subject = "Your account has been created!"
-        body = (
-            f"The system administrator has added you to the database. Here is your login information:\n"
-            f"* Username: {username}\n"
-            f"* Password: {password}\n"
-            f"Login link: https://accurate-actively-fox.ngrok-free.app"
-        )
+        if is_new_password_generated == True : 
+            subject = "Your account has been created!"
+
+            body = (
+                f"The system administrator has added you to the database. Here is your login information:\n"
+                f"* Username: {username}\n"
+                f"* Password: {password}\n"
+                f"Login link: https://accurate-actively-fox.ngrok-free.app"
+            )
+        else : 
+            subject = "Here's your new password !"
+
+            body = (
+                f"\n"
+                f"Hello  {username}\n"
+                f"Here's your new password : \n"
+                f"* Password: {password}\n"
+                f"Login link: https://accurate-actively-fox.ngrok-free.app"
+            )
+                   
+
         cls.send_email(email, subject, body)
 
     @classmethod
@@ -102,3 +119,8 @@ class EmailManager:
         subject = "SQL Injection Attempt Alert"
         body = "A SQL injection attempt has been detected. Please investigate immediately."
         cls.send_email(cls.sender_email, subject, body)
+        
+        
+  
+        
+ 
