@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <!-- <link href="../static/output.css" rel="stylesheet" /> -->
     <link
       href="{{ url_for('static', filename='output.css') }}"
       rel="stylesheet"
@@ -13,14 +12,18 @@
   <body class="bg-gray-100">
     <div class="flex min-h-screen">
       <!-- Sidebar -->
-      <div class="w-64 bg-white shadow-md">
-        <div class="p-4">
-          <h1 class="text-lg font-bold">Dashboard</h1>
+      <aside class="w-64 bg-white shadow-md">
+        <div class="p-4 border-b">
+          <h1 class="text-lg font-bold text-center">Admin Dashboard</h1>
         </div>
         <nav class="mt-4">
           <ul>
             <li class="p-2 hover:bg-gray-200">
-              <a href="#" class="flex items-center space-x-2">
+              <a
+                href="#"
+                class="flex items-center space-x-2"
+                aria-label="Accueil"
+              >
                 <span>🏠</span>
                 <span>Accueil</span>
               </a>
@@ -29,69 +32,81 @@
               <button
                 id="fetch-users"
                 onclick="location.href='/admin_users_manager'"
-                class="text-black px-4 py-2 rounded-md"
+                class="w-full flex items-center justify-between px-4 py-2 text-black rounded-md"
+                aria-label="Gestion des utilisateurs"
               >
                 <span>📊</span>
-                <span>Users</span>
+                <span>Utilisateurs</span>
               </button>
             </li>
-
-            <!-- Conteneur pour afficher les utilisateurs -->
-            <div id="user-list" class="hidden p-4 bg-gray-100 rounded-lg mt-4">
-              <!-- La liste des utilisateurs sera affichée ici -->
-            </div>
           </ul>
         </nav>
-      </div>
+      </aside>
 
       <!-- Main Content -->
-      <div class="flex-1 p-6">
+      <main class="flex-1 p-6">
+        <!-- Header -->
         <header class="flex justify-between items-center pb-4 border-b">
-          <h1 class="text-2xl font-bold">Welcome back, admin</h1>
+          <h1 class="text-2xl font-bold text-center">
+            Monitoring System for an Online Server
+          </h1>
           <button
             onclick="location.href='/logout'"
-            class="btn-custom text-white px-4 py-2 rounded-md"
+            class="bg-red-500 text-white px-4 py-2 rounded-md"
+            aria-label="Déconnexion"
           >
             Logout
           </button>
         </header>
 
+        <!-- Main Dashboard Content -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+          <!-- Add User -->
           <div
             class="bg-white shadow-md p-4 rounded-lg col-span-4 flex justify-between items-center"
           >
-            <h2 class="text-xl font-bold">Add a new user</h2>
+            <h2 class="text-xl font-bold">Ajouter un nouvel utilisateur</h2>
             <button
               onclick="document.getElementById('addUserModal').classList.remove('hidden')"
               class="bg-blue-500 text-white px-4 py-2 rounded-md"
+              aria-label="Ajouter un utilisateur"
             >
-              Here
+              Ajouter
             </button>
           </div>
-          <!-- messgs add user  -->
+
+          <!-- Notifications de succès/erreur -->
           {% if success_message %}
-          <div class="p-4 text-black rounded-md col-span-4">
+          <div class="p-4 text-green-600 bg-green-100 rounded-md col-span-4">
             {{ success_message }}
           </div>
           {% endif %} {% if error_message %}
-          <div class="p-4 text-black rounded-md col-span-4">
+          <div class="p-4 text-red-600 bg-red-100 rounded-md col-span-4">
             {{ error_message }}
           </div>
           {% endif %}
-          <!-- end mesg user added  -->
-          <!-- Modal -->
+
+          <!-- Modale pour ajouter un utilisateur -->
           <div
             id="addUserModal"
             class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50"
+            aria-labelledby="addUserModalTitle"
+            role="dialog"
+            aria-hidden="true"
           >
             <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-              <h2 class="text-lg font-bold mb-4">Add a New User</h2>
+              <h2 id="addUserModalTitle" class="text-lg font-bold mb-4">
+                Ajouter un utilisateur
+              </h2>
               <form method="POST" action="/add_user">
                 <div class="mb-4">
-                  <label class="block text-sm font-medium text-gray-700"
-                    >Username</label
+                  <label
+                    for="username"
+                    class="block text-sm font-medium text-gray-700"
+                    >Nom d'utilisateur</label
                   >
                   <input
+                    id="username"
                     type="text"
                     name="username"
                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
@@ -102,15 +117,14 @@
                   <label
                     for="email"
                     class="block text-sm font-medium text-gray-700"
-                    >Mail</label
+                    >Email</label
                   >
                   <input
+                    id="email"
                     type="email"
                     name="email"
                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                     required
-                    pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
-                    title="Veuillez entrer une adresse e-mail valide (ex : exemple@domaine.fr)"
                   />
                 </div>
                 <div class="flex justify-end">
@@ -119,30 +133,45 @@
                     onclick="document.getElementById('addUserModal').classList.add('hidden')"
                     class="bg-gray-300 text-gray-700 px-4 py-2 rounded-md mr-2"
                   >
-                    Cancel
+                    Annuler
                   </button>
                   <button
                     type="submit"
-                    class="btn-custom text-white px-4 py-2 rounded-md"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md"
                   >
-                    Add User
+                    Ajouter
                   </button>
                 </div>
               </form>
             </div>
           </div>
-          <!-- End modal  -->
 
-          <!-- Example card  -->
+          <!-- Section des alertes -->
+          <div class="bg-red-100 shadow-md p-4 rounded-lg col-span-4">
+            <h2 class="text-xl font-bold text-red-600 text-center mb-4">
+              Dernières alertes
+            </h2>
+            <div class="h-96 overflow-y-auto">
+              <ul class="space-y-2">
+                {% for alert in ids_alerts %}
+                <li class="p-2 bg-gray-50 rounded shadow-sm text-sm font-mono">
+                  <strong>Description :</strong> {{ alert.description }}<br />
+                  <strong>Gravité :</strong> {{ alert.severity }}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+
+          <!-- Carte IP -->
           <div class="bg-white shadow-md p-4 rounded-lg col-span-4">
-            <h2 class="text-xl font-bold mb-4">IP map</h2>
-
-            <div class="map-container" style="height: 300">
+            <h2 class="text-xl font-bold mb-4 text-center">Carte IP</h2>
+            <div class="map-container rounded-md overflow-hidden">
               {{ map_html | safe }}
             </div>
           </div>
 
-          <!-- logs section  -->
+          <!-- Logs -->
           <div class="bg-white shadow-md p-4 rounded-lg col-span-4">
             <h2 class="text-xl font-bold mb-4">Derniers Logs</h2>
             <div class="h-96 overflow-y-auto">
@@ -155,9 +184,8 @@
               </ul>
             </div>
           </div>
-          <!-- End logs section  -->
         </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>

@@ -1,533 +1,176 @@
-2024-11-25 19:33:25,804 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:33:25,813 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:33:26,413 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:33:27,795 - WARNING -  * Debugger is active!
-2024-11-25 19:33:27,821 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:33:51,933 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:33:51,950 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:33:52,101 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:33:53,181 - WARNING -  * Debugger is active!
-2024-11-25 19:33:53,203 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:34:00,143 - INFO - Home page loaded
-2024-11-25 19:34:00,162 - INFO - 127.0.0.1 - - [25/Nov/2024 19:34:00] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:34:00,346 - INFO - 127.0.0.1 - - [25/Nov/2024 19:34:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:34:34,333 - INFO - Login attempt for user: admin
-2024-11-25 19:34:34,701 - INFO - Admin login successful for : admin
-2024-11-25 19:34:34,735 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:34:34,744 - INFO - 127.0.0.1 - - [25/Nov/2024 19:34:34] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:34:35,593 - INFO - 127.0.0.1 - - [25/Nov/2024 19:34:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:35:37,639 - INFO - Home page loaded
-2024-11-25 19:35:37,640 - INFO - 127.0.0.1 - - [25/Nov/2024 19:35:37] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:35:37,807 - INFO - 127.0.0.1 - - [25/Nov/2024 19:35:37] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:35:58,654 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:35:58,661 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:35:59,206 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:36:00,649 - WARNING -  * Debugger is active!
-2024-11-25 19:36:00,666 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:36:03,751 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:36:03,770 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:36:03,885 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:36:04,718 - WARNING -  * Debugger is active!
-2024-11-25 19:36:04,732 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:36:06,487 - INFO - Home page loaded
-2024-11-25 19:36:06,492 - INFO - 127.0.0.1 - - [25/Nov/2024 19:36:06] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:36:06,685 - INFO - 127.0.0.1 - - [25/Nov/2024 19:36:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:37:04,650 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:37:04,657 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:37:05,215 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:37:06,411 - WARNING -  * Debugger is active!
-2024-11-25 19:37:06,432 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:37:11,364 - INFO - Home page loaded
-2024-11-25 19:37:11,368 - INFO - 127.0.0.1 - - [25/Nov/2024 19:37:11] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:37:11,471 - INFO - 127.0.0.1 - - [25/Nov/2024 19:37:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:37:38,953 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:37:38,963 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:37:39,930 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:37:41,266 - WARNING -  * Debugger is active!
-2024-11-25 19:37:41,282 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:39:02,821 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:02,832 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:02,993 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:39:04,384 - WARNING -  * Debugger is active!
-2024-11-25 19:39:04,425 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:39:05,913 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:05,940 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:06,374 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:06,398 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:39:06,608 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:39:07,457 - WARNING -  * Debugger is active!
-2024-11-25 19:39:07,476 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:39:25,125 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-26 11:18:17,873 - INFO - Login attempt for user: admin
+2024-11-26 11:18:18,190 - INFO - Admin login successful for : admin
+2024-11-26 11:18:18,207 - INFO - Admin page via 2a04:cec0:c009:339f:c0f4:fe58:b355:d375
+2024-11-26 11:18:18,208 - INFO - 127.0.0.1 - - [26/Nov/2024 11:18:18] "POST /login HTTP/1.1" 200 -
+2024-11-26 11:18:19,330 - INFO - 127.0.0.1 - - [26/Nov/2024 11:18:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:18:45,631 - INFO - Home page loaded
+2024-11-26 11:18:45,639 - INFO - 127.0.0.1 - - [26/Nov/2024 11:18:45] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:18:45,798 - INFO - 127.0.0.1 - - [26/Nov/2024 11:18:45] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:19:30,742 - INFO - Home page loaded
+2024-11-26 11:19:30,743 - INFO - 127.0.0.1 - - [26/Nov/2024 11:19:30] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:19:30,881 - INFO - 127.0.0.1 - - [26/Nov/2024 11:19:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:19:51,257 - INFO - Home page loaded
+2024-11-26 11:19:51,258 - INFO - 127.0.0.1 - - [26/Nov/2024 11:19:51] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:19:51,391 - INFO - 127.0.0.1 - - [26/Nov/2024 11:19:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:20:01,280 - INFO - Home page loaded
+2024-11-26 11:20:01,281 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:01] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:20:01,416 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:20:11,519 - INFO - Login attempt for user: admin
+2024-11-26 11:20:11,860 - INFO - Admin login successful for : admin
+2024-11-26 11:20:11,879 - INFO - Admin page via 2a04:cec0:c009:339f:c0f4:fe58:b355:d375
+2024-11-26 11:20:11,879 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:11] "POST /login HTTP/1.1" 200 -
+2024-11-26 11:20:12,021 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:20:31,328 - INFO - Home page loaded
+2024-11-26 11:20:31,329 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:31] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:20:31,678 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:20:39,062 - INFO - Login attempt for user: admin
+2024-11-26 11:20:39,407 - INFO - Admin login successful for : admin
+2024-11-26 11:20:39,550 - INFO - Admin page via 194.199.112.218
+2024-11-26 11:20:39,551 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:39] "POST /login HTTP/1.1" 200 -
+2024-11-26 11:20:39,743 - INFO - 127.0.0.1 - - [26/Nov/2024 11:20:39] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:21:06,607 - INFO - Home page loaded
+2024-11-26 11:21:06,608 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:06] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:21:06,764 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:21:08,455 - INFO - Home page loaded
+2024-11-26 11:21:08,456 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:08] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:21:08,601 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:21:30,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 19:39:25,126 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 19:39:25,155 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:39:25,764 - WARNING -  * Debugger is active!
-2024-11-25 19:39:25,773 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:39:35,895 - INFO - Home page loaded
-2024-11-25 19:39:35,900 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:35] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:39:36,016 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:39:46,629 - INFO - Home page loaded
-2024-11-25 19:39:46,630 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:46] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:39:46,749 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:39:56,308 - INFO - Home page loaded
-2024-11-25 19:39:56,309 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:56] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:39:56,536 - INFO - 127.0.0.1 - - [25/Nov/2024 19:39:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:41:06,551 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:41:06,558 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:41:07,555 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:41:08,822 - WARNING -  * Debugger is active!
-2024-11-25 19:41:08,841 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:41:14,082 - INFO - Home page loaded
-2024-11-25 19:41:14,086 - INFO - 127.0.0.1 - - [25/Nov/2024 19:41:14] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:41:14,198 - INFO - 127.0.0.1 - - [25/Nov/2024 19:41:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:41:33,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.229.39.218:9000
+2024-11-26 11:21:30,078 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 11:21:34,563 - INFO - Home page loaded
+2024-11-26 11:21:34,569 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:34] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:21:34,724 - INFO - 127.0.0.1 - - [26/Nov/2024 11:21:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:23:08,360 - INFO - Home page loaded
+2024-11-26 11:23:08,361 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:08] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-11-26 11:23:08,512 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:23:28,641 - INFO - Login attempt for user: admin
+2024-11-26 11:23:28,974 - INFO - Admin login successful for : admin
+2024-11-26 11:23:28,997 - INFO - Admin page via 2a04:cec0:c009:339f:c0f4:fe58:b355:d375
+2024-11-26 11:23:29,003 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:29] "POST /login HTTP/1.1" 200 -
+2024-11-26 11:23:29,177 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:23:49,100 - INFO - Login attempt for user: admin
+2024-11-26 11:23:49,435 - INFO - Admin login successful for : admin
+2024-11-26 11:23:49,462 - INFO - Admin page via 2a04:cec0:c009:339f:c0f4:fe58:b355:d375
+2024-11-26 11:23:49,463 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:49] "POST /login HTTP/1.1" 200 -
+2024-11-26 11:23:52,997 - INFO - Home page loaded
+2024-11-26 11:23:52,998 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:52] "GET / HTTP/1.1" 200 -
+2024-11-26 11:23:53,164 - INFO - 127.0.0.1 - - [26/Nov/2024 11:23:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-26 11:24:39,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 19:41:33,919 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 19:41:33,942 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:41:34,560 - WARNING -  * Debugger is active!
-2024-11-25 19:41:34,568 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:41:46,440 - INFO - Login attempt for user: admin
-2024-11-25 19:41:46,779 - INFO - Admin login successful for : admin
-2024-11-25 19:41:46,795 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:41:46,803 - INFO - 127.0.0.1 - - [25/Nov/2024 19:41:46] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:41:47,263 - INFO - 127.0.0.1 - - [25/Nov/2024 19:41:47] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:42:09,248 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:42:09,259 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:42:09,947 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:42:13,507 - WARNING -  * Debugger is active!
-2024-11-25 19:42:13,523 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:42:25,577 - INFO - Home page loaded
-2024-11-25 19:42:25,583 - INFO - 127.0.0.1 - - [25/Nov/2024 19:42:25] "GET / HTTP/1.1" 200 -
-2024-11-25 19:42:25,657 - INFO - 127.0.0.1 - - [25/Nov/2024 19:42:25] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:42:34,648 - INFO - Login attempt for user: admin
-2024-11-25 19:42:34,986 - INFO - Admin login successful for : admin
-2024-11-25 19:42:35,004 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:42:35,010 - INFO - 127.0.0.1 - - [25/Nov/2024 19:42:35] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:42:35,102 - INFO - 127.0.0.1 - - [25/Nov/2024 19:42:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:43:42,318 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:42] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-2024-11-25 19:43:46,499 - INFO - Home page loaded
-2024-11-25 19:43:46,500 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:46] "GET / HTTP/1.1" 200 -
-2024-11-25 19:43:46,607 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:43:51,931 - INFO - Login attempt for user: admin
-2024-11-25 19:43:52,262 - INFO - Admin login successful for : admin
-2024-11-25 19:43:52,275 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:43:52,275 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:52] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:43:52,444 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:43:55,364 - INFO - 127.0.0.1 - - [25/Nov/2024 19:43:55] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-2024-11-25 19:44:01,297 - INFO - Home page loaded
-2024-11-25 19:44:01,297 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:01] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:44:01,360 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:44:06,353 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:44:06,360 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:44:07,429 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:08,529 - WARNING -  * Debugger is active!
-2024-11-25 19:44:08,539 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:44:12,577 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:44:12,704 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:13,399 - WARNING -  * Debugger is active!
-2024-11-25 19:44:13,407 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:44:13,971 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:44:13,991 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/ids.py', reloading
-2024-11-25 19:44:14,526 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:15,417 - WARNING -  * Debugger is active!
-2024-11-25 19:44:15,429 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:44:17,147 - INFO - Home page loaded
-2024-11-25 19:44:17,150 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:17] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 19:44:17,284 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:44:22,840 - INFO - Login attempt for user: admin
-2024-11-25 19:44:23,178 - ERROR - Invalid password for user : admin
-2024-11-25 19:44:23,179 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:23] "[32mPOST /login HTTP/1.1[0m" 302 -
-2024-11-25 19:44:23,243 - INFO - Home page loaded
-2024-11-25 19:44:23,244 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:23] "GET /?loging_msg=Invalid+password+for+:+admin HTTP/1.1" 200 -
-2024-11-25 19:44:23,374 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:23] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:44:30,727 - INFO - Login attempt for user: admin
-2024-11-25 19:44:31,035 - INFO - Admin login successful for : admin
-2024-11-25 19:44:31,048 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:44:31,052 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:31] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:44:31,265 - INFO - 127.0.0.1 - - [25/Nov/2024 19:44:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:44:47,113 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:44:47,129 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:44:47,756 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:48,494 - WARNING -  * Debugger is active!
-2024-11-25 19:44:48,510 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:44:53,545 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:44:53,691 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:54,325 - WARNING -  * Debugger is active!
-2024-11-25 19:44:54,333 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:44:57,422 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:44:57,442 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:44:58,457 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:44:59,115 - WARNING -  * Debugger is active!
-2024-11-25 19:44:59,136 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:45:09,653 - INFO - Login attempt for user: admin
-2024-11-25 19:45:09,989 - INFO - Admin login successful for : admin
-2024-11-25 19:45:10,004 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:45:10,008 - INFO - 127.0.0.1 - - [25/Nov/2024 19:45:10] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:45:10,206 - INFO - 127.0.0.1 - - [25/Nov/2024 19:45:10] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:47:18,730 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:47:18,743 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:47:19,211 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:48:13,838 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.229.39.218:9000
+2024-11-26 11:24:39,031 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 11:24:39,046 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-26 11:24:39,643 - WARNING -  * Debugger is active!
+2024-11-26 11:24:39,653 - INFO -  * Debugger PIN: 136-553-079
+2024-11-26 11:24:42,372 - INFO - 127.0.0.1 - - [26/Nov/2024 11:24:42] "GET / HTTP/1.1" 200 -
+2024-11-26 11:24:42,526 - INFO - 127.0.0.1 - - [26/Nov/2024 11:24:42] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-26 11:25:04,789 - INFO - 127.0.0.1 - - [26/Nov/2024 11:25:04] "GET / HTTP/1.1" 200 -
+2024-11-26 11:25:04,934 - INFO - 127.0.0.1 - - [26/Nov/2024 11:25:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:31:56,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 19:48:13,838 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 19:48:13,856 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:48:14,461 - WARNING -  * Debugger is active!
-2024-11-25 19:48:14,471 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:48:23,033 - INFO - Home page loaded
-2024-11-25 19:48:23,040 - INFO - 127.0.0.1 - - [25/Nov/2024 19:48:23] "GET / HTTP/1.1" 200 -
-2024-11-25 19:48:23,156 - INFO - 127.0.0.1 - - [25/Nov/2024 19:48:23] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:48:32,771 - INFO - Login attempt for user: admin
-2024-11-25 19:48:33,112 - INFO - Admin login successful for : admin
-2024-11-25 19:48:33,130 - INFO - Admin page via 46.193.4.192
-2024-11-25 19:48:33,136 - INFO - 127.0.0.1 - - [25/Nov/2024 19:48:33] "POST /login HTTP/1.1" 200 -
-2024-11-25 19:48:33,317 - INFO - 127.0.0.1 - - [25/Nov/2024 19:48:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:56:56,126 - INFO - 127.0.0.1 - - [25/Nov/2024 19:56:56] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-2024-11-25 19:57:02,536 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:02] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-2024-11-25 19:57:10,308 - INFO - Home page loaded
-2024-11-25 19:57:10,309 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:10] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 19:57:10,386 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:10] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:57:21,802 - INFO - Home page loaded
-2024-11-25 19:57:21,803 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:21] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 19:57:21,942 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:57:26,156 - INFO - Home page loaded
-2024-11-25 19:57:26,156 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:26] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 19:57:26,264 - INFO - 127.0.0.1 - - [25/Nov/2024 19:57:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 19:58:08,409 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:58:08,420 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 19:58:09,210 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:58:10,590 - WARNING -  * Debugger is active!
-2024-11-25 19:58:10,612 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:58:45,782 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/routes.py', reloading
-2024-11-25 19:58:45,788 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/routes.py', reloading
-2024-11-25 19:58:45,959 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:58:47,066 - WARNING -  * Debugger is active!
-2024-11-25 19:58:47,084 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:59:01,825 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:59:01,849 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 19:59:02,314 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:59:03,687 - WARNING -  * Debugger is active!
-2024-11-25 19:59:03,700 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 19:59:20,161 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.0.0.2:9000
+2024-11-28 15:31:56,877 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 15:32:02,231 - INFO - Home page loaded
+2024-11-28 15:32:02,232 - INFO - TESTTTTT
+2024-11-28 15:32:02,236 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:02] "GET / HTTP/1.1" 200 -
+2024-11-28 15:32:02,417 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:02] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-28 15:32:02,667 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:02] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-28 15:32:09,263 - INFO - Login attempt for user: admin
+2024-11-28 15:32:09,622 - INFO - Admin login successful for : admin
+2024-11-28 15:32:09,893 - INFO - Admin page via 2a04:cec0:1937:b5a5:5de3:21dc:fd36:6de9
+2024-11-28 15:32:09,901 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:09] "POST /login HTTP/1.1" 200 -
+2024-11-28 15:32:10,879 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:10] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:32:20,368 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:20] "GET /admin_users_manager HTTP/1.1" 200 -
+2024-11-28 15:32:20,649 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:20] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:32:22,468 - INFO - Admin page via 2a04:cec0:1937:b5a5:5de3:21dc:fd36:6de9
+2024-11-28 15:32:22,469 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:22] "GET /admin HTTP/1.1" 200 -
+2024-11-28 15:32:22,944 - INFO - 127.0.0.1 - - [28/Nov/2024 15:32:22] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:38:20,739 - INFO - Application initialized successfully.
+2024-11-28 15:38:20,819 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 19:59:20,162 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 19:59:20,176 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 19:59:20,741 - WARNING -  * Debugger is active!
-2024-11-25 19:59:20,748 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:00:15,615 - INFO - Home page loaded
-2024-11-25 20:00:15,616 - INFO - 127.0.0.1 - - [25/Nov/2024 20:00:15] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:00:15,722 - INFO - 127.0.0.1 - - [25/Nov/2024 20:00:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:02:30,943 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 20:02:30,960 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/app.py', reloading
-2024-11-25 20:02:31,973 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:02:33,131 - WARNING -  * Debugger is active!
-2024-11-25 20:02:33,144 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:02:40,916 - INFO - Home page loaded
-2024-11-25 20:02:40,921 - INFO - 127.0.0.1 - - [25/Nov/2024 20:02:40] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:02:41,162 - INFO - 127.0.0.1 - - [25/Nov/2024 20:02:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:03:32,179 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:03:32,193 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:03:32,626 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:03:33,649 - WARNING -  * Debugger is active!
-2024-11-25 20:03:33,667 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:03:43,858 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:03:43,881 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:03:44,888 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:03:45,777 - WARNING -  * Debugger is active!
-2024-11-25 20:03:45,786 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:05:01,860 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.0.0.2:9000
+2024-11-28 15:38:20,820 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 15:38:20,845 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-28 15:38:21,391 - INFO - Application initialized successfully.
+2024-11-28 15:38:21,429 - WARNING -  * Debugger is active!
+2024-11-28 15:38:21,443 - INFO -  * Debugger PIN: 136-553-079
+2024-11-28 15:38:51,953 - INFO - Application initialized successfully.
+2024-11-28 15:38:52,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:05:01,861 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:05:01,875 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:05:02,480 - WARNING -  * Debugger is active!
-2024-11-25 20:05:02,488 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:05:10,851 - INFO - Home page loaded
-2024-11-25 20:05:10,855 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:10] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:05:11,027 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:05:23,826 - INFO - Login attempt for user: admin
-2024-11-25 20:05:24,163 - INFO - Admin login successful for : admin
-2024-11-25 20:05:24,178 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:05:24,183 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:24] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:05:24,386 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:24] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:05:35,615 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:05:35,627 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:05:35,781 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:05:36,773 - WARNING -  * Debugger is active!
-2024-11-25 20:05:36,785 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:05:55,281 - INFO - Home page loaded
-2024-11-25 20:05:55,285 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:55] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 20:05:55,376 - INFO - 127.0.0.1 - - [25/Nov/2024 20:05:55] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:02,721 - INFO - Home page loaded
-2024-11-25 20:06:02,722 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:02] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 20:06:02,830 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:02] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:03,871 - INFO - Home page loaded
-2024-11-25 20:06:03,873 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:03] "GET / HTTP/1.1" 200 -
-2024-11-25 20:06:03,931 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:03] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:04,004 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:07,231 - INFO - Home page loaded
-2024-11-25 20:06:07,232 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:07] "GET / HTTP/1.1" 200 -
-2024-11-25 20:06:07,286 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:07] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:07,381 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:07] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:16,639 - INFO - Login attempt for user: admin
-2024-11-25 20:06:16,972 - INFO - Admin login successful for : admin
-2024-11-25 20:06:16,988 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:06:16,994 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:16] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:06:17,221 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:06:26,439 - INFO - Home page loaded
-2024-11-25 20:06:26,439 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:26] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:06:26,587 - INFO - 127.0.0.1 - - [25/Nov/2024 20:06:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:07:04,019 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:07:04,038 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:07:04,469 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:07:05,502 - WARNING -  * Debugger is active!
-2024-11-25 20:07:05,517 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:07:08,981 - INFO - Home page loaded
-2024-11-25 20:07:08,986 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:08] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:07:09,126 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:09] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:07:13,907 - INFO - Login attempt for user: admin
-2024-11-25 20:07:14,245 - ERROR - Invalid password for user : admin
-2024-11-25 20:07:14,246 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:14] "[32mPOST /login HTTP/1.1[0m" 302 -
-2024-11-25 20:07:14,304 - INFO - Home page loaded
-2024-11-25 20:07:14,304 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:14] "GET /?loging_msg=Invalid+password+for+:+admin HTTP/1.1" 200 -
-2024-11-25 20:07:14,435 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:07:21,725 - INFO - Login attempt for user: admin
-2024-11-25 20:07:22,067 - INFO - Admin login successful for : admin
-2024-11-25 20:07:22,085 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:07:22,092 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:22] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:07:22,261 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:22] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:07:33,410 - INFO - Home page loaded
-2024-11-25 20:07:33,411 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:33] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:07:33,554 - INFO - 127.0.0.1 - - [25/Nov/2024 20:07:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:08:10,860 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:10,869 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:11,025 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:08:12,015 - WARNING -  * Debugger is active!
-2024-11-25 20:08:12,025 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:08:12,567 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:12,584 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:13,181 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:08:13,842 - WARNING -  * Debugger is active!
-2024-11-25 20:08:13,858 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:08:28,104 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:28,116 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:08:29,068 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:08:29,838 - WARNING -  * Debugger is active!
-2024-11-25 20:08:29,852 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:08:34,488 - INFO - Home page loaded
-2024-11-25 20:08:34,492 - INFO - 127.0.0.1 - - [25/Nov/2024 20:08:34] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:08:34,638 - INFO - 127.0.0.1 - - [25/Nov/2024 20:08:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:08:49,788 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/managers/mail_manager.py', reloading
-2024-11-25 20:08:49,812 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/managers/mail_manager.py', reloading
-2024-11-25 20:08:50,184 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:08:50,991 - WARNING -  * Debugger is active!
-2024-11-25 20:08:51,002 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:08:54,349 - INFO - Home page loaded
-2024-11-25 20:08:54,351 - INFO - 127.0.0.1 - - [25/Nov/2024 20:08:54] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:08:54,503 - INFO - 127.0.0.1 - - [25/Nov/2024 20:08:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:09:45,649 - INFO - Login attempt for user: admin
-2024-11-25 20:09:45,989 - INFO - Admin login successful for : admin
-2024-11-25 20:09:46,005 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:09:46,011 - INFO - 127.0.0.1 - - [25/Nov/2024 20:09:46] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:09:46,203 - INFO - 127.0.0.1 - - [25/Nov/2024 20:09:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:09:48,096 - INFO - User successfully logged out
-2024-11-25 20:09:48,097 - INFO - 127.0.0.1 - - [25/Nov/2024 20:09:48] "GET /logout HTTP/1.1" 200 -
-2024-11-25 20:09:48,245 - INFO - 127.0.0.1 - - [25/Nov/2024 20:09:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:13:51,079 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:13:51,083 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:13:52,036 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:13:53,286 - WARNING -  * Debugger is active!
-2024-11-25 20:13:53,307 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:14:05,173 - INFO - Home page loaded
-2024-11-25 20:14:05,177 - INFO - 127.0.0.1 - - [25/Nov/2024 20:14:05] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:14:05,282 - INFO - 127.0.0.1 - - [25/Nov/2024 20:14:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:15:24,840 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:15:24,861 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:15:24,993 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:15:26,333 - WARNING -  * Debugger is active!
-2024-11-25 20:15:26,368 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:15:33,160 - INFO - Home page loaded
-2024-11-25 20:15:33,164 - INFO - 127.0.0.1 - - [25/Nov/2024 20:15:33] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:15:33,397 - INFO - 127.0.0.1 - - [25/Nov/2024 20:15:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:16:04,401 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:04,416 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:04,810 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:16:05,904 - WARNING -  * Debugger is active!
-2024-11-25 20:16:05,954 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:16:15,386 - INFO - Home page loaded
-2024-11-25 20:16:15,392 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:15] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:16:15,616 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:16:37,839 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:37,854 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:38,311 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:16:39,417 - WARNING -  * Debugger is active!
-2024-11-25 20:16:39,434 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:16:45,748 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:45,774 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:16:46,597 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:16:47,921 - WARNING -  * Debugger is active!
-2024-11-25 20:16:47,951 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:16:50,228 - INFO - Home page loaded
-2024-11-25 20:16:50,232 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:50] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:16:50,549 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:16:54,126 - INFO - Home page loaded
-2024-11-25 20:16:54,126 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:54] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:16:54,243 - INFO - 127.0.0.1 - - [25/Nov/2024 20:16:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:17:53,223 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/managers/mail_manager.py', reloading
-2024-11-25 20:17:53,237 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/managers/mail_manager.py', reloading
-2024-11-25 20:17:53,563 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:17:59,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.0.0.2:9000
+2024-11-28 15:38:52,012 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 15:38:52,026 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-28 15:38:52,610 - INFO - Application initialized successfully.
+2024-11-28 15:38:52,653 - WARNING -  * Debugger is active!
+2024-11-28 15:38:52,668 - INFO -  * Debugger PIN: 136-553-079
+2024-11-28 15:38:54,999 - INFO - Home page loaded from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:38:55,009 - INFO - 127.0.0.1 - - [28/Nov/2024 15:38:55] "GET / HTTP/1.1" 200 -
+2024-11-28 15:38:55,179 - INFO - 127.0.0.1 - - [28/Nov/2024 15:38:55] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-28 15:38:55,207 - INFO - 127.0.0.1 - - [28/Nov/2024 15:38:55] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-28 15:39:00,255 - INFO - Login attempt for user: admin
+2024-11-28 15:39:00,646 - INFO - 127.0.0.1 - - [28/Nov/2024 15:39:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-11-28 15:39:01,068 - INFO - 127.0.0.1 - - [28/Nov/2024 15:39:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-28 15:39:01,106 - INFO - 127.0.0.1 - - [28/Nov/2024 15:39:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-28 15:41:24,945 - INFO - Application initialized successfully.
+2024-11-28 15:41:25,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:17:59,390 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:17:59,407 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:18:02,132 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:18:02,132 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:18:02,140 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:18:02,768 - WARNING -  * Debugger is active!
-2024-11-25 20:18:02,777 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:18:08,186 - INFO - Home page loaded
-2024-11-25 20:18:08,192 - INFO - 127.0.0.1 - - [25/Nov/2024 20:18:08] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:18:08,402 - INFO - 127.0.0.1 - - [25/Nov/2024 20:18:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:21:58,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:21:58,073 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:21:58,106 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:21:58,727 - WARNING -  * Debugger is active!
-2024-11-25 20:21:58,735 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:22:09,029 - INFO - Home page loaded
-2024-11-25 20:22:09,036 - INFO - 127.0.0.1 - - [25/Nov/2024 20:22:09] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:22:09,386 - INFO - 127.0.0.1 - - [25/Nov/2024 20:22:09] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:22:18,548 - INFO - Login attempt for user: admin
-2024-11-25 20:22:18,902 - INFO - Admin login successful for : admin
-2024-11-25 20:22:18,927 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:22:18,936 - INFO - 127.0.0.1 - - [25/Nov/2024 20:22:18] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:22:19,233 - INFO - 127.0.0.1 - - [25/Nov/2024 20:22:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:23:22,387 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:23:22,401 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:23:23,460 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:23:24,772 - WARNING -  * Debugger is active!
-2024-11-25 20:23:24,789 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:23:49,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:23:49,955 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:23:49,964 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:23:50,547 - WARNING -  * Debugger is active!
-2024-11-25 20:23:50,558 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:23:57,156 - INFO - Login attempt for user: admin
-2024-11-25 20:23:57,490 - INFO - Admin login successful for : admin
-2024-11-25 20:23:57,507 - INFO - Admin page via 46.193.4.192
-2024-11-25 20:23:57,512 - INFO - 127.0.0.1 - - [25/Nov/2024 20:23:57] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:23:58,105 - INFO - 127.0.0.1 - - [25/Nov/2024 20:23:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:24:10,172 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:24:10,182 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:24:10,800 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:24:12,038 - WARNING -  * Debugger is active!
-2024-11-25 20:24:12,059 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:24:30,053 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:24:30,065 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/git/projet/modules/log_http_mac.py', reloading
-2024-11-25 20:24:30,277 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:24:41,459 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:24:41,459 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:24:41,484 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:24:42,073 - WARNING -  * Debugger is active!
-2024-11-25 20:24:42,083 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:24:52,167 - INFO - 127.0.0.1 - - [25/Nov/2024 20:24:52] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-2024-11-25 20:24:58,568 - INFO - Home page loaded
-2024-11-25 20:24:58,573 - INFO - 127.0.0.1 - - [25/Nov/2024 20:24:58] "GET / HTTP/1.1" 200 -
-2024-11-25 20:24:58,741 - INFO - 127.0.0.1 - - [25/Nov/2024 20:24:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:25:04,345 - INFO - Home page loaded
-2024-11-25 20:25:04,346 - INFO - 127.0.0.1 - - [25/Nov/2024 20:25:04] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:25:04,587 - INFO - 127.0.0.1 - - [25/Nov/2024 20:25:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:25:10,791 - INFO - Home page loaded
-2024-11-25 20:25:10,791 - INFO - 127.0.0.1 - - [25/Nov/2024 20:25:10] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-25 20:25:11,051 - INFO - 127.0.0.1 - - [25/Nov/2024 20:25:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:26:55,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-25 20:26:55,453 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-25 20:26:55,482 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-25 20:26:56,092 - WARNING -  * Debugger is active!
-2024-11-25 20:26:56,102 - INFO -  * Debugger PIN: 136-553-079
-2024-11-25 20:27:26,258 - INFO - Home page loaded
-2024-11-25 20:27:26,264 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:26] "GET / HTTP/1.1" 200 -
-2024-11-25 20:27:26,341 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:26] "GET /static/output.css HTTP/1.1" 200 -
-2024-11-25 20:27:46,735 - INFO - Home page loaded
-2024-11-25 20:27:46,736 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:46] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:27:46,805 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:27:56,218 - INFO - Home page loaded
-2024-11-25 20:27:56,219 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:56] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
-2024-11-25 20:27:56,348 - INFO - 127.0.0.1 - - [25/Nov/2024 20:27:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:28:51,198 - INFO - Login attempt for user: TEST
-2024-11-25 20:28:51,535 - INFO - User login successful for : TEST
-2024-11-25 20:28:51,540 - INFO - 127.0.0.1 - - [25/Nov/2024 20:28:51] "POST /login HTTP/1.1" 200 -
-2024-11-25 20:28:51,629 - INFO - 127.0.0.1 - - [25/Nov/2024 20:28:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-25 20:29:09,297 - INFO - User successfully logged out
-2024-11-25 20:29:09,298 - INFO - 127.0.0.1 - - [25/Nov/2024 20:29:09] "GET /logout HTTP/1.1" 200 -
-2024-11-25 20:29:09,395 - INFO - 127.0.0.1 - - [25/Nov/2024 20:29:09] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:11:21,946 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-26 09:11:21,947 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-26 09:11:21,973 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-26 09:11:22,608 - WARNING -  * Debugger is active!
-2024-11-26 09:11:22,620 - INFO -  * Debugger PIN: 136-553-079
-2024-11-26 09:11:35,174 - INFO - Home page loaded
-2024-11-26 09:11:35,182 - INFO - 127.0.0.1 - - [26/Nov/2024 09:11:35] "GET / HTTP/1.1" 200 -
-2024-11-26 09:11:35,244 - INFO - 127.0.0.1 - - [26/Nov/2024 09:11:35] "GET /static/output.css HTTP/1.1" 200 -
-2024-11-26 09:11:57,571 - INFO - Home page loaded
-2024-11-26 09:11:57,573 - INFO - 127.0.0.1 - - [26/Nov/2024 09:11:57] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-26 09:11:57,637 - INFO - 127.0.0.1 - - [26/Nov/2024 09:11:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:12:20,692 - INFO - Login attempt for user: admin
-2024-11-26 09:12:21,057 - INFO - Admin login successful for : admin
-2024-11-26 09:12:21,079 - INFO - Admin page via 46.193.4.192
-2024-11-26 09:12:21,089 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:21] "POST /login HTTP/1.1" 200 -
-2024-11-26 09:12:21,190 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:12:24,407 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:24] "GET /admin_users_manager HTTP/1.1" 200 -
-2024-11-26 09:12:24,535 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:24] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:12:27,014 - INFO - Admin page via 46.193.4.192
-2024-11-26 09:12:27,015 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:27] "GET /admin HTTP/1.1" 200 -
-2024-11-26 09:12:27,118 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:27] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:12:28,476 - INFO - User successfully logged out
-2024-11-26 09:12:28,477 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:28] "GET /logout HTTP/1.1" 200 -
-2024-11-26 09:12:28,563 - INFO - 127.0.0.1 - - [26/Nov/2024 09:12:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:19:50,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9000
- * Running on http://10.192.84.239:9000
-2024-11-26 09:19:50,117 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-26 09:19:50,146 - INFO -  * Restarting with watchdog (fsevents)
-2024-11-26 09:19:50,719 - WARNING -  * Debugger is active!
-2024-11-26 09:19:50,728 - INFO -  * Debugger PIN: 136-553-079
-2024-11-26 09:19:54,545 - INFO - Home page loaded
-2024-11-26 09:19:54,549 - INFO - 127.0.0.1 - - [26/Nov/2024 09:19:54] "GET / HTTP/1.1" 200 -
-2024-11-26 09:19:54,644 - INFO - 127.0.0.1 - - [26/Nov/2024 09:19:54] "GET /static/output.css HTTP/1.1" 200 -
-2024-11-26 09:20:03,133 - INFO - Login attempt for user: admin
-2024-11-26 09:20:03,487 - INFO - Admin login successful for : admin
-2024-11-26 09:20:03,505 - INFO - Admin page via 46.193.4.192
-2024-11-26 09:20:03,510 - INFO - 127.0.0.1 - - [26/Nov/2024 09:20:03] "POST /login HTTP/1.1" 200 -
-2024-11-26 09:20:03,621 - INFO - 127.0.0.1 - - [26/Nov/2024 09:20:03] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
-2024-11-26 09:20:17,541 - INFO - Home page loaded
-2024-11-26 09:20:17,541 - INFO - 127.0.0.1 - - [26/Nov/2024 09:20:17] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
-2024-11-26 09:20:17,611 - INFO - 127.0.0.1 - - [26/Nov/2024 09:20:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+ * Running on http://192.0.0.2:9000
+2024-11-28 15:41:25,048 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 15:41:25,078 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-28 15:41:25,810 - INFO - Application initialized successfully.
+2024-11-28 15:41:25,858 - WARNING -  * Debugger is active!
+2024-11-28 15:41:25,876 - INFO -  * Debugger PIN: 136-553-079
+2024-11-28 15:41:27,702 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:27] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-11-28 15:41:29,974 - INFO - Home page loaded from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:29,992 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:29] "GET / HTTP/1.1" 200 -
+2024-11-28 15:41:30,155 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:30,178 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:31,022 - INFO - Admin page accessed by admin from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:31,341 - INFO - Admin page via 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:31,359 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:31] "GET /admin HTTP/1.1" 200 -
+2024-11-28 15:41:31,785 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:33,446 - INFO - User successfully logged out
+2024-11-28 15:41:33,448 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:33] "GET /logout HTTP/1.1" 200 -
+2024-11-28 15:41:33,714 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:39,360 - INFO - Login attempt for user: admin
+2024-11-28 15:41:39,706 - INFO - Admin login successful for : admin
+2024-11-28 15:41:39,706 - INFO - Admin page accessed by admin from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:39,724 - INFO - Admin page via 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:39,727 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:39] "POST /login HTTP/1.1" 200 -
+2024-11-28 15:41:40,213 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:40] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:43,205 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:43] "GET /admin_users_manager HTTP/1.1" 200 -
+2024-11-28 15:41:43,504 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:48,122 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:48] "POST /delete_user/19 HTTP/1.1" 200 -
+2024-11-28 15:41:48,459 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:41:49,560 - INFO - Admin page accessed by admin from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:49,597 - INFO - Admin page via 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:41:49,598 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:49] "GET /admin HTTP/1.1" 200 -
+2024-11-28 15:41:50,034 - INFO - 127.0.0.1 - - [28/Nov/2024 15:41:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:42:00,414 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:00] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2024-11-28 15:42:00,591 - INFO - Admin page accessed by admin from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:42:00,627 - INFO - Admin page via 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:42:00,629 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:00] "GET /admin?success=User+test+has+been+successfully+added. HTTP/1.1" 200 -
+2024-11-28 15:42:01,040 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:42:11,762 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:11] "GET /admin_users_manager HTTP/1.1" 200 -
+2024-11-28 15:42:12,090 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:42:17,895 - INFO - Admin page accessed by admin from 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:42:17,956 - INFO - Admin page via 2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4
+2024-11-28 15:42:17,958 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:17] "GET /admin HTTP/1.1" 200 -
+2024-11-28 15:42:18,308 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:18] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:42:30,218 - INFO - Home page loaded from 2a04:cec0:f062:fbe5:605a:c915:2485:bde2
+2024-11-28 15:42:30,221 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:30] "GET / HTTP/1.1" 200 -
+2024-11-28 15:42:30,411 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:30] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-28 15:42:35,668 - INFO - Login attempt for user: test
+2024-11-28 15:42:36,002 - INFO - User login successful for : test
+2024-11-28 15:42:36,008 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:36] "POST /login HTTP/1.1" 200 -
+2024-11-28 15:42:36,248 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-28 15:42:38,039 - INFO - User successfully logged out
+2024-11-28 15:42:38,041 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:38] "GET /logout HTTP/1.1" 200 -
+2024-11-28 15:42:38,241 - INFO - 127.0.0.1 - - [28/Nov/2024 15:42:38] "[36mGET /static/output.css HTTP/1.1[0m" 304 -

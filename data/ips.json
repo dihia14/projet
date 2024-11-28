@@ -28,7 +28,29 @@
         "lon": 4.90073,
         "country": "The Netherlands",
         "city": "Amsterdam"
+    },
+    "2a04:cec0:c009:339f:c0f4:fe58:b355:d375": {
+        "lat": 48.8909,
+        "lon": 2.2093,
+        "country": "France",
+        "city": "Nanterre"
+    },
+    "194.199.112.218": {
+        "lat": 49.1837,
+        "lon": -0.356,
+        "country": "France",
+        "city": "Caen"
+    },
+    "2a04:cec0:1937:b5a5:5de3:21dc:fd36:6de9": {
+        "lat": 48.9163,
+        "lon": 2.3869,
+        "country": "France",
+        "city": "Aubervilliers"
+    },
+    "2a04:cec0:f062:fbe5:e565:67d4:d0ca:5ca4": {
+        "lat": 48.8619,
+        "lon": 2.4506,
+        "country": "France",
+        "city": "Montreuil"
     }
 }
-
-
