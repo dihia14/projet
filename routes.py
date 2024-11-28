@@ -12,7 +12,7 @@ from managers.database_manager import UserDatabase
 from managers.mail_manager import EmailManager
 from managers.ip_manager import IPManager
 from managers.password_manager import PasswordManager
-from managers.files_manager import FileManager
+from managers.filePage_manager import upload_file ,list_files, delete_file
 
 from rules.brute_force_rule import * 
 import sqlite3
@@ -340,5 +340,3 @@ def register_routes(app):
             return send_from_directory(user_folder, filename, as_attachment=True)
         else:
             abort(404, description="File not found")
-
-
