@@ -290,3 +290,6 @@
 2024-11-28 21:31:30,198 - INFO - Admin page via 2a04:cec0:f062:fbe5:4f8:a611:b875:81d3
 2024-11-28 21:31:30,200 - INFO - 127.0.0.1 - - [28/Nov/2024 21:31:30] "GET /admin HTTP/1.1" 200 -
 2024-11-28 21:31:30,449 - INFO - 127.0.0.1 - - [28/Nov/2024 21:31:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-29 16:29:14,375 - INFO - Application initialized successfully.
+2024-11-29 16:29:14,407 - WARNING -  * Debugger is active!
+2024-11-29 16:29:14,412 - INFO -  * Debugger PIN: 127-648-628
