@@ -23,7 +23,7 @@
           You are logged in as an admin.
         </p>
         <a
-          href="{{ url_for('admin') }}"
+          href="{{ url_for('admin', username=session['username']) }}"
           class="block text-center bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition duration-300 mb-4"
         >
           Go to Admin Dashboard
@@ -89,7 +89,6 @@
           </button>
         </form>
 
-        <!-- Nouveau bouton : Réinitialiser le mot de passe -->
         <button
           onclick="document.getElementById('resetPasswordModal').classList.remove('hidden')"
           class="w-full block text-center mt-4 bg-yellow-500 text-white py-3 rounded-lg hover:bg-yellow-600 transition duration-300"

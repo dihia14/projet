@@ -123,8 +123,19 @@ def register_routes(app):
     #     return render_template('index.html')  
 
 
-    @app.route('/admin')
-    def admin():
+
+    @app.route('/admin/file_page/<username>')
+    def admin_file_page(username) : 
+        user_info = db_manager.get_user_infos(username)
+        user_id = user_info[0]
+        
+        return file_page(username)
+        
+
+
+    #@app.route('/admin')
+    @app.route('/admin/<username>')
+    def admin(username):
         
         # if 'username' not in session or not session.get('is_admin', False):
         #     return redirect(url_for('index', loging_msg="Unauthorized access"))
@@ -133,6 +144,8 @@ def register_routes(app):
         logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
     
     
+        user_info = db_manager.get_user_infos(username)
+
         client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
 
         print("in admin", client_ip)
@@ -172,7 +185,8 @@ def register_routes(app):
             ids_alerts = ids_alerts,
             map_html=map_html,
             success_message=success_message,
-            error_message=error_message
+            error_message=error_message,
+            user_info=user_info
         )
 
 
@@ -219,7 +233,8 @@ def register_routes(app):
         try:
             db_manager.add_user(username, hashed_password, email, is_admin)
             mail_manager.send_confirmation_mail_user(username, email, password, True)
-            return redirect(url_for('admin', success=f"User {username} has been successfully added."))
+            #return redirect(url_for('admin', success=f"User {username} has been successfully added."))
+            return redirect(url_for('admin', username=session['username'], success=f"User {username} has been successfully added."))
 
         except sqlite3.IntegrityError as e:
             if "UNIQUE constraint failed: users.email" in str(e):
@@ -227,10 +242,12 @@ def register_routes(app):
             else:
                 error_message = "An error occurred while adding the user."
             #return render_template('admin.html', error=error_message)
-            return redirect(url_for('admin', error=error_message))
-        
+            #return redirect(url_for('admin', error=error_message))
+            return redirect(url_for('admin', username=session['username'], error=error_message))
+
         except Exception as e:
-            return render_template('admin.html', error=f"Unexpected error: {str(e)}")
+            #return render_template('admin.html', error=f"Unexpected error: {str(e)}")
+            return redirect(url_for('admin', username=session['username'], error=f"Unexpected error: {str(e)}"))
 
 
 
@@ -299,7 +316,7 @@ def register_routes(app):
             
                 if is_admin:
                     logging.info(f"Admin login successful for : {username}")
-                    return admin()
+                    return admin(username)
                 else:
                     logging.info(f"User login successful for : {username}")
                     #return admin()  # juste pour le test apres mettre la page adéquate i.e user()
@@ -320,7 +337,8 @@ def register_routes(app):
 
 
 
-    @app.route('/file_page/<username>')
+    #@app.route('/file_page/<username>')
+    @app.route('/user_settings_page/file_page/<username>')
     def file_page(username):
         
         # ID , username, hash password, mail, privilèges 

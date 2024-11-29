@@ -88,5 +88,17 @@
         "lon": -0.356,
         "country": "France",
         "city": "Caen"
+    },
+    "2a04:cec0:1930:9edf:7c6e:152f:5768:b271": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:1930:9edf:4d8b:40:dcf6:d728": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
     }
 }
