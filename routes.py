@@ -13,7 +13,7 @@ from managers.mail_manager import EmailManager
 from managers.ip_manager import IPManager
 from managers.password_manager import PasswordManager
 from managers.files_manager import FileManager
-
+from managers.filePage_manager import * 
 from rules.brute_force_rule import * 
 import sqlite3
 from ids_alerts_parser import LogParserIdsAlert
@@ -126,8 +126,8 @@ def register_routes(app):
     @app.route('/admin')
     def admin():
         
-        if 'username' not in session or not session.get('is_admin', False):
-            return redirect(url_for('index', loging_msg="Unauthorized access"))
+        # if 'username' not in session or not session.get('is_admin', False):
+        #     return redirect(url_for('index', loging_msg="Unauthorized access"))
     
         client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
         logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
@@ -175,26 +175,7 @@ def register_routes(app):
             error_message=error_message
         )
 
-###?? 
-    @app.route('/')
-    def user_page():
-        
-        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
 
-        ip_data = load_ip_data()
-        if client_ip not in ip_data:
-            location = get_ip_location(client_ip)
-            if location:
-                lat, lon, country = location
-                ip_data[client_ip] = {
-                    'lat': lat,
-                    'lon': lon,
-                    'country': country # add city here * 
-                }
-                save_ip_data(ip_data)  
-                
-        logging.info(f"User page via {client_ip}") 
-        return render_template('user.html')
 
 
     @app.route('/admin_users_manager')
@@ -212,6 +193,8 @@ def register_routes(app):
         #user_info = get_user_infos(username)
         user_info = db_manager.get_user_infos(username)
         print(user_info)
+        print(f"Current session: {dict(session)}")  
+
         return render_template('user_settings_page.html', user_info=user_info)  #
 
     
@@ -310,7 +293,8 @@ def register_routes(app):
                 # retrieve session data 
                 session['username'] = username
                 session['is_admin'] = is_admin
-                #session.permanent = True  
+                session['user_id'] = user[0]
+                session.permanent = True  
 
             
                 if is_admin:
@@ -336,20 +320,30 @@ def register_routes(app):
 
 
 
-    @app.route('/file_page')
-    def file_page():
-        user_id = "example_user1" #  a voir 
-        files = list_files(user_id) 
-        return render_template('file_page.html', files=files, user_id=user_id)
+    @app.route('/user_settings_page/file_page/<username>')
+    def file_page(username):
+        
+        # ID , username, hash password, mail, privilèges 
+        user_info = db_manager.get_user_infos(username)
+        user_id = user_info[0]
+        
+        files = list_files(str(user_id))
+        print(f"USER INFO : {user_id} , FILES {files}")
+        return render_template('file_page.html', files=files, user_id=str(user_id), user_info=user_info)
 
 
 
     @app.route('/uploads', methods=['POST'])
     def upload():
-        response, status_code = upload_file(request) 
+        
+        user_id = session['user_id']
+        response, status_code = upload_file(request, user_id) 
         if status_code == 200:
-            user_id = request.form.get("user_id")
-            files = list_files(user_id)  
+            username_ = session['username']
+            user_info = db_manager.get_user_infos(username_)
+            user_id = user_info[0]
+
+            files = list_files(str(user_id)) 
             response["files"] = files 
         return response, status_code
     
@@ -358,17 +352,21 @@ def register_routes(app):
     @app.route('/delete_file', methods=['POST'])
     def delete_file_route():
          
-        user_id = request.form.get("user_id")
+        #user_id = request.form.get("user_id")
+        user_id = session['user_id']
+        username = session['username']
+
         file_name = request.form.get("file_name")
 
         response, status_code = delete_file(user_id, file_name)
         files = list_files(user_id)    # a voir apres 
         
-        return redirect(url_for('file_page'))
+        return redirect(url_for('file_page', username=username))
 
 
     @app.route('/download/<user_id>/<filename>')
     def download_file(user_id, filename):  
+        print("IN DOWNLOAD FILE ")
         user_folder = os.path.join("uploads", user_id)
         file_path = os.path.join(user_folder, filename)
 
