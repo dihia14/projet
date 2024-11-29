@@ -393,3 +393,12 @@ def register_routes(app):
             
             
             
+
+
+
+HOW THE FLASK KEY WAS GENERATED ? 
+# api key generated 
+# from import secrets
+# print(secrets.token_hex(32))  # 64 car 
+# print(app.secret_key)
+# export FLASK_SECRET_KEY='fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'

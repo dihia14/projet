@@ -22,6 +22,7 @@
         <p class="text-center text-gray-600 mb-4">
           You are logged in as an admin.
         </p>
+        <!-- Redirection vers le tableau de bord admin -->
         <a
           href="{{ url_for('admin.admin', username=session['username']) }}"
           class="block text-center bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition duration-300 mb-4"
@@ -32,6 +33,7 @@
         <p class="text-center text-gray-600 mb-4">
           You are logged in as a user.
         </p>
+        <!-- Redirection vers la page des paramètres utilisateur -->
         <a
           href="{{ url_for('user.user_settings_page', username=session['username']) }}"
           class="block text-center bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-300 mb-4"
@@ -39,8 +41,9 @@
           Go to Your Profile
         </a>
         {% endif %}
+        <!-- Bouton de déconnexion -->
         <a
-          href="{{ url_for('logout') }}"
+          href="{{ url_for('index.logout') }}"
           class="block text-center bg-red-500 text-white py-3 rounded-lg hover:bg-red-600 transition duration-300"
         >
           Logout
@@ -50,7 +53,7 @@
         <h1 class="text-2xl font-bold text-center mb-6 text-gray-700">
           Welcome Back
         </h1>
-        <form action="/login" method="POST">
+        <form action="{{ url_for('index.login') }}" method="POST">
           <div class="mb-6">
             <label
               for="username"
@@ -88,7 +91,7 @@
             Login
           </button>
         </form>
-
+        <!-- Bouton pour réinitialiser le mot de passe -->
         <button
           onclick="document.getElementById('resetPasswordModal').classList.remove('hidden')"
           class="w-full block text-center mt-4 bg-yellow-500 text-white py-3 rounded-lg hover:bg-yellow-600 transition duration-300"
@@ -116,7 +119,7 @@
         <h2 id="resetPasswordModalTitle" class="text-lg font-bold mb-4">
           Réinitialiser votre mot de passe
         </h2>
-        <form method="POST" action="/reset_password">
+        <form method="POST" action="{{ url_for('index.reset_password') }}">
           <div class="mb-4">
             <label
               for="username"

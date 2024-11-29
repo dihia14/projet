@@ -29,7 +29,9 @@ fileInput.addEventListener("change", (e) => {
 
 
 function uploadFiles(files) {
-    const user_id = "example_user1"; //changer une fois session activee 
+    const user_id = "example_user1"; //changer une fois session activee , yes mettre la seconde ligne : ... 
+    // const user_id = document.getElementById("user_id").value;
+
     const formData = new FormData();
     formData.append("user_id", user_id);
     
@@ -37,7 +39,7 @@ function uploadFiles(files) {
         formData.append("files", file);
     }
 
-    fetch("/uploads", {
+    fetch("/file/uploads", {
         method: "POST",
         body: formData,
     })

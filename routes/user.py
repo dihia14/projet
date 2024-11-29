@@ -21,38 +21,12 @@ from rules.brute_force_rule import *
 import sqlite3
 from ids_alerts_parser import LogParserIdsAlert
 from .admin import *
-# injections sql => bloque adresse IP 
-# emplacement pour afficher les alertes pour l'admin 
-# statistiques : nb d'attaques des ≠ types : par jours, minutes, ...
-# voire pour ransom ( voir avec le Sftp , ... )
-# analyse d'un fichier malveillant .. 
-# Sftp, "drive" pour des "chiffré" des files 
 
-
-#init of the managers 
-db_manager = UserDatabase()
-
-
-#init the IP manager 
-ip_manager = IPManager()
-
-
-#init the mail manager 
-mail_manager = EmailManager() ###recheck 
-
-# Initialisation des paramètres globaux pour EmailManager only once (same as db recheck dans in init app )
-EmailManager.initialize(
-    smtp_server="smtp.gmail.com",
-    port=587,
-    sender_email="jafjafnora@gmail.com",
-    sender_password="luzz vnkb izzm lpps"
-)
-
+from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux
 
 
 
 user_blueprint = Blueprint("user", __name__, url_prefix="/user")
-db_manager = UserDatabase()
 
 @user_blueprint.route("/new_password/<username>")
 def new_password(username):

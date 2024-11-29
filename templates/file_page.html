@@ -17,19 +17,6 @@
     <div class="container mx-auto">
       <header class="flex justify-between items-center pb-4 border-b">
         <h1 class="text-2xl font-bold">Gestion des Fichiers</h1>
-        <!-- <button
-          onclick="location.href='/user_settings_page/{{ user_info[1] }}'"
-          class="btn-custom text-white px-4 py-2 rounded-md"
-        >
-          Back
-        </button> -->
-
-        <!-- <button
-          onclick="location.href='{% if user_info[3] %}/admin/{{ user_info[1] }}{% else %}/user_settings_page/{{ user_info[1] }}{% endif %}'"
-          class="btn-custom text-white px-4 py-2 rounded-md"
-        >
-          Back
-        </button> -->
         <button
           onclick="location.href='{% if user_info[3] %}{{ url_for('admin.admin', username=user_info[1]) }}{% else %}{{ url_for('user.user_settings_page', username=user_info[1]) }}{% endif %}'"
           class="btn-custom text-white px-4 py-2 rounded-md"
@@ -41,6 +28,7 @@
       <div class="drop-container" id="dropContainer">
         <p>Glissez-déposez vos fichiers ici ou cliquez pour sélectionner</p>
         <input type="file" id="fileInput" multiple class="hidden" />
+        <!-- recupérer ici l'id ? et le faire passer au JS ... -->
       </div>
 
       <!-- Tableau des fichiers -->
@@ -58,14 +46,6 @@
             {% for file in files %}
             <tr class="border-b border-gray-200 hover:bg-gray-100">
               <td class="py-3 px-6">
-                <!-- <a
-                  href="/download/{{ user_info[0]}} /{{ file }}"
-                  class="text-blue-500 hover:underline"
-                  download="{{ file }}"
-                >
-                  {{ file }}
-                </a> -->
-
                 <a
                   href="{{ url_for('file.download_file', user_id=user_info[0], filename=file) }}"
                   class="text-blue-500 hover:underline"
@@ -74,16 +54,6 @@
                   {{ file }}
                 </a>
               </td>
-
-              <!-- <td class="py-3 px-6">
-                <form action="/delete_file" method="POST">
-                  <input type="hidden" name="user_id" value="{{ user_id }}" />
-                  <input type="hidden" name="file_name" value="{{ file }}" />
-                  <button type="submit" class="text-red-500 hover:underline">
-                    Supprimer
-                  </button>
-                </form>
-              </td> -->
 
               <form
                 action="{{ url_for('file.delete_file_route') }}"

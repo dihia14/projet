@@ -2,7 +2,7 @@ import os
 from werkzeug.utils import secure_filename
 
 # Dossier pour stocker les fichiers
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = '../uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Fonction pour obtenir le dossier d'un utilisateur
@@ -18,7 +18,6 @@ def upload_file(request, user_id):
         return {"error": "No files part"}, 400
 
     files = request.files.getlist('files')
-
 
     
     print("INNN get user foleder ", user_id)
