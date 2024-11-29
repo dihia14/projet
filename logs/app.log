@@ -1677,3 +1677,51 @@
 2024-11-29 16:49:09,177 - INFO - 127.0.0.1 - - [29/Nov/2024 16:49:09] "GET /admin HTTP/1.1" 200 -
 2024-11-29 16:49:09,365 - INFO - 127.0.0.1 - - [29/Nov/2024 16:49:09] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
 2024-11-29 16:49:10,447 - INFO - 127.0.0.1 - - [29/Nov/2024 16:49:10] "[33mGET /index HTTP/1.1[0m" 404 -
+2024-11-29 16:59:49,055 - INFO - Application initialized successfully.
+2024-11-29 16:59:49,092 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.1.13:9000
+2024-11-29 16:59:49,092 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-29 16:59:49,100 - INFO -  * Restarting with watchdog (inotify)
+2024-11-29 16:59:49,749 - INFO - Application initialized successfully.
+2024-11-29 16:59:49,790 - WARNING -  * Debugger is active!
+2024-11-29 16:59:49,794 - INFO -  * Debugger PIN: 132-833-346
+2024-11-29 17:00:22,958 - INFO - Application initialized successfully.
+2024-11-29 17:00:23,001 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.1.13:9000
+2024-11-29 17:00:23,001 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-29 17:00:23,010 - INFO -  * Restarting with watchdog (inotify)
+2024-11-29 17:00:23,699 - INFO - Application initialized successfully.
+2024-11-29 17:00:23,734 - WARNING -  * Debugger is active!
+2024-11-29 17:00:23,738 - INFO -  * Debugger PIN: 132-833-346
+2024-11-29 17:00:30,797 - INFO - Home page loaded from 2a01:cb05:4a0:e000:ee97:c6b1:a6d9:3dd8
+2024-11-29 17:00:30,813 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:30] "GET / HTTP/1.1" 200 -
+2024-11-29 17:00:31,216 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-29 17:00:38,326 - INFO - Admin page accessed by admin from 2a01:cb05:4a0:e000:ee97:c6b1:a6d9:3dd8
+2024-11-29 17:00:38,418 - INFO - Admin page via 2a01:cb05:4a0:e000:ee97:c6b1:a6d9:3dd8
+2024-11-29 17:00:38,428 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:38] "GET /admin HTTP/1.1" 200 -
+2024-11-29 17:00:38,538 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:38] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-29 17:00:40,822 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:40] "[33mGET /file_page HTTP/1.1[0m" 404 -
+2024-11-29 17:00:42,942 - INFO - 127.0.0.1 - - [29/Nov/2024 17:00:42] "[33mGET /file_page HTTP/1.1[0m" 404 -
+2024-11-29 17:05:42,767 - INFO - Home page loaded from 86.237.227.27
+2024-11-29 17:05:42,777 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:42] "GET / HTTP/1.1" 200 -
+2024-11-29 17:05:43,038 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:43] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-29 17:05:55,406 - INFO - Login attempt for user: admin
+2024-11-29 17:05:55,916 - INFO - Admin login successful for : admin
+2024-11-29 17:05:55,916 - INFO - Admin page accessed by admin from 86.237.227.27
+2024-11-29 17:05:56,054 - INFO - Admin page via 86.237.227.27
+2024-11-29 17:05:56,056 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:56] "POST /login HTTP/1.1" 200 -
+2024-11-29 17:05:56,269 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-29 17:05:56,319 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-29 17:05:58,201 - INFO - 127.0.0.1 - - [29/Nov/2024 17:05:58] "[33mGET /file_page HTTP/1.1[0m" 404 -
+2024-11-29 17:07:43,521 - INFO -  * Detected change in '/home/dihia/Desktop/github/projet/routes.py', reloading
+2024-11-29 17:07:43,523 - INFO -  * Detected change in '/home/dihia/Desktop/github/projet/routes.py', reloading
+2024-11-29 17:07:43,533 - INFO -  * Detected change in '/home/dihia/Desktop/github/projet/routes.py', reloading
+2024-11-29 17:07:44,229 - INFO -  * Restarting with watchdog (inotify)
+2024-11-29 17:07:44,889 - INFO - Application initialized successfully.
+2024-11-29 17:07:44,924 - WARNING -  * Debugger is active!
+2024-11-29 17:07:44,928 - INFO -  * Debugger PIN: 132-833-346
+2024-11-29 17:09:27,371 - INFO - 127.0.0.1 - - [29/Nov/2024 17:09:27] "[33mGET /file_page HTTP/1.1[0m" 404 -

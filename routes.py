@@ -320,7 +320,7 @@ def register_routes(app):
 
 
 
-    @app.route('/user_settings_page/file_page/<username>')
+    @app.route('/file_page/<username>')
     def file_page(username):
         
         # ID , username, hash password, mail, privilèges 

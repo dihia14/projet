@@ -82,5 +82,11 @@
         "lon": -0.356,
         "country": "France",
         "city": "Caen"
+    },
+    "86.237.227.27": {
+        "lat": 49.1837,
+        "lon": -0.356,
+        "country": "France",
+        "city": "Caen"
     }
 }
