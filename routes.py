@@ -12,7 +12,7 @@ from managers.database_manager import UserDatabase
 from managers.mail_manager import EmailManager
 from managers.ip_manager import IPManager
 from managers.password_manager import PasswordManager
-from managers.filePage_manager import upload_file ,list_files, delete_file
+from managers.files_manager import FileManager
 
 from rules.brute_force_rule import * 
 import sqlite3
@@ -118,6 +118,11 @@ def register_routes(app):
     
     
       
+    # @app.route('/reset_password')
+    # def reset_password():
+    #     return render_template('index.html')  
+
+
     @app.route('/admin')
     def admin():
         
@@ -244,6 +249,38 @@ def register_routes(app):
         except Exception as e:
             return render_template('admin.html', error=f"Unexpected error: {str(e)}")
 
+
+
+    
+    @app.route('/reset_password', methods=['POST'])
+    def reset_password():
+        username = request.form.get('username')
+        email = request.form.get('email')
+
+        # Vérifier si l'utilisateur existe
+        user = db_manager.get_user(username)
+
+        if not user or user[3] != email:  # Vérifier que l'email correspond également
+            loging_msg = "Erreur : Utilisateur ou email non trouvé."
+            return redirect(url_for('index', loging_msg=loging_msg))
+
+        # Générer un nouveau mot de passe et le hacher
+        new_password = PasswordManager.generate_password()
+        hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
+
+        # Mettre à jour le mot de passe dans la base de données
+        db_manager.update_password_username(username, hashed_password)
+
+        # Envoyer l'email avec le nouveau mot de passe
+        mail_manager.send_confirmation_mail_user(username, email, new_password, False)
+
+        # Rediriger vers l'index avec un message de confirmation
+        loging_msg = "Un email avec votre nouveau mot de passe a été envoyé."
+        return redirect(url_for('index', loging_msg=loging_msg))
+
+
+
+        
     @app.route('/login', methods=['POST'])
     def login():
         

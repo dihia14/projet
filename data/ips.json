@@ -58,5 +58,11 @@
         "lon": 2.4506,
         "country": "France",
         "city": "Montreuil"
+    },
+    "2a04:cec0:f062:fbe5:cdff:23d8:5670:c153": {
+        "lat": 48.8619,
+        "lon": 2.4506,
+        "country": "France",
+        "city": "Montreuil"
     }
 }

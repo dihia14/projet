@@ -23,11 +23,11 @@ from init_app import initialize_app, db_manager, ip_manager, mail_manager
 
 initialize_app() #init les managers ( marche pas encore correctement .... )
 app = Flask(__name__, template_folder='./templates')  
-#app.secret_key = 'fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'
+app.secret_key = 'fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'
 # api key generated 
 # from import secrets
 # print(secrets.token_hex(32))  # 64 car 
-app.secret_key = os.getenv('FLASK_SECRET_KEY')
+#app.secret_key = os.getenv('FLASK_SECRET_KEY')
 # print(app.secret_key)
 # export FLASK_SECRET_KEY='fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'
 from datetime import timedelta
