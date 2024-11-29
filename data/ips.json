@@ -58,5 +58,29 @@
         "lon": 2.4506,
         "country": "France",
         "city": "Montreuil"
+    },
+    "2a04:cec0:f062:fbe5:cdff:23d8:5670:c153": {
+        "lat": 48.8619,
+        "lon": 2.4506,
+        "country": "France",
+        "city": "Montreuil"
+    },
+    "2a04:cec0:f062:fbe5:5144:4208:a617:e48a": {
+        "lat": 48.8619,
+        "lon": 2.4506,
+        "country": "France",
+        "city": "Montreuil"
+    },
+    "2a04:cec0:f062:fbe5:51ae:8fb2:ea4a:7eab": {
+        "lat": 48.8619,
+        "lon": 2.4506,
+        "country": "France",
+        "city": "Montreuil"
+    },
+    "2a01:cb05:4a0:e000:ee97:c6b1:a6d9:3dd8": {
+        "lat": 49.1837,
+        "lon": -0.356,
+        "country": "France",
+        "city": "Caen"
     }
 }

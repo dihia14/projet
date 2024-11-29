@@ -95,34 +95,49 @@
             </p>
           </div>
         </div> -->
-        <button
-          onclick="document.getElementById('confirmationModal').classList.remove('hidden')"
-          class="bg-blue-500 text-white px-4 py-2 rounded-md"
-        >
-          Demandez un nouveau mot de passe
-        </button>
+        <div class="mt-8">
+          <button
+            onclick="document.getElementById('confirmationModal').classList.remove('hidden')"
+            class="bg-blue-500 text-white px-4 py-2 rounded-md"
+          >
+            Demandez un nouveau mot de passe
+          </button>
 
-        <div
-          id="confirmationModal"
-          class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50"
-          role="dialog"
-          aria-hidden="true"
-        >
-          <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-            <h2 class="text-lg font-bold mb-4">Confirmation</h2>
-            <p class="text-gray-700">
-              Un email à l'admin a été envoyé. Consultez vos messages.
-            </p>
-            <div class="flex justify-end mt-4">
-              <button
-                onclick="location.href='/new_password/{{ user_info[1] }}'"
-                class="bg-blue-500 text-white px-4 py-2 rounded-md"
-              >
-                OK
-              </button>
+          <div
+            id="confirmationModal"
+            class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50"
+            role="dialog"
+            aria-hidden="true"
+          >
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+              <h2 class="text-lg font-bold mb-4">Confirmation</h2>
+              <p class="text-gray-700">
+                Un email à l'admin a été envoyé. Consultez vos messages. Cliquez
+                sur OK pour valider l'envoi du mail.
+              </p>
+              <div class="flex justify-end mt-4">
+                <button
+                  onclick="location.href='/new_password/{{ user_info[1] }}'"
+                  class="bg-blue-500 text-white px-4 py-2 rounded-md"
+                >
+                  OK
+                </button>
+              </div>
             </div>
           </div>
         </div>
+
+        <!-- file section -->
+        <div class="mt-8">
+          <button
+            onclick="location.href='/user_settings_page/file_page/{{ user_info[1] }}'"
+            class="bg-blue-500 text-white px-4 py-2 rounded-md"
+          >
+            Aller à la gestion de vos fichiers
+            <strong>Username :</strong> {{ user_info[1] }}
+          </button>
+        </div>
+        <!-- end file section -->
       </div>
     </div>
   </body>

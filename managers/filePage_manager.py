@@ -7,17 +7,21 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Fonction pour obtenir le dossier d'un utilisateur
 def get_user_folder(user_id):
-    user_folder = os.path.join(UPLOAD_FOLDER, user_id)
+    user_id_str = str(user_id)
+    user_folder = os.path.join(UPLOAD_FOLDER, user_id_str)
     os.makedirs(user_folder, exist_ok=True)  # Crée le dossier si n'existe pas
     return user_folder
 
 
-def upload_file(request):
+def upload_file(request, user_id):
     if 'files' not in request.files:
         return {"error": "No files part"}, 400
 
     files = request.files.getlist('files')
-    user_id = request.form.get('user_id')
+
+
+    
+    print("INNN get user foleder ", user_id)
 
     if not user_id:
         return {"error": "User name is missing"}, 400

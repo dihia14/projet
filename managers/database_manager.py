@@ -127,7 +127,6 @@ class UserDatabase:
         conn.close()
         return infos
     
-    
     def update_password_username(self,username, hashed_password) : 
 
         conn = self._connect()
