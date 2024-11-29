@@ -100,5 +100,23 @@
         "lon": 2.4075,
         "country": "France",
         "city": "Paris"
+    },
+    "80.215.77.10": {
+        "lat": 48.9086,
+        "lon": 2.43971,
+        "country": "France",
+        "city": "Bobigny"
+    },
+    "2a04:cec0:1930:9edf:45fa:f41f:d3ae:49c0": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:1930:9edf:ac4a:4086:5c40:fb71": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
     }
 }

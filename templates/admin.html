@@ -29,9 +29,18 @@
               </a>
             </li>
             <li class="p-2 hover:bg-gray-200">
-              <button
+              <!-- <button
                 id="fetch-users"
                 onclick="location.href='/admin_users_manager'"
+                class="w-full flex items-center justify-between px-4 py-2 text-black rounded-md"
+                aria-label="Gestion des utilisateurs"
+              >
+                <span>📊</span>
+                <span>Utilisateurs</span>
+              </button> -->
+              <button
+                id="fetch-users"
+                onclick="location.href='{{ url_for('admin.gestion_users')}}'"
                 class="w-full flex items-center justify-between px-4 py-2 text-black rounded-md"
                 aria-label="Gestion des utilisateurs"
               >
@@ -41,9 +50,17 @@
             </li>
 
             <li class="p-2 hover:bg-gray-200">
-              <button
+              <!-- <button
                 id="fetch-users"
                 onclick="location.href='/admin/file_page/admin'"
+                class="w-full flex items-center justify-between px-4 py-2 text-black rounded-md"
+                aria-label="Gestion des utilisateurs"
+              >
+                <span>📊</span>
+                <span>Add Files</span>
+              </button> -->
+              <button
+                onclick="location.href='{{ url_for('admin.admin_file_page', username='admin') }}'"
                 class="w-full flex items-center justify-between px-4 py-2 text-black rounded-md"
                 aria-label="Gestion des utilisateurs"
               >
@@ -110,7 +127,10 @@
               <h2 id="addUserModalTitle" class="text-lg font-bold mb-4">
                 Ajouter un utilisateur
               </h2>
-              <form method="POST" action="/add_user">
+              <form
+                method="POST"
+                action="{{ url_for('admin.add_user_route') }}"
+              >
                 <div class="mb-4">
                   <label
                     for="username"

@@ -17,7 +17,7 @@ from managers.filePage_manager import *
 from rules.brute_force_rule import * 
 import sqlite3
 from ids_alerts_parser import LogParserIdsAlert
-
+from .admin import *
 # injections sql => bloque adresse IP 
 # emplacement pour afficher les alertes pour l'admin 
 # statistiques : nb d'attaques des ≠ types : par jours, minutes, ...
@@ -82,11 +82,7 @@ def register_routes(app):
         print(f"Current session: {dict(session)}")  
 
         if not authorize(client_ip) : 
-            # STOP THE PROGRAM    , exit 
             return "access unauthorized"
-            #abort(400) 
-
-
         else :
             print("ACCES autorisé ")     
  
@@ -100,21 +96,21 @@ def register_routes(app):
         logging.info("User successfully logged out")
         return render_template('index.html')
       
-    @app.route('/new_password/<username>')
-    def new_password(username):
-        user_info = db_manager.get_user_infos(username)
-        # ask for another password to generate 
-        new_password = PasswordManager.generate_password()
-        hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
+    # @app.route('/new_password/<username>')
+    # def new_password(username):
+    #     user_info = db_manager.get_user_infos(username)
+    #     # ask for another password to generate 
+    #     new_password = PasswordManager.generate_password()
+    #     hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
 
-        # send it to the user 
-        email = user_info[2]
-        mail_manager.send_confirmation_mail_user(username, email, new_password, False)
+    #     # send it to the user 
+    #     email = user_info[2]
+    #     mail_manager.send_confirmation_mail_user(username, email, new_password, False)
         
-        #update the db 
-        db_manager.update_password_username(username, hashed_password) ##
-        print(f"NEW password requested for user: {username}")
-        return render_template('user_settings_page.html', user_info=user_info)  
+    #     #update the db 
+    #     db_manager.update_password_username(username, hashed_password) ##
+    #     print(f"NEW password requested for user: {username}")
+    #     return render_template('user_settings_page.html', user_info=user_info)  
     
     
       
@@ -133,71 +129,71 @@ def register_routes(app):
         
 
 
-    #@app.route('/admin')
-    @app.route('/admin/<username>')
-    def admin(username):
+    # #@app.route('/admin')
+    # @app.route('/admin/<username>')
+    # def admin(username):
         
-        # if 'username' not in session or not session.get('is_admin', False):
-        #     return redirect(url_for('index', loging_msg="Unauthorized access"))
+    #     # if 'username' not in session or not session.get('is_admin', False):
+    #     #     return redirect(url_for('index', loging_msg="Unauthorized access"))
     
-        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
-        logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
+    #     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+    #     logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
     
     
-        user_info = db_manager.get_user_infos(username)
+    #     user_info = db_manager.get_user_infos(username)
 
-        client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+    #     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
 
-        print("in admin", client_ip)
+    #     print("in admin", client_ip)
 
 
-        recent_logs = FileManager.get_last_logs()
+    #     recent_logs = FileManager.get_last_logs()
         
 
-        ids_alerts = LogParserIdsAlert.load_last_alerts(last_n=6)
+    #     ids_alerts = LogParserIdsAlert.load_last_alerts(last_n=6)
         
         
-        ip_data = ip_manager.load_ip_data()
+    #     ip_data = ip_manager.load_ip_data()
 
-        # TODO : recheck ici, une autre méthode ? 
-        if client_ip not in ip_data:
-            location = ip_manager.get_ip_location(client_ip)
-            if location:
-                lat, lon, country, city = location
-                ip_data[client_ip] = {
-                    'lat': lat,
-                    'lon': lon,
-                    'country': country,
-                    'city' : city
-                }
-                ip_manager.save_ip_data(ip_data)  
+    #     # TODO : recheck ici, une autre méthode ? 
+    #     if client_ip not in ip_data:
+    #         location = ip_manager.get_ip_location(client_ip)
+    #         if location:
+    #             lat, lon, country, city = location
+    #             ip_data[client_ip] = {
+    #                 'lat': lat,
+    #                 'lon': lon,
+    #                 'country': country,
+    #                 'city' : city
+    #             }
+    #             ip_manager.save_ip_data(ip_data)  
                 
-        map_html = ip_manager.generate_map(ip_data)
+    #     map_html = ip_manager.generate_map(ip_data)
 
-        logging.info(f"Admin page via {client_ip}")
+    #     logging.info(f"Admin page via {client_ip}")
 
-        success_message = request.args.get('success')
-        error_message = request.args.get('error')
+    #     success_message = request.args.get('success')
+    #     error_message = request.args.get('error')
 
-        return render_template(
-            'admin.html',
-            logs=recent_logs,
-            ids_alerts = ids_alerts,
-            map_html=map_html,
-            success_message=success_message,
-            error_message=error_message,
-            user_info=user_info
-        )
-
-
+    #     return render_template(
+    #         'admin.html',
+    #         logs=recent_logs,
+    #         ids_alerts = ids_alerts,
+    #         map_html=map_html,
+    #         success_message=success_message,
+    #         error_message=error_message,
+    #         user_info=user_info
+    #     )
 
 
-    @app.route('/admin_users_manager')
-    def gestion_users():
-        # ID , username, hash password, mail, privilèges 
-        #users = get_users_db()
-        users = db_manager.get_users()
-        return render_template('admin_users_manager.html', users=users)  #
+
+
+    # @app.route('/admin_users_manager')
+    # def gestion_users():
+    #     # ID , username, hash password, mail, privilèges 
+    #     #users = get_users_db()
+    #     users = db_manager.get_users()
+    #     return render_template('admin_users_manager.html', users=users)  #
 
 
    # @app.route('/user_settings_page')
@@ -393,3 +389,7 @@ def register_routes(app):
             return send_from_directory(user_folder, filename, as_attachment=True)
         else:
             abort(404, description="File not found")
+            
+            
+            
+            
