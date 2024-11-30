@@ -4607,3 +4607,140 @@
 2024-11-30 09:28:41,733 - INFO - 127.0.0.1 - - [30/Nov/2024 09:28:41] "GET /admin/admin HTTP/1.1" 200 -
 2024-11-30 09:28:41,965 - INFO - 127.0.0.1 - - [30/Nov/2024 09:28:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
 2024-11-30 09:28:42,061 - INFO - 127.0.0.1 - - [30/Nov/2024 09:28:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:30:56,230 - INFO - Application initialized successfully.
+2024-11-30 09:30:56,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-11-30 09:30:56,415 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-30 09:30:56,435 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:30:56,981 - INFO - Application initialized successfully.
+2024-11-30 09:30:57,036 - WARNING -  * Debugger is active!
+2024-11-30 09:30:57,045 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:31:04,629 - INFO - Home page loaded from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:31:04,654 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:04] "GET / HTTP/1.1" 200 -
+2024-11-30 09:31:04,812 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:04,832 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:06,355 - INFO - Admin page accessed by admin from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:31:06,447 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:06] "GET /admin/admin HTTP/1.1" 200 -
+2024-11-30 09:31:06,675 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:06,783 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:08,005 - INFO - User successfully logged out
+2024-11-30 09:31:08,007 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:08] "GET /logout HTTP/1.1" 200 -
+2024-11-30 09:31:08,162 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:08,283 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:15,362 - INFO - Login attempt for user: admin
+2024-11-30 09:31:17,794 - INFO - OTP sent to user: admin
+2024-11-30 09:31:17,801 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:17] "POST /login HTTP/1.1" 200 -
+2024-11-30 09:31:27,530 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:27] "[35m[1mPOST /verify_otp HTTP/1.1[0m" 500 -
+2024-11-30 09:31:27,801 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:27] "[36mGET /verify_otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-30 09:31:27,832 - INFO - 127.0.0.1 - - [30/Nov/2024 09:31:27] "[36mGET /verify_otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-30 09:32:36,403 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:32:36,412 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:32:36,676 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:32:40,503 - INFO - Application initialized successfully.
+2024-11-30 09:32:40,634 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-11-30 09:32:40,634 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-30 09:32:40,657 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:32:41,661 - INFO - Application initialized successfully.
+2024-11-30 09:32:41,732 - WARNING -  * Debugger is active!
+2024-11-30 09:32:41,748 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:32:44,634 - INFO - Home page loaded from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:32:44,656 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:44] "GET / HTTP/1.1" 200 -
+2024-11-30 09:32:44,836 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:44] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:32:44,848 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:44] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:32:46,468 - INFO - User successfully logged out
+2024-11-30 09:32:46,471 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:46] "GET /logout HTTP/1.1" 200 -
+2024-11-30 09:32:46,615 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:32:46,731 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:32:51,480 - INFO - Login attempt for user: admin
+2024-11-30 09:32:52,908 - INFO - OTP sent to user: admin
+2024-11-30 09:32:52,913 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:52] "POST /login HTTP/1.1" 200 -
+2024-11-30 09:32:58,738 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:58] "[35m[1mPOST /verify_otp HTTP/1.1[0m" 500 -
+2024-11-30 09:32:59,120 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:59] "[36mGET /verify_otp?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-30 09:32:59,223 - INFO - 127.0.0.1 - - [30/Nov/2024 09:32:59] "[36mGET /verify_otp?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-30 09:33:28,647 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:33:28,672 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:33:29,248 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:33:30,274 - INFO - Application initialized successfully.
+2024-11-30 09:33:30,377 - WARNING -  * Debugger is active!
+2024-11-30 09:33:30,417 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:33:39,911 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:33:39,933 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:33:40,585 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:33:41,141 - INFO - Application initialized successfully.
+2024-11-30 09:33:41,206 - WARNING -  * Debugger is active!
+2024-11-30 09:33:41,217 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:35:10,452 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:35:10,466 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:35:10,940 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:35:12,297 - INFO - Application initialized successfully.
+2024-11-30 09:35:12,391 - WARNING -  * Debugger is active!
+2024-11-30 09:35:12,407 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:35:56,484 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:35:56,499 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:35:56,788 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:35:57,764 - INFO - Application initialized successfully.
+2024-11-30 09:35:57,824 - WARNING -  * Debugger is active!
+2024-11-30 09:35:57,865 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:36:19,126 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:36:19,146 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/shared_version_project/projet/routes/index.py', reloading
+2024-11-30 09:36:20,158 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:36:20,730 - INFO - Application initialized successfully.
+2024-11-30 09:36:20,787 - WARNING -  * Debugger is active!
+2024-11-30 09:36:20,796 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:36:22,773 - INFO - Application initialized successfully.
+2024-11-30 09:36:23,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-11-30 09:36:23,003 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-30 09:36:23,016 - INFO -  * Restarting with watchdog (fsevents)
+2024-11-30 09:36:23,619 - INFO - Application initialized successfully.
+2024-11-30 09:36:23,668 - WARNING -  * Debugger is active!
+2024-11-30 09:36:23,676 - INFO -  * Debugger PIN: 145-276-636
+2024-11-30 09:36:26,539 - INFO - Home page loaded from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:36:26,573 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:26] "GET / HTTP/1.1" 200 -
+2024-11-30 09:36:26,695 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:36:28,859 - INFO - User successfully logged out
+2024-11-30 09:36:28,864 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:28] "GET /logout HTTP/1.1" 200 -
+2024-11-30 09:36:29,060 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:36:34,877 - INFO - Login attempt for user: admin
+2024-11-30 09:36:35,216 - INFO - Admin login successful for: admin
+2024-11-30 09:36:35,217 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-30 09:36:35,354 - INFO - Admin page accessed by admin from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:36:35,437 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:35] "GET /admin/admin HTTP/1.1" 200 -
+2024-11-30 09:36:35,658 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:35] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-30 09:36:49,585 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:49] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-11-30 09:36:49,733 - INFO - Admin page accessed by admin from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:36:49,789 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:49] "GET /admin/admin?error=The+email+is+already+in+use.+Please+choose+another+one. HTTP/1.1" 200 -
+2024-11-30 09:36:49,998 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:49] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-30 09:36:52,168 - INFO - User successfully logged out
+2024-11-30 09:36:52,170 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:52] "GET /logout HTTP/1.1" 200 -
+2024-11-30 09:36:52,290 - INFO - 127.0.0.1 - - [30/Nov/2024 09:36:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:37:10,256 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:10] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2024-11-30 09:37:10,393 - INFO - Home page loaded from 2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16
+2024-11-30 09:37:10,395 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:10] "GET /?loging_msg=Un+email+avec+votre+nouveau+mot+de+passe+a+été+envoyé. HTTP/1.1" 200 -
+2024-11-30 09:37:10,602 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:10] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:37:22,579 - INFO - Login attempt for user: test
+2024-11-30 09:37:22,918 - INFO - User login successful for: test
+2024-11-30 09:37:22,919 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-11-30 09:37:23,092 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:23] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-11-30 09:37:23,323 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:23] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-30 09:37:25,022 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:25] "GET /file/page/test HTTP/1.1" 200 -
+2024-11-30 09:37:25,161 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:25] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-11-30 09:37:25,215 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:25] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-30 09:37:26,663 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:26] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-11-30 09:37:26,797 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-11-30 09:37:30,132 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:30] "GET /user/new_password/test HTTP/1.1" 200 -
+2024-11-30 09:37:31,678 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:31] "GET /user/new_password/test HTTP/1.1" 200 -
+2024-11-30 09:37:33,124 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:33] "GET /user/new_password/test HTTP/1.1" 200 -
+2024-11-30 09:37:34,040 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:34] "GET /user/new_password/test HTTP/1.1" 200 -
+2024-11-30 09:37:38,149 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:38] "GET /user/new_password/test HTTP/1.1" 200 -
+2024-11-30 09:37:38,386 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:38] "GET /static/output.css HTTP/1.1" 200 -
+2024-11-30 09:37:42,355 - INFO - User successfully logged out
+2024-11-30 09:37:42,356 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:42] "GET /logout HTTP/1.1" 200 -
+2024-11-30 09:37:42,491 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -

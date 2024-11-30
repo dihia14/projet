@@ -111,15 +111,17 @@ def login():
             
             # envoie du code à l'user 
             email = user[3]
-            otp_code = otp.now()
-            mail_manager.send_otp_mail(username, email, otp_code)
+            
+            ### À DECOMMENTER POUR LA DOUBLE AUTHENTIFICATION 
+            # otp_code = otp.now()
+            # mail_manager.send_otp_mail(username, email, otp_code)
 
-            logging.info(f"OTP sent to user: {username}")
-            return render_template('otp_verification.html', username=username)
+            # logging.info(f"OTP sent to user: {username}")
+            # return render_template('otp_verification.html', username=username)
 
 
 
-
+##### ÇA EST MIS DANS /verify_otp NORMALEMENT (MAIS POUR L'INSTANT GARDÉ CAR J'AI RETIRÉ LE DOUBLE AUTHENTIFICATION POUR LES TESTS )
             if is_admin:
                 logging.info(f"Admin login successful for: {username}")
                 return redirect(url_for("admin.admin", username=username))
@@ -152,10 +154,10 @@ def verify_otp():
         return redirect(url_for('index.index', loging_msg="Session expired. Please log in again."))
 
     otp = pyotp.TOTP(otp_secret)
+
     if otp.verify(otp_code, valid_window=1): 
         logging.info(f"OTP verification successful for user: {username}")
         if session.get('is_admin'):
-           # return redirect(url_for('admin.admin'))
             return redirect(url_for('admin.admin', username=username, error=error_message))
 
         else:
@@ -164,4 +166,4 @@ def verify_otp():
         logging.warning(f"Invalid OTP entered for user: {username}")
         return render_template('otp_verification.html', username=username, error="Invalid OTP. Please try again.")
 
-
+ 
