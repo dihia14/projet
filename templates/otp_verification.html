@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="flex items-center justify-center h-screen bg-gray-100 px-4">
+      <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold text-center mb-6 text-gray-700">
+          OTP Verification
+        </h1>
+        {% if error %}
+        <div
+          class="mb-4 p-4 bg-red-100 text-red-600 border border-red-300 rounded-lg"
+        >
+          {{ error }}
+        </div>
+        {% endif %}
+        <!-- <form action="/verify_otp" method="POST"> -->
+        <form action="{{ url_for('index.verify_otp') }}" method="POST">
+          <div class="mb-6">
+            <label for="otp" class="block text-sm font-medium text-gray-600"
+              >Enter the OTP sent to your email</label
+            >
+            <input
+              type="text"
+              id="otp"
+              name="otp"
+              placeholder="One-Time Password"
+              class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300"
+          >
+            Verify OTP
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

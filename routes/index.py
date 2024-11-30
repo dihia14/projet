@@ -7,6 +7,9 @@ from managers.mail_manager import EmailManager
 from rules.brute_force_rule import check_brute_force, log_failed_attempt
 from utils import write_last_ip, authorize
 from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux
+import pyotp
+
+
 
 # Initialisation du Blueprint
 index_blueprint = Blueprint("index", __name__)
@@ -90,11 +93,32 @@ def login():
         hashed_password = user[2]
         is_admin = user[4]
         if bcrypt.checkpw(password.encode("utf-8"), hashed_password):
+            
+            # double authentification
+            otp_secret = pyotp.random_base32()
+            otp = pyotp.TOTP(otp_secret)
+            session['otp_secret'] = otp_secret
+
+
+
+
             # Initialisation de la session utilisateur
             session["username"] = username
             session["is_admin"] = is_admin
             session["user_id"] = user[0]
             session.permanent = True
+            
+            
+            # envoie du code à l'user 
+            email = user[3]
+            otp_code = otp.now()
+            mail_manager.send_otp_mail(username, email, otp_code)
+
+            logging.info(f"OTP sent to user: {username}")
+            return render_template('otp_verification.html', username=username)
+
+
+
 
             if is_admin:
                 logging.info(f"Admin login successful for: {username}")
@@ -111,3 +135,33 @@ def login():
         logging.warning(f"Attempt to connect with a user not found: {username}")
         loging_msg = f"Attempt to connect with a user not found: {username}"
         return redirect(url_for("index.index", loging_msg=loging_msg))
+
+
+
+
+###otp verification 
+@index_blueprint.route("/verify_otp", methods=["POST"])
+def verify_otp():
+    
+    otp_code = request.form.get('otp')
+    otp_secret = session.get('otp_secret')
+    username = session.get('username')
+
+    print("test" , otp_secret, "and admin ", username)
+    if not otp_secret or not username:
+        return redirect(url_for('index.index', loging_msg="Session expired. Please log in again."))
+
+    otp = pyotp.TOTP(otp_secret)
+    if otp.verify(otp_code, valid_window=1): 
+        logging.info(f"OTP verification successful for user: {username}")
+        if session.get('is_admin'):
+           # return redirect(url_for('admin.admin'))
+            return redirect(url_for('admin.admin', username=username, error=error_message))
+
+        else:
+            return redirect(url_for('user.user_settings_page', username=username))
+    else:
+        logging.warning(f"Invalid OTP entered for user: {username}")
+        return render_template('otp_verification.html', username=username, error="Invalid OTP. Please try again.")
+
+

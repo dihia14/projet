@@ -55,6 +55,20 @@ class EmailManager:
             print(f"Error sending email: {e}")
 
 
+
+
+    @classmethod
+    def send_otp_mail(cls, username, email, otp_code ):
+        subject = "Your ont time code is here "
+        body = (
+            f"* One time code : {otp_code}\n"
+            f"Login link: https://accurate-actively-fox.ngrok-free.app"
+        )
+        cls.send_email(email, subject, body)
+        
+        
+        
+        
     # is_new_password_generated = True : the initial generated password (i.e when the account is created)
     # false : when it's a new one asked 
     @classmethod

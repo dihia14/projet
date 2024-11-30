@@ -124,5 +124,11 @@
         "lon": 2.4075,
         "country": "France",
         "city": "Paris"
+    },
+    "2a04:cec0:1930:9edf:b9e3:ef72:8dac:8c16": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
     }
 }
