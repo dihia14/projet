@@ -6636,3 +6636,729 @@
 2024-12-01 23:18:40,687 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
 2024-12-01 23:18:40,767 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:40] "GET /admin/admin HTTP/1.1" 200 -
 2024-12-01 23:18:41,218 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:21:24,772 - INFO - Application initialized successfully.
+2024-12-01 23:22:17,405 - INFO - Application initialized successfully.
+2024-12-01 23:26:22,107 - INFO - Application initialized successfully.
+2024-12-01 23:26:22,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:26:22,546 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:26:22,575 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:26:23,281 - INFO - Application initialized successfully.
+2024-12-01 23:26:23,400 - WARNING -  * Debugger is active!
+2024-12-01 23:26:23,425 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:26:27,754 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:26:27,776 - INFO - 127.0.0.1 - - [01/Dec/2024 23:26:27] "GET / HTTP/1.1" 200 -
+2024-12-01 23:26:27,957 - INFO - 127.0.0.1 - - [01/Dec/2024 23:26:27] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:26:29,484 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:26:29,596 - INFO - 127.0.0.1 - - [01/Dec/2024 23:26:29] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:26:29,773 - INFO - 127.0.0.1 - - [01/Dec/2024 23:26:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:27:04,122 - INFO - User successfully logged out
+2024-12-01 23:27:04,125 - INFO - 127.0.0.1 - - [01/Dec/2024 23:27:04] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:27:04,260 - INFO - 127.0.0.1 - - [01/Dec/2024 23:27:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:27:09,694 - INFO - Login attempt for user: admin
+2024-12-01 23:27:10,037 - INFO - Admin login successful for: admin
+2024-12-01 23:27:10,038 - INFO - 127.0.0.1 - - [01/Dec/2024 23:27:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:27:10,206 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:27:10,281 - INFO - 127.0.0.1 - - [01/Dec/2024 23:27:10] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:27:10,482 - INFO - 127.0.0.1 - - [01/Dec/2024 23:27:10] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:29:32,731 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/utils.py', reloading
+2024-12-01 23:29:32,756 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/utils.py', reloading
+2024-12-01 23:29:32,972 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:29:34,393 - INFO - Application initialized successfully.
+2024-12-01 23:30:35,324 - INFO - Application initialized successfully.
+2024-12-01 23:30:35,680 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:30:35,680 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:30:35,704 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:30:36,276 - INFO - Application initialized successfully.
+2024-12-01 23:30:36,375 - WARNING -  * Debugger is active!
+2024-12-01 23:30:36,390 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:30:43,373 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:30:43,395 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:30:43,557 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:30:44,376 - INFO - Application initialized successfully.
+2024-12-01 23:30:44,567 - WARNING -  * Debugger is active!
+2024-12-01 23:30:44,587 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:30:49,183 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:30:49,208 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:30:49,766 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:30:52,493 - INFO - Application initialized successfully.
+2024-12-01 23:30:52,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:30:52,617 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:30:52,628 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:30:53,177 - INFO - Application initialized successfully.
+2024-12-01 23:30:53,291 - WARNING -  * Debugger is active!
+2024-12-01 23:30:53,303 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:30:56,266 - INFO - User successfully logged out
+2024-12-01 23:30:56,281 - INFO - 127.0.0.1 - - [01/Dec/2024 23:30:56] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:30:56,487 - INFO - 127.0.0.1 - - [01/Dec/2024 23:30:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:31:02,071 - INFO - Login attempt for user: admin
+2024-12-01 23:31:02,431 - INFO - Admin login successful for: admin
+2024-12-01 23:31:02,432 - INFO - 127.0.0.1 - - [01/Dec/2024 23:31:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:31:02,591 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:31:02,675 - INFO - 127.0.0.1 - - [01/Dec/2024 23:31:02] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:31:02,973 - INFO - 127.0.0.1 - - [01/Dec/2024 23:31:02] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:32:13,797 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:32:13,805 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:32:13,942 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:32:14,543 - INFO - Application initialized successfully.
+2024-12-01 23:32:14,674 - WARNING -  * Debugger is active!
+2024-12-01 23:32:14,687 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:32:34,404 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:32:34,410 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:32:35,026 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:32:35,736 - INFO - Application initialized successfully.
+2024-12-01 23:32:35,927 - WARNING -  * Debugger is active!
+2024-12-01 23:32:35,955 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:33:04,719 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:33:04,733 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:33:05,263 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:33:06,140 - INFO - Application initialized successfully.
+2024-12-01 23:33:06,284 - WARNING -  * Debugger is active!
+2024-12-01 23:33:06,296 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:33:08,437 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:33:08,455 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:33:09,461 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:33:10,077 - INFO - Application initialized successfully.
+2024-12-01 23:33:11,443 - INFO - Application initialized successfully.
+2024-12-01 23:33:11,638 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:33:11,639 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:33:11,651 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:33:12,326 - INFO - Application initialized successfully.
+2024-12-01 23:33:12,435 - WARNING -  * Debugger is active!
+2024-12-01 23:33:12,448 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:33:13,530 - INFO - User successfully logged out
+2024-12-01 23:33:13,539 - INFO - 127.0.0.1 - - [01/Dec/2024 23:33:13] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:33:13,717 - INFO - 127.0.0.1 - - [01/Dec/2024 23:33:13] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:33:19,265 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:33:19,303 - INFO - Login attempt for user: admin
+2024-12-01 23:33:19,616 - INFO - Admin login successful for: admin
+2024-12-01 23:33:19,617 - INFO - 127.0.0.1 - - [01/Dec/2024 23:33:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:33:19,785 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:33:19,890 - INFO - 127.0.0.1 - - [01/Dec/2024 23:33:19] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:33:20,181 - INFO - 127.0.0.1 - - [01/Dec/2024 23:33:20] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:34:03,570 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:34:03,593 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:34:04,006 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:34:05,232 - INFO - Application initialized successfully.
+2024-12-01 23:34:05,516 - WARNING -  * Debugger is active!
+2024-12-01 23:34:05,561 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:34:53,005 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:34:53,022 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:34:55,781 - INFO - Application initialized successfully.
+2024-12-01 23:34:55,983 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:34:55,983 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:34:55,997 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:34:56,722 - INFO - Application initialized successfully.
+2024-12-01 23:34:56,854 - WARNING -  * Debugger is active!
+2024-12-01 23:34:56,867 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:35:38,969 - INFO - Application initialized successfully.
+2024-12-01 23:35:39,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:35:39,222 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:35:39,240 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:35:39,806 - INFO - Application initialized successfully.
+2024-12-01 23:35:39,905 - WARNING -  * Debugger is active!
+2024-12-01 23:35:39,919 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:35:44,678 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:35:44,695 - INFO - 127.0.0.1 - - [01/Dec/2024 23:35:44] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-01 23:35:47,051 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:35:47,053 - INFO - 127.0.0.1 - - [01/Dec/2024 23:35:47] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:36:24,110 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:36:24,118 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:24] "GET / HTTP/1.1" 200 -
+2024-12-01 23:36:24,321 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:24] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:25,841 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:36:25,926 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:25] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:36:26,242 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:27,738 - INFO - User successfully logged out
+2024-12-01 23:36:27,739 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:27] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:36:27,859 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:27] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:30,761 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:36:30,763 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:30] "GET / HTTP/1.1" 200 -
+2024-12-01 23:36:30,928 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:30,992 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:48,491 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:36:48,493 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:48] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:36:48,775 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:50,980 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:36:50,981 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:50] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:36:51,146 - INFO - 127.0.0.1 - - [01/Dec/2024 23:36:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:36:59,685 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:36:59,705 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:37:00,608 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:37:01,867 - INFO - Application initialized successfully.
+2024-12-01 23:37:02,138 - WARNING -  * Debugger is active!
+2024-12-01 23:37:02,157 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:37:29,246 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:37:29,267 - INFO - 127.0.0.1 - - [01/Dec/2024 23:37:29] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-01 23:37:31,615 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:37:31,617 - INFO - 127.0.0.1 - - [01/Dec/2024 23:37:31] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:37:51,179 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:37:51,213 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:37:51,680 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:37:52,961 - INFO - Application initialized successfully.
+2024-12-01 23:37:53,240 - WARNING -  * Debugger is active!
+2024-12-01 23:37:53,270 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:37:53,598 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:37:53,601 - INFO - 127.0.0.1 - - [01/Dec/2024 23:37:53] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-01 23:37:55,875 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:37:55,877 - INFO - 127.0.0.1 - - [01/Dec/2024 23:37:55] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:38:04,024 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:38:04,028 - INFO - 127.0.0.1 - - [01/Dec/2024 23:38:04] "POST /login HTTP/1.1" 200 -
+2024-12-01 23:38:11,267 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:38:11,273 - INFO - 127.0.0.1 - - [01/Dec/2024 23:38:11] "POST /login HTTP/1.1" 200 -
+2024-12-01 23:41:40,433 - INFO - Application initialized successfully.
+2024-12-01 23:41:40,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:41:40,928 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:41:40,948 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:41:41,623 - INFO - Application initialized successfully.
+2024-12-01 23:41:41,732 - WARNING -  * Debugger is active!
+2024-12-01 23:41:41,748 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:41:41,771 - INFO - 127.0.0.1 - - [01/Dec/2024 23:41:41] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2024-12-01 23:41:46,160 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:41:46,187 - INFO - 127.0.0.1 - - [01/Dec/2024 23:41:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-01 23:41:46,367 - INFO - 127.0.0.1 - - [01/Dec/2024 23:41:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:41:46,426 - INFO - 127.0.0.1 - - [01/Dec/2024 23:41:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-01 23:41:46,427 - INFO - 127.0.0.1 - - [01/Dec/2024 23:41:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-01 23:42:05,327 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:42:05,339 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:42:06,030 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:42:07,145 - INFO - Application initialized successfully.
+2024-12-01 23:42:07,504 - WARNING -  * Debugger is active!
+2024-12-01 23:42:07,520 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:42:09,251 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:42:09,289 - INFO - 127.0.0.1 - - [01/Dec/2024 23:42:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-12-01 23:42:09,569 - INFO - 127.0.0.1 - - [01/Dec/2024 23:42:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-01 23:42:09,571 - INFO - 127.0.0.1 - - [01/Dec/2024 23:42:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-01 23:44:11,595 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:44:11,613 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:44:12,423 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:44:14,058 - INFO - Application initialized successfully.
+2024-12-01 23:44:14,525 - WARNING -  * Debugger is active!
+2024-12-01 23:44:14,553 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:44:18,012 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:44:18,020 - INFO - 127.0.0.1 - - [01/Dec/2024 23:44:18] "GET / HTTP/1.1" 200 -
+2024-12-01 23:44:24,199 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:44:24,200 - INFO - 127.0.0.1 - - [01/Dec/2024 23:44:24] "GET / HTTP/1.1" 200 -
+2024-12-01 23:44:25,753 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:44:25,754 - INFO - 127.0.0.1 - - [01/Dec/2024 23:44:25] "GET / HTTP/1.1" 200 -
+2024-12-01 23:44:45,240 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:44:45,243 - INFO - 127.0.0.1 - - [01/Dec/2024 23:44:45] "GET / HTTP/1.1" 200 -
+2024-12-01 23:44:59,358 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:44:59,362 - INFO - 127.0.0.1 - - [01/Dec/2024 23:44:59] "GET / HTTP/1.1" 200 -
+2024-12-01 23:45:14,870 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:45:14,892 - INFO - 127.0.0.1 - - [01/Dec/2024 23:45:14] "GET / HTTP/1.1" 200 -
+2024-12-01 23:45:15,176 - INFO - 127.0.0.1 - - [01/Dec/2024 23:45:15] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:45:25,747 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:45:25,755 - INFO - Login attempt for user: admin
+2024-12-01 23:45:26,107 - INFO - Admin login successful for: admin
+2024-12-01 23:45:26,109 - INFO - 127.0.0.1 - - [01/Dec/2024 23:45:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:45:26,271 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:45:26,354 - INFO - 127.0.0.1 - - [01/Dec/2024 23:45:26] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:45:26,565 - INFO - 127.0.0.1 - - [01/Dec/2024 23:45:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:46:19,207 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:46:19,213 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:19] "GET / HTTP/1.1" 200 -
+2024-12-01 23:46:19,383 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:19] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:46:21,349 - INFO - User successfully logged out
+2024-12-01 23:46:21,351 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:21] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:46:21,533 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:21] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:46:31,487 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:46:31,490 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:31] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:46:31,662 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:46:44,713 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:46:44,714 - INFO - 127.0.0.1 - - [01/Dec/2024 23:46:44] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:49:46,882 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:49:46,892 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:49:47,864 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:49:49,797 - INFO - Application initialized successfully.
+2024-12-01 23:49:50,330 - WARNING -  * Debugger is active!
+2024-12-01 23:49:50,359 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:50:06,317 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:50:06,331 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 23:50:06,701 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:50:07,707 - INFO - Application initialized successfully.
+2024-12-01 23:50:07,863 - WARNING -  * Debugger is active!
+2024-12-01 23:50:07,874 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:50:41,068 - INFO - Application initialized successfully.
+2024-12-01 23:50:41,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:50:41,182 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:50:41,190 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:50:41,726 - INFO - Application initialized successfully.
+2024-12-01 23:50:41,842 - WARNING -  * Debugger is active!
+2024-12-01 23:50:41,854 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:50:50,958 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:50:50,985 - INFO - 127.0.0.1 - - [01/Dec/2024 23:50:50] "GET / HTTP/1.1" 200 -
+2024-12-01 23:50:51,225 - INFO - 127.0.0.1 - - [01/Dec/2024 23:50:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:51:07,269 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:51:07,318 - INFO - Login attempt for user: admin
+2024-12-01 23:51:07,653 - INFO - Admin login successful for: admin
+2024-12-01 23:51:07,654 - INFO - 127.0.0.1 - - [01/Dec/2024 23:51:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:51:07,811 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:51:07,907 - INFO - 127.0.0.1 - - [01/Dec/2024 23:51:07] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:51:08,244 - INFO - 127.0.0.1 - - [01/Dec/2024 23:51:08] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:51:11,059 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:51:11,062 - INFO - 127.0.0.1 - - [01/Dec/2024 23:51:11] "GET / HTTP/1.1" 200 -
+2024-12-01 23:51:11,225 - INFO - 127.0.0.1 - - [01/Dec/2024 23:51:11] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:51:32,625 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:51:32,638 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:51:33,330 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:51:34,727 - INFO - Application initialized successfully.
+2024-12-01 23:51:35,015 - WARNING -  * Debugger is active!
+2024-12-01 23:51:35,032 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:51:42,825 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:51:42,848 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:51:43,236 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:51:44,210 - INFO - Application initialized successfully.
+2024-12-01 23:51:44,387 - WARNING -  * Debugger is active!
+2024-12-01 23:51:44,405 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:52:08,655 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:08,669 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:09,676 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:52:10,259 - INFO - Application initialized successfully.
+2024-12-01 23:52:10,380 - WARNING -  * Debugger is active!
+2024-12-01 23:52:10,396 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:52:15,795 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:15,821 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:16,572 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:52:17,094 - INFO - Application initialized successfully.
+2024-12-01 23:52:17,204 - WARNING -  * Debugger is active!
+2024-12-01 23:52:17,217 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:52:36,623 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:36,643 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:52:37,519 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:52:38,852 - INFO - Application initialized successfully.
+2024-12-01 23:52:39,133 - WARNING -  * Debugger is active!
+2024-12-01 23:52:39,150 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:52:40,922 - INFO - User successfully logged out
+2024-12-01 23:52:40,938 - INFO - 127.0.0.1 - - [01/Dec/2024 23:52:40] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:52:41,082 - INFO - 127.0.0.1 - - [01/Dec/2024 23:52:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:52:45,694 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:52:45,737 - INFO - Login attempt for user: admin
+2024-12-01 23:52:46,062 - INFO - Admin login successful for: admin
+2024-12-01 23:52:46,063 - INFO - 127.0.0.1 - - [01/Dec/2024 23:52:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:52:46,260 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:52:46,340 - INFO - 127.0.0.1 - - [01/Dec/2024 23:52:46] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:52:46,703 - INFO - 127.0.0.1 - - [01/Dec/2024 23:52:46] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:53:17,233 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:53:17,251 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:53:17,569 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:53:19,085 - INFO - Application initialized successfully.
+2024-12-01 23:53:19,311 - WARNING -  * Debugger is active!
+2024-12-01 23:53:19,323 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:53:19,857 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:53:19,951 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:19] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:53:22,014 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:22] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:53:31,532 - INFO - Application initialized successfully.
+2024-12-01 23:53:31,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:53:31,659 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:53:31,670 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:53:32,209 - INFO - Application initialized successfully.
+2024-12-01 23:53:32,314 - WARNING -  * Debugger is active!
+2024-12-01 23:53:32,327 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:53:36,312 - INFO - User successfully logged out
+2024-12-01 23:53:36,328 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:36] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:53:36,485 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:53:42,115 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:53:42,158 - INFO - Login attempt for user: admin
+2024-12-01 23:53:42,492 - INFO - Admin login successful for: admin
+2024-12-01 23:53:42,493 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:53:42,641 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:53:42,761 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:42] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:53:43,070 - INFO - 127.0.0.1 - - [01/Dec/2024 23:53:43] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:54:23,738 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:54:23,742 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:23] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:54:23,962 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:23] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:54:39,709 - INFO - Application initialized successfully.
+2024-12-01 23:54:40,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:54:40,025 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:54:40,048 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:54:40,820 - INFO - Application initialized successfully.
+2024-12-01 23:54:40,969 - WARNING -  * Debugger is active!
+2024-12-01 23:54:40,984 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:54:41,783 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:54:41,865 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:41] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:54:42,086 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:54:56,139 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:54:56,145 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:56] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:54:56,273 - INFO - 127.0.0.1 - - [01/Dec/2024 23:54:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:55:10,016 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:10,045 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:10,413 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:55:11,705 - INFO - Application initialized successfully.
+2024-12-01 23:55:11,993 - WARNING -  * Debugger is active!
+2024-12-01 23:55:12,009 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:55:20,127 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:20,150 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:21,239 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:55:22,303 - INFO - Application initialized successfully.
+2024-12-01 23:55:22,510 - WARNING -  * Debugger is active!
+2024-12-01 23:55:22,529 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:55:25,004 - INFO - Application initialized successfully.
+2024-12-01 23:55:25,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:55:25,299 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:55:25,312 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:55:25,891 - INFO - Application initialized successfully.
+2024-12-01 23:55:32,275 - INFO - Application initialized successfully.
+2024-12-01 23:55:32,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:55:32,389 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:55:32,397 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:55:33,157 - INFO - Application initialized successfully.
+2024-12-01 23:55:33,274 - WARNING -  * Debugger is active!
+2024-12-01 23:55:33,283 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:55:36,649 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:55:36,671 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:36] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:55:36,824 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:55:39,362 - INFO - User successfully logged out
+2024-12-01 23:55:39,363 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:39] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:55:39,496 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:39] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:55:42,928 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:55:42,930 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:42] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:55:43,075 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:55:43,156 - INFO - 127.0.0.1 - - [01/Dec/2024 23:55:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:55:58,178 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:58,208 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 23:55:58,576 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:55:59,990 - INFO - Application initialized successfully.
+2024-12-01 23:56:00,210 - WARNING -  * Debugger is active!
+2024-12-01 23:56:00,228 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:56:01,395 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:56:01,419 - INFO - 127.0.0.1 - - [01/Dec/2024 23:56:01] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 23:56:01,620 - INFO - 127.0.0.1 - - [01/Dec/2024 23:56:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:56:01,625 - INFO - 127.0.0.1 - - [01/Dec/2024 23:56:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:06:58,222 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:06:58,657 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:06:59,901 - INFO - Application initialized successfully.
+2024-12-02 00:07:00,224 - WARNING -  * Debugger is active!
+2024-12-02 00:07:00,242 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:07:03,002 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:07:03,008 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:07:03,025 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:07:03,406 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:07:04,041 - INFO - Application initialized successfully.
+2024-12-02 00:07:04,156 - WARNING -  * Debugger is active!
+2024-12-02 00:07:04,171 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:08:06,586 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:06,602 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:07,829 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:08:09,267 - INFO - Application initialized successfully.
+2024-12-02 00:08:09,525 - WARNING -  * Debugger is active!
+2024-12-02 00:08:09,542 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:08:13,940 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:13,965 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:14,742 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:08:15,763 - INFO - Application initialized successfully.
+2024-12-02 00:08:15,906 - WARNING -  * Debugger is active!
+2024-12-02 00:08:15,920 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:08:20,217 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:20,242 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:08:21,097 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:08:22,121 - INFO - Application initialized successfully.
+2024-12-02 00:08:22,238 - WARNING -  * Debugger is active!
+2024-12-02 00:08:22,248 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:09:54,723 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:09:54,728 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:09:54,980 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:09:56,385 - INFO - Application initialized successfully.
+2024-12-02 00:09:56,684 - WARNING -  * Debugger is active!
+2024-12-02 00:09:56,701 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:10:36,255 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:10:36,261 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:10:37,107 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:10:38,279 - INFO - Application initialized successfully.
+2024-12-02 00:14:09,678 - INFO - Application initialized successfully.
+2024-12-02 00:14:10,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-02 00:14:10,153 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 00:14:10,174 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:14:10,704 - INFO - Application initialized successfully.
+2024-12-02 00:14:10,808 - WARNING -  * Debugger is active!
+2024-12-02 00:14:10,829 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:14:21,413 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:14:21,435 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:21] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:14:21,745 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:14:21,799 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:14:36,732 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:36,774 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:37,163 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:14:38,385 - INFO - Application initialized successfully.
+2024-12-02 00:14:38,661 - WARNING -  * Debugger is active!
+2024-12-02 00:14:38,711 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:14:43,479 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:43,502 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:43,888 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:14:44,788 - INFO - Application initialized successfully.
+2024-12-02 00:14:44,937 - WARNING -  * Debugger is active!
+2024-12-02 00:14:44,958 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:14:48,122 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:48,140 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:14:49,133 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:14:49,774 - INFO - Application initialized successfully.
+2024-12-02 00:14:49,884 - WARNING -  * Debugger is active!
+2024-12-02 00:14:49,899 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:14:51,933 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:14:51,951 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:51] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:14:52,131 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:14:52,167 - INFO - 127.0.0.1 - - [02/Dec/2024 00:14:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:16:33,105 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:16:33,119 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:16:33,874 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:16:35,952 - INFO - Application initialized successfully.
+2024-12-02 00:16:36,217 - WARNING -  * Debugger is active!
+2024-12-02 00:16:36,235 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:16:39,223 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:16:39,255 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:39] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:16:39,404 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:39] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:16:39,462 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:39] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:16:53,725 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:16:53,749 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:16:54,504 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:16:55,181 - INFO - Application initialized successfully.
+2024-12-02 00:16:55,372 - WARNING -  * Debugger is active!
+2024-12-02 00:16:55,384 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:16:58,762 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:16:58,783 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:58] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:16:58,926 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:16:58,996 - INFO - 127.0.0.1 - - [02/Dec/2024 00:16:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:17:35,472 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:17:35,478 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:17:35,741 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:17:36,271 - INFO - Application initialized successfully.
+2024-12-02 00:17:36,380 - WARNING -  * Debugger is active!
+2024-12-02 00:17:36,396 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:17:42,296 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:17:42,314 - INFO - 127.0.0.1 - - [02/Dec/2024 00:17:42] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:17:42,483 - INFO - 127.0.0.1 - - [02/Dec/2024 00:17:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:17:42,497 - INFO - 127.0.0.1 - - [02/Dec/2024 00:17:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:18:24,521 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:18:24,571 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:18:24,900 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:18:26,990 - INFO - Application initialized successfully.
+2024-12-02 00:18:27,376 - WARNING -  * Debugger is active!
+2024-12-02 00:18:27,408 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:18:32,052 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:18:32,082 - INFO - 127.0.0.1 - - [02/Dec/2024 00:18:32] "GET / HTTP/1.1" 200 -
+2024-12-02 00:18:32,405 - INFO - 127.0.0.1 - - [02/Dec/2024 00:18:32] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:18:40,701 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:18:40,702 - INFO - 127.0.0.1 - - [02/Dec/2024 00:18:40] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:18:40,876 - INFO - 127.0.0.1 - - [02/Dec/2024 00:18:40] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:18:40,893 - INFO - 127.0.0.1 - - [02/Dec/2024 00:18:40] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:18:51,977 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:18:52,009 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:18:52,744 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:18:54,676 - INFO - Application initialized successfully.
+2024-12-02 00:18:54,949 - WARNING -  * Debugger is active!
+2024-12-02 00:18:54,963 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:20:16,096 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:16,109 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:16,803 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:20:19,376 - INFO - Application initialized successfully.
+2024-12-02 00:20:19,910 - WARNING -  * Debugger is active!
+2024-12-02 00:20:19,931 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:20:25,232 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:25,252 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:26,224 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:20:27,828 - INFO - Application initialized successfully.
+2024-12-02 00:20:28,088 - WARNING -  * Debugger is active!
+2024-12-02 00:20:28,117 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:20:29,174 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:20:29,198 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:29] "[35m[1mGET /?input='%20OR%20'1'='1 HTTP/1.1[0m" 500 -
+2024-12-02 00:20:29,358 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:20:29,404 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 00:20:29,405 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 00:20:39,951 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:39,993 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:20:40,641 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:20:42,228 - INFO - Application initialized successfully.
+2024-12-02 00:20:42,716 - WARNING -  * Debugger is active!
+2024-12-02 00:20:42,744 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:20:44,052 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:20:44,059 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:44] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:20:44,203 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:44] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:20:53,948 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:20:53,949 - INFO - 127.0.0.1 - - [02/Dec/2024 00:20:53] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:21:51,907 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:21:51,922 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:21:52,473 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:21:54,019 - INFO - Application initialized successfully.
+2024-12-02 00:21:54,272 - WARNING -  * Debugger is active!
+2024-12-02 00:21:54,303 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:22:02,244 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:02,267 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:02,519 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:22:03,077 - INFO - Application initialized successfully.
+2024-12-02 00:22:03,191 - WARNING -  * Debugger is active!
+2024-12-02 00:22:03,204 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:22:07,295 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:07,319 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:08,400 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:22:09,341 - INFO - Application initialized successfully.
+2024-12-02 00:22:09,545 - WARNING -  * Debugger is active!
+2024-12-02 00:22:09,569 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:22:24,785 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:24,801 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:25,932 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:22:26,780 - INFO - Application initialized successfully.
+2024-12-02 00:22:26,951 - WARNING -  * Debugger is active!
+2024-12-02 00:22:26,992 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:22:56,670 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:56,678 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:22:57,354 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:22:58,093 - INFO - Application initialized successfully.
+2024-12-02 00:22:58,205 - WARNING -  * Debugger is active!
+2024-12-02 00:22:58,220 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:04,161 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:04,183 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:04,386 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:05,085 - INFO - Application initialized successfully.
+2024-12-02 00:23:05,197 - WARNING -  * Debugger is active!
+2024-12-02 00:23:05,210 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:10,469 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:10,489 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:11,390 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:12,120 - INFO - Application initialized successfully.
+2024-12-02 00:23:12,261 - WARNING -  * Debugger is active!
+2024-12-02 00:23:12,275 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:18,577 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:18,603 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:19,435 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:20,218 - INFO - Application initialized successfully.
+2024-12-02 00:23:20,330 - WARNING -  * Debugger is active!
+2024-12-02 00:23:20,348 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:26,363 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:26,390 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:26,514 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:27,347 - INFO - Application initialized successfully.
+2024-12-02 00:23:27,458 - WARNING -  * Debugger is active!
+2024-12-02 00:23:27,468 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:31,927 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:31,951 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-02 00:23:32,663 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:34,681 - INFO - Application initialized successfully.
+2024-12-02 00:23:34,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-02 00:23:34,879 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 00:23:34,894 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:35,509 - INFO - Application initialized successfully.
+2024-12-02 00:23:35,635 - WARNING -  * Debugger is active!
+2024-12-02 00:23:35,717 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:38,158 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:23:38,190 - INFO - 127.0.0.1 - - [02/Dec/2024 00:23:38] "[35m[1mGET /?file=../../etc/passwd HTTP/1.1[0m" 500 -
+2024-12-02 00:23:38,355 - INFO - 127.0.0.1 - - [02/Dec/2024 00:23:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-02 00:23:38,416 - INFO - 127.0.0.1 - - [02/Dec/2024 00:23:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-02 00:23:53,476 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:53,499 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:23:54,144 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:23:55,487 - INFO - Application initialized successfully.
+2024-12-02 00:23:55,738 - WARNING -  * Debugger is active!
+2024-12-02 00:23:55,762 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:23:57,466 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:23:57,476 - INFO - 127.0.0.1 - - [02/Dec/2024 00:23:57] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:26:46,035 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:26:46,037 - INFO - 127.0.0.1 - - [02/Dec/2024 00:26:46] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:27:09,672 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:27:09,688 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:27:10,144 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:27:11,572 - INFO - Application initialized successfully.
+2024-12-02 00:27:11,885 - WARNING -  * Debugger is active!
+2024-12-02 00:27:11,902 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:27:11,949 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:27:11,955 - INFO - 127.0.0.1 - - [02/Dec/2024 00:27:11] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:27:59,204 - INFO - Application initialized successfully.
+2024-12-02 00:27:59,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-02 00:27:59,420 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 00:27:59,434 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:27:59,975 - INFO - Application initialized successfully.
+2024-12-02 00:28:00,081 - WARNING -  * Debugger is active!
+2024-12-02 00:28:00,098 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:28:03,758 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-02 00:28:03,779 - INFO - 127.0.0.1 - - [02/Dec/2024 00:28:03] "GET / HTTP/1.1" 200 -
+2024-12-02 00:28:04,045 - INFO - 127.0.0.1 - - [02/Dec/2024 00:28:04] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:28:25,249 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:28:25,262 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:28:25,380 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:28:26,480 - INFO - Application initialized successfully.
+2024-12-02 00:28:26,759 - WARNING -  * Debugger is active!
+2024-12-02 00:28:26,771 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:28:46,863 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:28:46,883 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:28:47,128 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:28:48,467 - INFO - Application initialized successfully.
+2024-12-02 00:28:48,698 - WARNING -  * Debugger is active!
+2024-12-02 00:28:48,712 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:29:37,262 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:29:37,277 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-02 00:29:38,130 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:29:39,272 - INFO - Application initialized successfully.
+2024-12-02 00:29:39,490 - WARNING -  * Debugger is active!
+2024-12-02 00:29:39,511 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:29:43,354 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:29:43,363 - INFO - 127.0.0.1 - - [02/Dec/2024 00:29:43] "GET / HTTP/1.1" 200 -
+2024-12-02 00:29:54,795 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:29:54,818 - INFO - 127.0.0.1 - - [02/Dec/2024 00:29:54] "GET / HTTP/1.1" 200 -
+2024-12-02 00:29:55,083 - INFO - 127.0.0.1 - - [02/Dec/2024 00:29:55] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:29:59,857 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:29:59,896 - INFO - Login attempt for user: admin
+2024-12-02 00:30:00,258 - INFO - Admin login successful for: admin
+2024-12-02 00:30:00,261 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-02 00:30:00,432 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:30:00,510 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:00] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:30:00,919 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:00] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:30:02,678 - INFO - User successfully logged out
+2024-12-02 00:30:02,679 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:02] "GET /logout HTTP/1.1" 200 -
+2024-12-02 00:30:02,822 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:02] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:30:11,423 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:30:11,427 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:11] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:30:11,597 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:30:15,666 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:30:15,669 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:15] "GET / HTTP/1.1" 200 -
+2024-12-02 00:30:40,199 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-02 00:30:40,204 - INFO - Login attempt for user: admin
+2024-12-02 00:30:40,541 - INFO - Admin login successful for: admin
+2024-12-02 00:30:40,542 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-02 00:30:40,737 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-02 00:30:40,812 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:40] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:30:41,018 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:30:50,516 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-02 00:30:50,518 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:50] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-02 00:30:55,593 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-02 00:30:55,596 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:55] "GET / HTTP/1.1" 200 -

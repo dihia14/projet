@@ -4,14 +4,17 @@ import bcrypt
 from managers.database_manager import UserDatabase
 from managers.password_manager import PasswordManager
 from managers.mail_manager import EmailManager
+from managers.utils_manager import UtilsManager
+from managers.query_manager import QueryDetector
 from rules.brute_force_rule import check_brute_force, log_failed_attempt
-from utils import write_last_ip, authorize
-from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux
+from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux (ajouter le query detector , ... )
 import pyotp
+from urllib.parse import unquote
 
 
 
-# Initialisation du Blueprint
+
+
 index_blueprint = Blueprint("index", __name__)
 #print("test", db_manager.get_user('admin'))
 
@@ -23,13 +26,24 @@ def index():
     """
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Home page loaded from {client_ip}")
-    write_last_ip(client_ip)
+
+
+    query_string = request.query_string.decode("utf-8")
+    print(f"Query String Received: {query_string} ")
+
+    if QueryDetector.is_malicious(query_string) : 
+        return render_template("errors/forbidden.html")
+ 
     print(f"Current session: {dict(session)}")
 
-    if not authorize(client_ip):
-        return "Access unauthorized"
-    else:
-        print("Access authorized")
+    #UtilsManager.write_last_ip(client_ip) ## pas besoin ici page d'accueil !! => plutot dans login 
+
+# it works , ... 
+    if not UtilsManager.authorize(client_ip):
+        #return "Access unauthorized"
+        return render_template("errors/unauthorized.html")
+
+    
 
     loging_msg = request.args.get("loging_msg", "")
     return render_template("index.html", loging_msg=loging_msg)
@@ -77,6 +91,23 @@ def login():
     """
     Authentification de l'utilisateur.
     """
+    
+    client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
+    logging.info(f"Home page loaded from {client_ip}")
+    
+    query_string = request.query_string.decode("utf-8")
+
+    if QueryDetector.is_malicious(query_string) :         
+        return render_template("errors/forbidden.html") ### si une query malveillante a été detecté , bloque l'acces direct + envoie du mail via l'IDS 
+
+    UtilsManager.write_last_ip(client_ip) 
+
+    if not UtilsManager.authorize(client_ip):
+        return render_template("errors/unauthorized.html")
+
+
+    
+    
     loging_msg = ""
     username = request.form.get("username")
     password = request.form.get("password")

@@ -5,6 +5,7 @@ import time
 from modules.rule_engine import RuleEngine
 #from init_app import mail_manager  # car dans init_app c'est là que nos param du serveur port ... sont instanciés 
 from managers.mail_manager import * 
+from managers.utils_manager import UtilsManager
 
 EmailManager.initialize(
     smtp_server="smtp.gmail.com",
@@ -27,7 +28,8 @@ class LogHTTP:
         for alert in alerts:
             print(f"[ALERT] {alert['description']} - Gravité : {alert['severity']}")
             mail_manager.send_email_alerte_injection_sql()
-            # bloack list l'email 
+            # black list l'email 
+            #UtilsManager.black_list_ip(UtilsManager.read_last_ip())
             self.log_alert(alert)
 
 
