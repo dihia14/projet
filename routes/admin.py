@@ -22,7 +22,7 @@ def admin(username):
     """
     # Vérification des droits d'accès
     if 'username' not in session or not session.get('is_admin', False):
-        return redirect(url_for('index', loging_msg="Unauthorized access"))
+        return redirect(url_for('index.index', loging_msg="Unauthorized access"))
 
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Admin page accessed by {session['username']} from {client_ip}")

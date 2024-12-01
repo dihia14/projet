@@ -1,9 +1,14 @@
 from flask import Flask
 from datetime import timedelta
 from init_app import initialize_app
+from init_app import *
 
+import os 
 initialize_app() # pour init les managers (globaux) que seront utilisés sans les routes . 
-
+if mail_manager is None : 
+    print("NON")
+else : 
+    print("not non")
 from routes.admin import admin_blueprint
 from routes.user import user_blueprint
 from routes.file import file_blueprint
@@ -15,6 +20,7 @@ def create_app():
     """
     app = Flask(__name__, template_folder='./templates')
     app.secret_key = 'fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'
+  
     app.permanent_session_lifetime = timedelta(minutes=30)  # duree de vie des sessions
 
     app.register_blueprint(index_blueprint, url_prefix="/")

@@ -38,6 +38,8 @@ class EmailManager:
         Returns:
             None
         """
+        print("DEEEEE" , cls.smtp_server)
+
         try:
             msg = MIMEMultipart()
             msg['From'] = cls.sender_email
@@ -46,11 +48,15 @@ class EmailManager:
             msg.attach(MIMEText(body, 'plain'))
 
             server = smtplib.SMTP(cls.smtp_server, cls.port)
+            print("DEEEEE" , cls.smtp_server)
             server.starttls()
             server.login(cls.sender_email, cls.sender_password)
             server.send_message(msg)
             print(f"Email sent successfully to {recipient_email}.")
             server.quit()
+            
+   
+    
         except Exception as e:
             print(f"Error sending email: {e}")
 

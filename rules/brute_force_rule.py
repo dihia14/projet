@@ -5,6 +5,10 @@ import time
 MAX_ATTEMPTS = 5
 TIME_WINDOW = 600  # 10 min 
 failed_attempts = {}
+from managers.mail_manager import EmailManager
+
+mail = EmailManager()
+
 
 def log_failed_attempt(username):
     if username not in failed_attempts:
@@ -23,7 +27,7 @@ def check_brute_force(username):
         #print(failed_attempts)
         if len(attempts) >= MAX_ATTEMPTS:
             #print("in")
-            send_email_alerte_admin(username)  # send an alert 
+            mail.send_email_alerte_admin(username)  # send an alert 
             logging.warning(f"ATTENTION: Multiple failed login attempts for {username}")
             return True
     return False

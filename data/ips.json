@@ -130,5 +130,29 @@
         "lon": 2.4075,
         "country": "France",
         "city": "Paris"
+    },
+    "2a04:cec0:1938:697a:b04f:89e:9c4:ed7e": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:1938:697a:7587:29a2:5774:bc54": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:1938:697a:a871:cd15:ee0e:805d": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
+    },
+    "2a04:cec0:1938:697a:956a:f625:5fe0:67fb": {
+        "lat": 48.8323,
+        "lon": 2.4075,
+        "country": "France",
+        "city": "Paris"
     }
 }
