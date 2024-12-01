@@ -74,3 +74,7 @@
 {'description': 'Tentative de directory traversal', 'severity': 'medium', 'event': '2024-12-02 00:27:11,955 - INFO - 127.0.0.1 - - [02/Dec/2024 00:27:11] "GET /?file=../../etc/passwd HTTP/1.1" 200 -'}
 {'description': 'Injection SQL détectée', 'severity': 'high', 'event': '2024-12-02 00:30:11,427 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:11] "GET /?input=\'%20OR%20\'1\'=\'1 HTTP/1.1" 200 -'}
 {'description': 'Injection SQL détectée', 'severity': 'high', 'event': '2024-12-02 00:30:50,518 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:50] "GET /?input=\'%20OR%20\'1\'=\'1 HTTP/1.1" 200 -'}
+{'description': 'Tentative de directory traversal', 'severity': 'medium', 'event': '2024-12-02 00:39:51,941 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:51] "GET /?file=../../etc/passwd HTTP/1.1" 200 -'}
+{'description': 'Tentative de directory traversal', 'severity': 'medium', 'event': '2024-12-02 00:40:24,818 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:24] "GET /?file=../../etc/passwd HTTP/1.1" 200 -'}
+{'description': 'Tentative de directory traversal', 'severity': 'medium', 'event': '2024-12-02 00:40:28,786 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:28] "GET /?file=../../etc/passwd HTTP/1.1" 200 -'}
+{'description': 'Tentative de directory traversal', 'severity': 'medium', 'event': '2024-12-02 00:42:20,226 - INFO - 127.0.0.1 - - [02/Dec/2024 00:42:20] "GET /?file=../../etc/passwd HTTP/1.1" 200 -'}

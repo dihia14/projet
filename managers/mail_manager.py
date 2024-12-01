@@ -41,7 +41,10 @@ class EmailManager:
 
         try:
             msg = MIMEMultipart()
-            msg['From'] = cls.sender_email
+            #msg['From'] = cls.sender_email
+            #msg['From'] = f"IDS service <{cls.sender_email}>"
+            msg['From'] = f"ADMINISTRATION SERVICE <{cls.sender_email}>"
+
             msg['To'] = recipient_email
             msg['Subject'] = subject
             msg.attach(MIMEText(body, 'plain'))

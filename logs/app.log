@@ -7362,3 +7362,103 @@
 2024-12-02 00:30:50,518 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:50] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
 2024-12-02 00:30:55,593 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
 2024-12-02 00:30:55,596 - INFO - 127.0.0.1 - - [02/Dec/2024 00:30:55] "GET / HTTP/1.1" 200 -
+2024-12-02 00:39:15,565 - INFO - Application initialized successfully.
+2024-12-02 00:39:15,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-02 00:39:15,955 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-02 00:39:15,974 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:39:16,509 - INFO - Application initialized successfully.
+2024-12-02 00:39:16,612 - WARNING -  * Debugger is active!
+2024-12-02 00:39:16,627 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:39:23,610 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:39:23,636 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:23] "GET / HTTP/1.1" 200 -
+2024-12-02 00:39:23,849 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:23] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:39:51,530 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:39:51,533 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:51] "GET / HTTP/1.1" 200 -
+2024-12-02 00:39:51,660 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:39:51,707 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:39:51,938 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:39:51,941 - INFO - 127.0.0.1 - - [02/Dec/2024 00:39:51] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:40:16,432 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:16,442 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:16,715 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:16,736 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:16,948 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:16,968 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:40:17,266 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:40:18,414 - INFO - Application initialized successfully.
+2024-12-02 00:40:18,647 - WARNING -  * Debugger is active!
+2024-12-02 00:40:18,660 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:40:24,810 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:24,818 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:24] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:40:28,785 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:28,786 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:28] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:40:29,284 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:29,304 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:29] "GET / HTTP/1.1" 200 -
+2024-12-02 00:40:29,608 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:29,611 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:29] "GET / HTTP/1.1" 200 -
+2024-12-02 00:40:29,738 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:29,772 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:37,255 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:37,302 - INFO - Login attempt for user: admin
+2024-12-02 00:40:37,661 - INFO - Admin login successful for: admin
+2024-12-02 00:40:37,663 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-02 00:40:37,829 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:37,918 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:37] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:40:38,146 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:38] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:40:39,487 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:39] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-02 00:40:39,641 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:39] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-02 00:40:39,772 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:39] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-02 00:40:39,843 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:39] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:40:41,370 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:41,436 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:41] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:40:41,616 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:42,469 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:42] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-02 00:40:42,599 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:45,983 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:46,047 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:46] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:40:46,223 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:50,641 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:50] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-12-02 00:40:50,789 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:50,854 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:50] "GET /admin/admin?error=The+email+is+already+in+use.+Please+choose+another+one. HTTP/1.1" 200 -
+2024-12-02 00:40:51,106 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:51] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:40:53,752 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:53] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-02 00:40:53,950 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:40:55,332 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:55] "[32mPOST /admin/delete_user/36 HTTP/1.1[0m" 302 -
+2024-12-02 00:40:55,496 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:55] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-02 00:40:55,702 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:55] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:40:56,845 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:40:56,914 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:56] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:40:57,152 - INFO - 127.0.0.1 - - [02/Dec/2024 00:40:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:41:03,435 - INFO - 127.0.0.1 - - [02/Dec/2024 00:41:03] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-12-02 00:41:03,592 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:41:03,657 - INFO - 127.0.0.1 - - [02/Dec/2024 00:41:03] "GET /admin/admin?success=User+t+has+been+successfully+added. HTTP/1.1" 200 -
+2024-12-02 00:41:03,952 - INFO - 127.0.0.1 - - [02/Dec/2024 00:41:03] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-02 00:42:01,811 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:42:01,829 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/mail_manager.py', reloading
+2024-12-02 00:42:02,527 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-02 00:42:03,720 - INFO - Application initialized successfully.
+2024-12-02 00:42:04,101 - WARNING -  * Debugger is active!
+2024-12-02 00:42:04,113 - INFO -  * Debugger PIN: 145-276-636
+2024-12-02 00:42:18,332 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:42:18,360 - INFO - 127.0.0.1 - - [02/Dec/2024 00:42:18] "GET / HTTP/1.1" 200 -
+2024-12-02 00:42:18,538 - INFO - 127.0.0.1 - - [02/Dec/2024 00:42:18] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:42:20,221 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:42:20,226 - INFO - 127.0.0.1 - - [02/Dec/2024 00:42:20] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
+2024-12-02 00:43:27,845 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:43:27,851 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:27] "GET / HTTP/1.1" 200 -
+2024-12-02 00:43:28,155 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:43:29,444 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:43:29,534 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:29] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:43:29,807 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:43:31,547 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:31] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-02 00:43:31,676 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:43:34,005 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:43:34,082 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:34] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-02 00:43:34,269 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-02 00:43:40,735 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:40] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-12-02 00:43:40,992 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-02 00:43:41,058 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:41] "GET /admin/admin?success=User+ds+has+been+successfully+added. HTTP/1.1" 200 -
+2024-12-02 00:43:41,344 - INFO - 127.0.0.1 - - [02/Dec/2024 00:43:41] "GET /static/output.css HTTP/1.1" 200 -

@@ -102,8 +102,8 @@ def login():
 
     UtilsManager.write_last_ip(client_ip) 
 
-    if not UtilsManager.authorize(client_ip):
-        return render_template("errors/unauthorized.html")
+    # if not UtilsManager.authorize(client_ip):
+    #     return render_template("errors/unauthorized.html")
 
 
     
