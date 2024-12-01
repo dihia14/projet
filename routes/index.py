@@ -39,9 +39,9 @@ def index():
     #UtilsManager.write_last_ip(client_ip) ## pas besoin ici page d'accueil !! => plutot dans login 
 
 # it works , ... 
-    if not UtilsManager.authorize(client_ip):
-        #return "Access unauthorized"
-        return render_template("errors/unauthorized.html")
+    # if not UtilsManager.authorize(client_ip):
+    #     #return "Access unauthorized"
+    #     return render_template("errors/unauthorized.html")
 
     
 
