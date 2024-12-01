@@ -6,7 +6,7 @@
 # décorateur @classmethod +  inclure cls comme premier argument de toutes 
 # les méthodes marquées avec @classmethod. 
 
-
+## TODO : RENOMMER PLUTOT EN DATA 
 
 class FileManager : 
     

@@ -15,7 +15,7 @@ import pyotp
 index_blueprint = Blueprint("index", __name__)
 #print("test", db_manager.get_user('admin'))
 
-# Routes
+
 @index_blueprint.route("/")
 def index():
     """
@@ -51,7 +51,7 @@ def reset_password():
     username = request.form.get("username")
     email = request.form.get("email")
 
-    # Vérifier si l'utilisateur existe
+    
     user = db_manager.get_user(username)
 
     if not user or user[3] != email:  # Vérifier que l'email correspond également

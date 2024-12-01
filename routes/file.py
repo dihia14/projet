@@ -21,7 +21,10 @@ def file_page(username):
     print(f"USER INFO: {user_id}, FILES: {files}")
     return render_template("file_page.html", files=files, user_id=str(user_id), user_info=user_info)
 
-@file_blueprint.route("/upload", methods=["POST"])
+
+
+# ICIIIII
+@file_blueprint.route("/page/upload", methods=["POST"])
 def upload():
     """
     Upload un fichier pour l'utilisateur connecté.
@@ -31,22 +34,23 @@ def upload():
     if not user_id:
         abort(403, description="User not authenticated.")
    
-    print("in upload ")
+    print("in UPLOAD ")
 
     # Connexion SFTP
-    sftp = connect_sftp()
+    # sftp = connect_sftp()
 
     response, status_code = upload_file(request, user_id)
     if status_code == 200:
         username = session.get("username")
         user_info = db_manager.get_user_infos(username)
 
-        files = list_files(str(user_id), sftp)
+        #files = list_files(str(user_id), sftp)
+        files = list_files(str(user_id))
         response["files"] = files
 
-                # Fermer la connexion SFTP après l'upload
-        if sftp:
-            sftp.close()
+        # Fermer la connexion SFTP après l'upload
+        # if sftp:
+        #     sftp.close()
 
     return response, status_code
 
@@ -56,7 +60,7 @@ def delete_file_route():
     """
     Supprime un fichier pour l'utilisateur connecté.
     """
-
+    print("herre")
     sftp = connect_sftp()
 
     user_id = session.get("user_id")

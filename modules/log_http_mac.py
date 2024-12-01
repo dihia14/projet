@@ -27,6 +27,7 @@ class LogHTTP:
         for alert in alerts:
             print(f"[ALERT] {alert['description']} - Gravité : {alert['severity']}")
             mail_manager.send_email_alerte_injection_sql()
+            # bloack list l'email 
             self.log_alert(alert)
 
 

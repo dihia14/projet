@@ -5931,3 +5931,708 @@
 2024-12-01 22:16:36,612 - INFO - 127.0.0.1 - - [01/Dec/2024 22:16:36] "GET /?file=../../etc/passwd HTTP/1.1" 200 -
 2024-12-01 22:16:38,968 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
 2024-12-01 22:16:38,970 - INFO - 127.0.0.1 - - [01/Dec/2024 22:16:38] "GET /?input='%20OR%20'1'='1 HTTP/1.1" 200 -
+2024-12-01 22:19:49,878 - INFO - Application initialized successfully.
+2024-12-01 22:19:50,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:19:50,459 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:19:50,486 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:19:51,168 - INFO - Application initialized successfully.
+2024-12-01 22:19:51,425 - WARNING -  * Debugger is active!
+2024-12-01 22:19:51,439 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:19:53,470 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:19:53,494 - INFO - 127.0.0.1 - - [01/Dec/2024 22:19:53] "GET / HTTP/1.1" 200 -
+2024-12-01 22:19:53,665 - INFO - 127.0.0.1 - - [01/Dec/2024 22:19:53] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:20:00,775 - INFO - Login attempt for user: admin
+2024-12-01 22:20:01,133 - INFO - Admin login successful for: admin
+2024-12-01 22:20:01,135 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 22:20:01,268 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:20:01,368 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:01] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:20:01,649 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:20:34,128 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:34] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-01 22:20:34,276 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:20:34,374 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:20:36,460 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:36] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:20:36,625 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:36] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:20:36,789 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:20:36,794 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:36] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 22:20:36,800 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:20:46,104 - INFO - 127.0.0.1 - - [01/Dec/2024 22:20:46] "[33mPOST /file/uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:22:32,962 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/files_manager.py', reloading
+2024-12-01 22:22:32,972 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/files_manager.py', reloading
+2024-12-01 22:22:33,693 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:22:35,132 - INFO - Application initialized successfully.
+2024-12-01 22:22:35,384 - WARNING -  * Debugger is active!
+2024-12-01 22:22:35,396 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:23:57,442 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/app.py', reloading
+2024-12-01 22:23:57,452 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/app.py', reloading
+2024-12-01 22:23:58,202 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:23:59,481 - INFO - Application initialized successfully.
+2024-12-01 22:23:59,694 - WARNING -  * Debugger is active!
+2024-12-01 22:23:59,706 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:24:06,084 - INFO - Application initialized successfully.
+2024-12-01 22:24:06,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:24:06,196 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:24:06,204 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:24:06,826 - INFO - Application initialized successfully.
+2024-12-01 22:24:06,952 - WARNING -  * Debugger is active!
+2024-12-01 22:24:06,963 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:24:13,194 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:24:13,230 - INFO - 127.0.0.1 - - [01/Dec/2024 22:24:13] "GET / HTTP/1.1" 200 -
+2024-12-01 22:24:13,482 - INFO - 127.0.0.1 - - [01/Dec/2024 22:24:13] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:24:15,372 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:24:15,453 - INFO - 127.0.0.1 - - [01/Dec/2024 22:24:15] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:24:15,706 - INFO - 127.0.0.1 - - [01/Dec/2024 22:24:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:24:15,733 - INFO - 127.0.0.1 - - [01/Dec/2024 22:24:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:25:54,138 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 22:25:54,149 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/modules/log_http_mac.py', reloading
+2024-12-01 22:25:54,775 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:25:55,779 - INFO - Application initialized successfully.
+2024-12-01 22:25:56,199 - WARNING -  * Debugger is active!
+2024-12-01 22:25:56,220 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:26:16,065 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:26:16,075 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:26:16,475 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:26:17,100 - INFO - Application initialized successfully.
+2024-12-01 22:26:17,215 - WARNING -  * Debugger is active!
+2024-12-01 22:26:17,228 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:26:19,780 - INFO - Application initialized successfully.
+2024-12-01 22:26:19,911 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:26:19,912 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:26:19,926 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:26:20,513 - INFO - Application initialized successfully.
+2024-12-01 22:26:20,619 - WARNING -  * Debugger is active!
+2024-12-01 22:26:20,629 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:26:24,918 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:26:24,935 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:24] "GET / HTTP/1.1" 200 -
+2024-12-01 22:26:25,108 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:25] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:26:26,617 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:26:26,708 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:26] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:26:26,908 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:26:26,982 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:26:35,720 - INFO - User successfully logged out
+2024-12-01 22:26:35,721 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:35] "GET /logout HTTP/1.1" 200 -
+2024-12-01 22:26:35,920 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:26:35,992 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:26:48,475 - INFO - Application initialized successfully.
+2024-12-01 22:26:48,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:26:48,616 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:26:48,631 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:26:49,715 - INFO - Application initialized successfully.
+2024-12-01 22:26:49,849 - WARNING -  * Debugger is active!
+2024-12-01 22:26:49,867 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:26:53,437 - INFO - Login attempt for user: admin
+2024-12-01 22:26:53,784 - INFO - Admin login successful for: admin
+2024-12-01 22:26:53,787 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 22:26:54,005 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:26:54,071 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:54] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:26:54,471 - INFO - 127.0.0.1 - - [01/Dec/2024 22:26:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:27:12,212 - INFO - User successfully logged out
+2024-12-01 22:27:12,226 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:12] "GET /logout HTTP/1.1" 200 -
+2024-12-01 22:27:12,400 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:27:12,484 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:27:18,569 - INFO - Login attempt for user: admin
+2024-12-01 22:27:18,906 - INFO - Admin login successful for: admin
+2024-12-01 22:27:18,907 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 22:27:19,052 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:27:19,117 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:19] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:27:19,398 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:27:27,041 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:27:27,045 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:27] "GET / HTTP/1.1" 200 -
+2024-12-01 22:27:27,227 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:27] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:27:39,810 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:39,836 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:40,514 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:27:41,636 - INFO - Application initialized successfully.
+2024-12-01 22:27:41,949 - WARNING -  * Debugger is active!
+2024-12-01 22:27:41,965 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:27:42,360 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:42,369 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:43,132 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:27:43,937 - INFO - Application initialized successfully.
+2024-12-01 22:27:44,045 - WARNING -  * Debugger is active!
+2024-12-01 22:27:44,058 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:27:52,256 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:52,280 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/index.py', reloading
+2024-12-01 22:27:53,255 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:27:53,916 - INFO - Application initialized successfully.
+2024-12-01 22:27:54,020 - WARNING -  * Debugger is active!
+2024-12-01 22:27:54,029 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:27:58,310 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:27:58,391 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:58] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:27:58,599 - INFO - 127.0.0.1 - - [01/Dec/2024 22:27:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:28:02,015 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:02] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:28:02,172 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:02] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:28:02,298 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:02] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 22:28:02,423 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:02] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:28:49,203 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:28:49,339 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:49] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:28:49,953 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:49] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:28:51,848 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:51] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:28:52,091 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:52] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:28:52,353 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:52] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:28:52,520 - INFO - 127.0.0.1 - - [01/Dec/2024 22:28:52] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:29:00,368 - INFO - 127.0.0.1 - - [01/Dec/2024 22:29:00] "[33mPOST /file/uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:32:12,810 - INFO - Application initialized successfully.
+2024-12-01 22:32:13,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:32:13,110 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:32:13,133 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:32:14,492 - INFO - Application initialized successfully.
+2024-12-01 22:32:14,635 - WARNING -  * Debugger is active!
+2024-12-01 22:32:14,650 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:32:15,739 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:32:15,821 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:15] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:32:16,047 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:16] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:32:17,787 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:17] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:32:17,956 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:17] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:32:18,076 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:18] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:32:18,077 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:18] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:32:25,475 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:25] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:32:38,283 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:32:38,303 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:32:38,958 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:32:40,020 - INFO - Application initialized successfully.
+2024-12-01 22:32:41,592 - INFO - Application initialized successfully.
+2024-12-01 22:32:41,853 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:32:41,853 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:32:41,889 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:32:43,522 - INFO - Application initialized successfully.
+2024-12-01 22:32:43,657 - WARNING -  * Debugger is active!
+2024-12-01 22:32:43,673 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:32:43,722 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:32:43,787 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:43] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:32:44,850 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:44] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:32:46,174 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:46] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:32:46,333 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:46] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:32:46,461 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:46] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 22:32:46,466 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:32:50,907 - INFO - 127.0.0.1 - - [01/Dec/2024 22:32:50] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:34:41,677 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:34:41,751 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:41] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:34:41,963 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:34:43,822 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:43] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:34:43,982 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:43] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:34:44,089 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:44] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:34:44,125 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:44] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:34:52,625 - INFO - 127.0.0.1 - - [01/Dec/2024 22:34:52] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:35:04,219 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:35:04,291 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:04] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:35:04,613 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:35:05,773 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:05] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:35:05,973 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:05] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:35:06,111 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:35:06,113 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:06] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:35:09,853 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:09] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:35:24,493 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:35:24,574 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:24] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:35:24,759 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:24] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:35:25,747 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:25] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:35:25,957 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:25] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:35:26,105 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:35:26,105 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:26] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:35:34,981 - INFO - 127.0.0.1 - - [01/Dec/2024 22:35:34] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:39:16,654 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:39:16,742 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:16] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:39:17,070 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:39:18,983 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:18] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:39:19,203 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:19] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:39:19,348 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:39:19,350 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:19] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:39:23,183 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:23] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:39:41,325 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:41] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:39:41,486 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:41] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:39:41,676 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:41] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:39:45,738 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:45] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:39:55,118 - INFO - 127.0.0.1 - - [01/Dec/2024 22:39:55] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:41:15,979 - INFO - Application initialized successfully.
+2024-12-01 22:41:16,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:41:16,326 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:41:16,351 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:41:17,168 - INFO - Application initialized successfully.
+2024-12-01 22:41:17,274 - WARNING -  * Debugger is active!
+2024-12-01 22:41:17,289 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:41:29,053 - INFO - 127.0.0.1 - - [01/Dec/2024 22:41:29] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:41:55,049 - INFO - 127.0.0.1 - - [01/Dec/2024 22:41:55] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:49:34,791 - INFO - Application initialized successfully.
+2024-12-01 22:49:35,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 22:49:35,203 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 22:49:35,230 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:49:36,128 - INFO - Application initialized successfully.
+2024-12-01 22:49:36,261 - WARNING -  * Debugger is active!
+2024-12-01 22:49:36,273 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:49:40,944 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:49:40,973 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:40] "GET / HTTP/1.1" 200 -
+2024-12-01 22:49:41,258 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:41] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 22:49:42,957 - INFO - User successfully logged out
+2024-12-01 22:49:42,958 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:42] "GET /logout HTTP/1.1" 200 -
+2024-12-01 22:49:43,111 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:49:43,260 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:49:49,826 - INFO - Login attempt for user: admin
+2024-12-01 22:49:50,191 - INFO - Admin login successful for: admin
+2024-12-01 22:49:50,193 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 22:49:50,347 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:49:50,435 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:50] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:49:50,859 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:49:52,963 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:52] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:49:53,150 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:53] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:49:53,317 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:49:53,322 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:53] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:49:53,605 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:49:58,332 - INFO - 127.0.0.1 - - [01/Dec/2024 22:49:58] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:50:05,662 - INFO - 127.0.0.1 - - [01/Dec/2024 22:50:05] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+2024-12-01 22:54:13,946 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:13] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:54:14,128 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:54:14,132 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:14] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:54:14,179 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:54:21,212 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:21] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-12-01 22:54:49,986 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:49] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:54:50,720 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:50] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:54:59,285 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:54:59,369 - INFO - 127.0.0.1 - - [01/Dec/2024 22:54:59] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:55:03,851 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:55:03,857 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:03] "GET / HTTP/1.1" 200 -
+2024-12-01 22:55:04,066 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:55:11,440 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:55:11,517 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:11] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:55:12,235 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:55:12,237 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:55:13,994 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:13] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:55:14,137 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:14] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:55:14,281 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:14] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 22:55:14,509 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:55:19,708 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:19] "[31m[1mPOST /file/page/page.uploads HTTP/1.1[0m" 405 -
+2024-12-01 22:55:25,265 - INFO - 127.0.0.1 - - [01/Dec/2024 22:55:25] "[31m[1mPOST /file/page/page.uploads HTTP/1.1[0m" 405 -
+2024-12-01 22:58:24,922 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:58:24,925 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:58:26,135 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:58:27,518 - INFO - Application initialized successfully.
+2024-12-01 22:58:27,837 - WARNING -  * Debugger is active!
+2024-12-01 22:58:27,859 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:58:30,930 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 22:58:31,004 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:31] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 22:58:31,329 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:58:31,616 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:58:33,379 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:33] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 22:58:33,540 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:33] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 22:58:33,676 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:33] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 22:58:33,887 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 22:58:38,711 - INFO - 127.0.0.1 - - [01/Dec/2024 22:58:38] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-01 22:59:20,931 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:59:20,940 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:59:21,496 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:59:22,629 - INFO - Application initialized successfully.
+2024-12-01 22:59:22,825 - WARNING -  * Debugger is active!
+2024-12-01 22:59:22,849 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 22:59:26,628 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:59:26,645 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 22:59:27,033 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 22:59:27,654 - INFO - Application initialized successfully.
+2024-12-01 22:59:27,771 - WARNING -  * Debugger is active!
+2024-12-01 22:59:27,784 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:12,513 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:12,523 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:13,590 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:14,754 - INFO - Application initialized successfully.
+2024-12-01 23:00:14,977 - WARNING -  * Debugger is active!
+2024-12-01 23:00:14,990 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:20,994 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:21,014 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:21,167 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:22,022 - INFO - Application initialized successfully.
+2024-12-01 23:00:22,139 - WARNING -  * Debugger is active!
+2024-12-01 23:00:22,154 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:27,722 - INFO - Application initialized successfully.
+2024-12-01 23:00:27,938 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:00:27,939 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:00:27,951 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:28,523 - INFO - Application initialized successfully.
+2024-12-01 23:00:28,633 - WARNING -  * Debugger is active!
+2024-12-01 23:00:28,646 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:44,471 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:00:44,488 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:00:44,917 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:46,176 - INFO - Application initialized successfully.
+2024-12-01 23:00:46,465 - WARNING -  * Debugger is active!
+2024-12-01 23:00:46,486 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:48,316 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:48,330 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:48,683 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:49,499 - INFO - Application initialized successfully.
+2024-12-01 23:00:49,644 - WARNING -  * Debugger is active!
+2024-12-01 23:00:49,654 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:00:53,321 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:53,339 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:00:53,819 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:00:54,543 - INFO - Application initialized successfully.
+2024-12-01 23:00:54,651 - WARNING -  * Debugger is active!
+2024-12-01 23:00:54,664 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:01:04,018 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:01:04,038 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:01:04,858 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:01:05,527 - INFO - Application initialized successfully.
+2024-12-01 23:01:05,638 - WARNING -  * Debugger is active!
+2024-12-01 23:01:05,647 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:01:07,541 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:01:07,559 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:01:07,783 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:01:08,857 - INFO - Application initialized successfully.
+2024-12-01 23:01:09,114 - WARNING -  * Debugger is active!
+2024-12-01 23:01:09,162 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:01:09,397 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:01:09,472 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:09] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:01:12,134 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:01:12,147 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:12] "GET / HTTP/1.1" 200 -
+2024-12-01 23:01:12,549 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:01:15,273 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:01:15,350 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:15] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:01:15,694 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:01:15,935 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:15] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:01:16,932 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:16] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:01:17,109 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:17] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:01:17,250 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:17] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:01:17,424 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:17] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:01:22,299 - INFO - 127.0.0.1 - - [01/Dec/2024 23:01:22] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-01 23:02:17,928 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:02:17,937 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:02:18,878 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:02:22,218 - INFO - Application initialized successfully.
+2024-12-01 23:02:22,472 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:02:22,472 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:02:22,495 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:02:23,508 - INFO - Application initialized successfully.
+2024-12-01 23:02:23,766 - WARNING -  * Debugger is active!
+2024-12-01 23:02:23,789 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:02:27,188 - INFO - 127.0.0.1 - - [01/Dec/2024 23:02:27] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-01 23:02:53,101 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:02:53,119 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:02:54,144 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:02:55,412 - INFO - Application initialized successfully.
+2024-12-01 23:02:55,632 - WARNING -  * Debugger is active!
+2024-12-01 23:02:55,653 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:03:34,499 - INFO - 127.0.0.1 - - [01/Dec/2024 23:03:34] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-01 23:03:47,143 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:03:47,165 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:03:48,165 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:03:49,598 - INFO - Application initialized successfully.
+2024-12-01 23:03:49,902 - WARNING -  * Debugger is active!
+2024-12-01 23:03:49,917 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:03:53,624 - INFO - 127.0.0.1 - - [01/Dec/2024 23:03:53] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-01 23:05:05,574 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:05:05,586 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-01 23:05:06,596 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:05:07,679 - INFO - Application initialized successfully.
+2024-12-01 23:05:07,933 - WARNING -  * Debugger is active!
+2024-12-01 23:05:07,948 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:05:13,969 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:13] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:05:50,112 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:05:50,191 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:50] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:05:50,983 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:05:51,714 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:05:55,857 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:55] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-01 23:05:56,035 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:05:56,277 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:05:59,281 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:05:59,354 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:59] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:05:59,540 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:59] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:05:59,716 - INFO - 127.0.0.1 - - [01/Dec/2024 23:05:59] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:01,326 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:01] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:06:01,538 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:01] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:06:01,734 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:01] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:06:01,922 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:11,448 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:11] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:06:16,499 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:06:16,562 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:16] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:06:16,739 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:16] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:16,927 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:16] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:17,891 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:17] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:06:18,018 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:18] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:06:18,182 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:18] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:06:18,334 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:18] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:26,313 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:06:26,385 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:26] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:06:26,573 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:26,810 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:06:47,114 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:06:47,135 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-01 23:06:47,857 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:06:52,259 - INFO - Application initialized successfully.
+2024-12-01 23:06:52,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:06:52,515 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:06:52,535 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:06:53,351 - INFO - Application initialized successfully.
+2024-12-01 23:06:53,512 - WARNING -  * Debugger is active!
+2024-12-01 23:06:53,541 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:06:54,069 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:54] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:06:54,254 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:54] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:06:54,399 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:54] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:06:54,805 - INFO - 127.0.0.1 - - [01/Dec/2024 23:06:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:07:04,940 - INFO - 127.0.0.1 - - [01/Dec/2024 23:07:04] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:07:39,455 - INFO - 127.0.0.1 - - [01/Dec/2024 23:07:39] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:07:49,087 - INFO - 127.0.0.1 - - [01/Dec/2024 23:07:49] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:07:53,672 - INFO - 127.0.0.1 - - [01/Dec/2024 23:07:53] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:08:21,937 - INFO - 127.0.0.1 - - [01/Dec/2024 23:08:21] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:08:22,464 - INFO - 127.0.0.1 - - [01/Dec/2024 23:08:22] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:08:22,679 - INFO - 127.0.0.1 - - [01/Dec/2024 23:08:22] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:08:29,616 - INFO - 127.0.0.1 - - [01/Dec/2024 23:08:29] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:08:56,959 - INFO - 127.0.0.1 - - [01/Dec/2024 23:08:56] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:09:13,747 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:09:13,840 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:13] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:09:14,200 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:09:14,533 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:09:16,247 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:16] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:09:16,419 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:16] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:09:16,561 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:16] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:09:16,769 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:16] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:09:20,951 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:20] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:09:28,269 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:28] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:09:28,658 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:09:28,819 - INFO - 127.0.0.1 - - [01/Dec/2024 23:09:28] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:11:28,336 - INFO - Home page loaded from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:11:28,361 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:28] "GET / HTTP/1.1" 200 -
+2024-12-01 23:11:28,548 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:28] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-01 23:11:35,880 - INFO - Login attempt for user: admin
+2024-12-01 23:11:36,215 - INFO - Admin login successful for: admin
+2024-12-01 23:11:36,215 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:11:36,356 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:956a:f625:5fe0:67fb
+2024-12-01 23:11:36,427 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:36] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:11:36,640 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:36] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:11:37,982 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:37] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:11:38,134 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:38] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:11:38,312 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:38] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:11:38,411 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:38] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:11:57,755 - INFO - 127.0.0.1 - - [01/Dec/2024 23:11:57] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:12:18,103 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:18] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:12:29,325 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:29] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:12:29,889 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:29] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:12:30,292 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:12:30,453 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:30] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:12:34,830 - INFO - 127.0.0.1 - - [01/Dec/2024 23:12:34] "[31m[1mPOST /file/page/upoad HTTP/1.1[0m" 405 -
+2024-12-01 23:13:14,114 - INFO - Application initialized successfully.
+2024-12-01 23:13:14,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.0.0.2:9000
+2024-12-01 23:13:14,407 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-01 23:13:14,429 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-01 23:13:14,977 - INFO - Application initialized successfully.
+2024-12-01 23:13:15,171 - WARNING -  * Debugger is active!
+2024-12-01 23:13:15,192 - INFO -  * Debugger PIN: 145-276-636
+2024-12-01 23:13:25,931 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:13:25,950 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:25] "GET / HTTP/1.1" 200 -
+2024-12-01 23:13:26,312 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:28,017 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:13:28,109 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:28] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:13:28,662 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:28,845 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:33,119 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:33] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:13:33,358 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:33] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:13:33,511 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:33] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:13:33,798 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:49,092 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:13:49,165 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:49] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:13:49,686 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:49] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:50,054 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:13:51,251 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:51] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:13:51,431 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:51] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:13:51,588 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:51] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:13:51,816 - INFO - 127.0.0.1 - - [01/Dec/2024 23:13:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:19,772 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:14:19,844 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:19] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:14:20,680 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:20] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:20,952 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:20] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:22,408 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:22] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:14:22,553 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:22] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:22,698 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:22] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:22,981 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:22] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:26,206 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:26] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:26,529 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:26] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:26,922 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:26] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:27,056 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:27] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:28,034 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:28] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:28,458 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:28] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:29,034 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:29,040 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:29] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:29,826 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:29] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:29,967 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:29] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:30,374 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:30,515 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:30] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:14:31,147 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:31] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:31,294 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:31] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:31,672 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:31,822 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:31] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:32,393 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:32] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:32,597 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:32] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:32,988 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:32] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:33,138 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:33] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:33,791 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:33] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:33,944 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:33] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:34,342 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:34,468 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:34] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:35,162 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:35] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:14:35,372 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:35] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:35,774 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:35,891 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:35] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:14:40,862 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:40] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:14:50,534 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:14:50,605 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:50] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:14:50,982 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:51,240 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:52,675 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:52] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:14:52,989 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:52] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:14:53,130 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:53] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:14:53,414 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:58,814 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:14:58,883 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:58] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:14:59,228 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:59] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:14:59,513 - INFO - 127.0.0.1 - - [01/Dec/2024 23:14:59] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:00,811 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:00] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:15:00,948 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:00] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:15:01,101 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:01] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:15:01,359 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:04,200 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:04] "[32mPOST /file/delete HTTP/1.1[0m" 302 -
+2024-12-01 23:15:04,635 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:04] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:15:05,211 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:05,299 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:05] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:15:09,845 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:09] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:15:15,433 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:15] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:15:18,753 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:15:18,825 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:18] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:15:19,205 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:19,433 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:20,724 - INFO - User successfully logged out
+2024-12-01 23:15:20,727 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:20] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:15:20,876 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:20] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:21,166 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:41,458 - INFO - Login attempt for user: test
+2024-12-01 23:15:41,463 - WARNING - Attempt to connect with a user not found: test
+2024-12-01 23:15:41,465 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:15:41,662 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:15:41,668 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:41] "GET /?loging_msg=Attempt+to+connect+with+a+user+not+found:+test HTTP/1.1" 200 -
+2024-12-01 23:15:42,140 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:52,839 - INFO - Login attempt for user: admin
+2024-12-01 23:15:53,185 - INFO - Admin login successful for: admin
+2024-12-01 23:15:53,186 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:15:53,314 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:15:53,381 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:53] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:15:54,070 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:55,625 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:55] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:15:55,782 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:55] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:15:55,934 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:55] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:15:56,434 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:15:56,571 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:56] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:15:57,874 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:15:57,945 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:57] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:15:58,107 - INFO - 127.0.0.1 - - [01/Dec/2024 23:15:58] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:16:00,042 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:00] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-01 23:16:00,182 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:00,442 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:07,130 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:16:07,214 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:07] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:16:07,426 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:07] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:07,987 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:07] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:26,699 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:26] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-12-01 23:16:26,826 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:16:26,887 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:26] "GET /admin/admin?success=User+test+has+been+successfully+added. HTTP/1.1" 200 -
+2024-12-01 23:16:27,325 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:27] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:47,597 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:47] "[32mPOST /admin/add_user HTTP/1.1[0m" 302 -
+2024-12-01 23:16:47,734 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:16:47,804 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:47] "GET /admin/admin?success=User+tes+has+been+successfully+added. HTTP/1.1" 200 -
+2024-12-01 23:16:48,379 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:51,846 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:51] "[32mGET /admin/file_page/admin HTTP/1.1[0m" 302 -
+2024-12-01 23:16:52,452 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:52] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-01 23:16:52,580 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:52] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:16:52,870 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:56,131 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:16:56,203 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:56] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:16:56,370 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:56,624 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:57,655 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:57] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-01 23:16:57,820 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:16:58,077 - INFO - 127.0.0.1 - - [01/Dec/2024 23:16:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:01,146 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:01] "[32mPOST /admin/delete_user/37 HTTP/1.1[0m" 302 -
+2024-12-01 23:17:01,312 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:01] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-01 23:17:01,759 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:04,456 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:17:04,530 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:04] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:17:04,813 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:05,060 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:06,463 - INFO - User successfully logged out
+2024-12-01 23:17:06,465 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:06] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:17:06,599 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:06,888 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:17:29,285 - INFO - Login attempt for user: test
+2024-12-01 23:17:29,617 - INFO - User login successful for: test
+2024-12-01 23:17:29,618 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:17:29,835 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:29] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-12-01 23:17:30,284 - INFO - 127.0.0.1 - - [01/Dec/2024 23:17:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:00,403 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:00] "GET /file/page/test HTTP/1.1" 200 -
+2024-12-01 23:18:00,591 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:00,593 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:00] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:18:01,183 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:01] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:01,512 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:01] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-01 23:18:07,605 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:07] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-01 23:18:10,455 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:10] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-12-01 23:18:10,652 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:10] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:11,195 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:18,963 - INFO - User successfully logged out
+2024-12-01 23:18:18,965 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:18] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:18:19,161 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:19,463 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:23,031 - INFO - Login attempt for user: TEST
+2024-12-01 23:18:23,033 - WARNING - Attempt to connect with a user not found: TEST
+2024-12-01 23:18:23,035 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:18:23,167 - INFO - Home page loaded from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:18:23,172 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:23] "GET /?loging_msg=Attempt+to+connect+with+a+user+not+found:+TEST HTTP/1.1" 200 -
+2024-12-01 23:18:23,702 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:23] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:28,368 - INFO - Login attempt for user: test
+2024-12-01 23:18:28,709 - INFO - User login successful for: test
+2024-12-01 23:18:28,710 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:18:28,897 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:28] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-12-01 23:18:29,326 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:29] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:31,067 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:31] "GET /file/page/test HTTP/1.1" 200 -
+2024-12-01 23:18:31,223 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:31] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-01 23:18:31,546 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:33,280 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:33] "GET /user/user_settings_page/test HTTP/1.1" 200 -
+2024-12-01 23:18:33,552 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:33,911 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:34,913 - INFO - User successfully logged out
+2024-12-01 23:18:34,914 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:34] "GET /logout HTTP/1.1" 200 -
+2024-12-01 23:18:35,060 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:35,355 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 23:18:40,192 - INFO - Login attempt for user: admin
+2024-12-01 23:18:40,534 - INFO - Admin login successful for: admin
+2024-12-01 23:18:40,534 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-01 23:18:40,687 - INFO - Admin page accessed by admin from 2a04:cec0:1938:697a:a871:cd15:ee0e:805d
+2024-12-01 23:18:40,767 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:40] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-01 23:18:41,218 - INFO - 127.0.0.1 - - [01/Dec/2024 23:18:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -

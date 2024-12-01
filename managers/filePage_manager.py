@@ -3,7 +3,7 @@ import paramiko
 from werkzeug.utils import secure_filename
 
 # Dossier pour stocker les fichiers
-UPLOAD_FOLDER = '../uploads'
+UPLOAD_FOLDER = './uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Fonction pour obtenir le dossier d'un utilisateur
@@ -38,14 +38,15 @@ def connect_sftp():
 
 #+++++++++++++++++++++++++++++++++++++++ Uploads section local + SFTP +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-def upload_file(request, user_id, sftp):
+#def upload_file(request, user_id, sftp):
+def upload_file(request, user_id):
     if 'files' not in request.files:
         return {"error": "No files part"}, 400
 
     files = request.files.getlist('files')
 
     
-    print("INNN get user foleder ", user_id)
+    print("INNN get user folder ", user_id)
 
     if not user_id:
         return {"error": "User name is missing"}, 400
@@ -61,21 +62,21 @@ def upload_file(request, user_id, sftp):
             uploaded_files.append(filename)
 
             #
-            # Upload sur le serveur SFTP
-            if sftp:
-                user_folder = f'/uploads/{user_id}'
-                try:
+            # Upload sur le serveur SFTP - commenté juste pour tester sur une autre machine 
+            # if sftp:
+            #     user_folder = f'/uploads/{user_id}'
+            #     try:
                     
-                    try:
-                        sftp.stat(user_folder)
-                    except FileNotFoundError: 
-                        sftp.mkdir(user_folder) # le creer si il existe pas !
+            #         try:
+            #             sftp.stat(user_folder)
+            #         except FileNotFoundError: 
+            #             sftp.mkdir(user_folder) # le creer si il existe pas !
                     
-                    file_path = os.path.join(user_folder, filename)
-                    sftp.put(file_path, file_path)  # Upload sur SFTP
-                    print(f"Fichier uploadé sur SFTP : {file_path}")
-                except Exception as e:
-                    print(f"Erreur SFTP pour {filename}: {e}")
+            #         file_path = os.path.join(user_folder, filename)
+            #         sftp.put(file_path, file_path)  # Upload sur SFTP
+            #         print(f"Fichier uploadé sur SFTP : {file_path}")
+            #     except Exception as e:
+            #         print(f"Erreur SFTP pour {filename}: {e}")
 
     return {"message": "Files uploaded successfully", "files": uploaded_files}, 200
 

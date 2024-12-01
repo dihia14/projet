@@ -38,7 +38,6 @@ class EmailManager:
         Returns:
             None
         """
-        print("DEEEEE" , cls.smtp_server)
 
         try:
             msg = MIMEMultipart()
@@ -48,7 +47,6 @@ class EmailManager:
             msg.attach(MIMEText(body, 'plain'))
 
             server = smtplib.SMTP(cls.smtp_server, cls.port)
-            print("DEEEEE" , cls.smtp_server)
             server.starttls()
             server.login(cls.sender_email, cls.sender_password)
             server.send_message(msg)

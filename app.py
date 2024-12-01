@@ -4,11 +4,9 @@ from init_app import initialize_app
 from init_app import *
 
 import os 
-initialize_app() # pour init les managers (globaux) que seront utilisés sans les routes . 
-if mail_manager is None : 
-    print("NON")
-else : 
-    print("not non")
+initialize_app() # pour init les managers (globaux) que seront utilisés dans les routes . 
+
+
 from routes.admin import admin_blueprint
 from routes.user import user_blueprint
 from routes.file import file_blueprint
