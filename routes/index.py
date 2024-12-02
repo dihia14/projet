@@ -26,7 +26,6 @@ def index():
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Home page loaded from {client_ip}")
 
-
     query_string = request.query_string.decode("utf-8")
     print(f"Query String Received: {query_string} ")
 
@@ -45,45 +44,10 @@ def index():
     
 
     loging_msg = request.args.get("loging_msg", "")
-    return render_template("index.html", loging_msg=loging_msg)
+    return render_template("index.html", loging_msg=loging_msg) , 302
 
-@index_blueprint.route("/logout")
-def logout():
-    """
-    Déconnexion de l'utilisateur.
-    """
-    session.clear()
-    logging.info("User successfully logged out")
-    return render_template("index.html")
 
-@index_blueprint.route("/reset_password", methods=["POST"])
-def reset_password():
-    """
-    Réinitialisation du mot de passe de l'utilisateur.
-    """
-    username = request.form.get("username")
-    email = request.form.get("email")
 
-    
-    user = db_manager.get_user(username)
-
-    if not user or user[3] != email:  # Vérifier que l'email correspond également
-        loging_msg = "Erreur : Utilisateur ou email non trouvé."
-        return redirect(url_for("index.index", loging_msg=loging_msg))
-
-    # Générer un nouveau mot de passe et le hacher
-    new_password = PasswordManager.generate_password()
-    hashed_password = bcrypt.hashpw(new_password.encode("utf-8"), bcrypt.gensalt())
-
-    # Mettre à jour le mot de passe dans la base de données
-    db_manager.update_password_username(username, hashed_password)
-
-    # Envoyer l'email avec le nouveau mot de passe
-    mail_manager.send_confirmation_mail_user(username, email, new_password, False)
-
-    # Rediriger vers l'index avec un message de confirmation
-    loging_msg = "Un email avec votre nouveau mot de passe a été envoyé."
-    return redirect(url_for("index.index", loging_msg=loging_msg))
 
 @index_blueprint.route("/login", methods=["POST"])
 def login():
@@ -94,6 +58,12 @@ def login():
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Home page loaded from {client_ip}")
     
+    
+    print("TEST ")
+    username = request.form.get("username")
+    password = request.form.get("password")
+    print(f"Received username: {username}, password: {password}")
+
     query_string = request.query_string.decode("utf-8")
 
     if QueryDetector.is_malicious(query_string) :         
@@ -102,7 +72,7 @@ def login():
     UtilsManager.write_last_ip(client_ip) 
 
     # if not UtilsManager.authorize(client_ip):
-    #     return render_template("errors/unauthorized.html")
+    #     return render_template("errors/unauthorized.html"), 403 # forbidden
 
 
     
@@ -115,7 +85,8 @@ def login():
     if check_brute_force(username):
         logging.error(f"Too many failed attempts for {username}. Please try again later.")
         loging_msg = "Too many failed attempts. Please try again later."
-        return redirect(url_for("index.index", loging_msg=loging_msg))
+        return redirect(url_for("index.index", loging_msg=loging_msg)), 429  # too Many Requests
+
 
     user = db_manager.get_user(username)
 
@@ -154,19 +125,63 @@ def login():
 ##### ÇA EST MIS DANS /verify_otp NORMALEMENT (MAIS POUR L'INSTANT GARDÉ CAR J'AI RETIRÉ LE DOUBLE AUTHENTIFICATION POUR LES TESTS )
             if is_admin:
                 logging.info(f"Admin login successful for: {username}")
-                return redirect(url_for("admin.admin", username=username))
+                return redirect(url_for("admin.admin", username=username)), 302 # redirection tmp 
             else:
                 logging.info(f"User login successful for: {username}")
-                return redirect(url_for("user.user_settings_page", username=username))
+                return redirect(url_for("user.user_settings_page", username=username)), 302
         else:
             logging.error(f"Invalid password for user: {username}")
             loging_msg = f"Invalid password for: {username}"
             log_failed_attempt(username)
-            return redirect(url_for("index.index", loging_msg=loging_msg))
+            return redirect(url_for("index.index", loging_msg=loging_msg)), 401  # unauthorized
     else:
         logging.warning(f"Attempt to connect with a user not found: {username}")
         loging_msg = f"Attempt to connect with a user not found: {username}"
-        return redirect(url_for("index.index", loging_msg=loging_msg))
+        return redirect(url_for("index.index", loging_msg=loging_msg)), 404 # not found 
+
+
+
+
+
+@index_blueprint.route("/logout")
+def logout():
+    """
+    Déconnexion de l'utilisateur.
+    """
+    session.clear()
+    logging.info("User successfully logged out")
+    return render_template("index.html")
+
+
+
+@index_blueprint.route("/reset_password", methods=["POST"])
+def reset_password():
+    """
+    Réinitialisation du mot de passe de l'utilisateur.
+    """
+    username = request.form.get("username")
+    email = request.form.get("email")
+
+    
+    user = db_manager.get_user(username)
+
+    if not user or user[3] != email:  
+        loging_msg = "Erreur : Utilisateur ou email non trouvé."
+        return redirect(url_for("index.index", loging_msg=loging_msg)), 401
+
+    # Générer un nouveau mot de passe et le hacher
+    new_password = PasswordManager.generate_password()
+    hashed_password = bcrypt.hashpw(new_password.encode("utf-8"), bcrypt.gensalt())
+
+    # Mettre à jour le mot de passe dans la base de données
+    db_manager.update_password_username(username, hashed_password)
+
+    # Envoyer l'email avec le nouveau mot de passe
+    mail_manager.send_confirmation_mail_user(username, email, new_password, False)
+
+    # Rediriger vers l'index avec un message de confirmation
+    loging_msg = "Un email avec votre nouveau mot de passe a été envoyé."
+    return redirect(url_for("index.index", loging_msg=loging_msg)), 302 
 
 
 
