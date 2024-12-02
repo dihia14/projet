@@ -15,7 +15,6 @@ from managers.database_manager import UserDatabase
 from managers.mail_manager import EmailManager
 from managers.ip_manager import IPManager
 from managers.password_manager import PasswordManager
-from managers.files_manager import FileManager
 from managers.filePage_manager import * 
 from rules.brute_force_rule import * 
 import sqlite3

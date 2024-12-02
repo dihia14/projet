@@ -45,6 +45,7 @@ def initialize_app():
     )
     mail_manager = EmailManager
 
+
     logging.info("Application initialized successfully.")
     #print("test ", db_manager.get_user('admin'))
 

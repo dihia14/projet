@@ -5,36 +5,33 @@ import sqlite3
 from managers.database_manager import UserDatabase
 from managers.filePage_manager import list_files
 from managers.password_manager import PasswordManager
-from managers.files_manager import FileManager
+from managers.utils_manager import UtilsManager
 from managers.ip_manager import IPManager
 from managers.mail_manager import EmailManager
 from ids_alerts_parser import LogParserIdsAlert
-from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux
+from init_app import db_manager, mail_manager, ip_manager  # managers initiaux
 
-# Initialisation du Blueprint
 admin_blueprint = Blueprint("admin", __name__, url_prefix="/admin")
 
-# Route principale de l'administration
 @admin_blueprint.route("/<username>")
 def admin(username):
     """
     Dashboard principal pour l'administrateur.
     """
-    # Vérification des droits d'accès
+
     if 'username' not in session or not session.get('is_admin', False):
-        return redirect(url_for('index', loging_msg="Unauthorized access"))
+        return redirect(url_for('index.index', loging_msg="Unauthorized access"))
 
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
 
-    # Récupération des informations utilisateur
     user_info = db_manager.get_user_infos(username)
 
-    # Logs et alertes
-    recent_logs = FileManager.get_last_logs()
+    # logs et alertes
+    #recent_logs = FileManager.get_last_logs()
+    recent_logs = UtilsManager.get_last_logs()
     ids_alerts = LogParserIdsAlert.load_last_alerts(last_n=6)
 
-    # Gestion des données IP
     ip_data = ip_manager.load_ip_data()
     if client_ip not in ip_data:
         location = ip_manager.get_ip_location(client_ip)
@@ -50,7 +47,6 @@ def admin(username):
 
     map_html = ip_manager.generate_map(ip_data)
 
-    # Messages de retour
     success_message = request.args.get('success')
     error_message = request.args.get('error')
 

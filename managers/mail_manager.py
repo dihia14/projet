@@ -38,9 +38,13 @@ class EmailManager:
         Returns:
             None
         """
+
         try:
             msg = MIMEMultipart()
-            msg['From'] = cls.sender_email
+            #msg['From'] = cls.sender_email
+            #msg['From'] = f"IDS service <{cls.sender_email}>"
+            msg['From'] = f"ADMINISTRATION SERVICE <{cls.sender_email}>"
+
             msg['To'] = recipient_email
             msg['Subject'] = subject
             msg.attach(MIMEText(body, 'plain'))
@@ -51,6 +55,9 @@ class EmailManager:
             server.send_message(msg)
             print(f"Email sent successfully to {recipient_email}.")
             server.quit()
+            
+   
+    
         except Exception as e:
             print(f"Error sending email: {e}")
 

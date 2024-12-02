@@ -28,7 +28,8 @@
       <div class="drop-container" id="dropContainer">
         <p>Glissez-déposez vos fichiers ici ou cliquez pour sélectionner</p>
         <input type="file" id="fileInput" multiple class="hidden" />
-        <!-- recupérer ici l'id ? et le faire passer au JS ... -->
+        <!-- recupérer ici l'id ? et le faire passer au JS ... ajout d'un champ caché  -->
+        <input type="hidden" id="user_id" value="{{ user_info[0] }}" />
       </div>
 
       <!-- Tableau des fichiers -->
