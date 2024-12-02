@@ -21,7 +21,11 @@ def connect_sftp():
     private_key_path = "/home/dihia/.ssh/id_rsa_new"  
 
     try:
-       
+        # use ssh-Agent pour utilisation de la session deverouille de la cle 
+        # demarrage : eval "$(ssh-agent -s)"  ssh-add private_key_path
+        #private_key = paramiko.AgentKey()
+        #transport.connect(username=username, pkey=private_key)
+        # 
         private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
         
         # creation d'une connexion sftp
