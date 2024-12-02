@@ -12,13 +12,28 @@ from routes.user import user_blueprint
 from routes.file import file_blueprint
 from routes.index import index_blueprint
 
+
+### test dos 
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
 def create_app():
     """
     Crée + init  l'application Flask.
     """
     app = Flask(__name__, template_folder='./templates')
     app.secret_key = 'fa66975909197233d5647efdbb3006931e5f5452ec9385abb49dca1f7c7fee49'
-  
+    
+    
+    
+    ### test : 
+    limiter = Limiter(
+        get_remote_address,
+        app=app,
+        default_limits=["100 per minute"]
+    )  
+    
+     
     app.permanent_session_lifetime = timedelta(minutes=30)  # duree de vie des sessions
 
     app.register_blueprint(index_blueprint, url_prefix="/")

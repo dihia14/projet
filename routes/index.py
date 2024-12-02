@@ -14,7 +14,6 @@ from urllib.parse import unquote
 
 
 
-
 index_blueprint = Blueprint("index", __name__)
 #print("test", db_manager.get_user('admin'))
 
