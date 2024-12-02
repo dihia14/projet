@@ -4744,3 +4744,5 @@
 2024-11-30 09:37:42,355 - INFO - User successfully logged out
 2024-11-30 09:37:42,356 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:42] "GET /logout HTTP/1.1" 200 -
 2024-11-30 09:37:42,491 - INFO - 127.0.0.1 - - [30/Nov/2024 09:37:42] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-01 21:48:41,355 - INFO - Application initialized successfully.
+2024-12-01 21:50:12,275 - INFO - Application initialized successfully.

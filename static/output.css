@@ -6,6 +6,8 @@ Champagne pink :  hex="edddd4" r="237" g="221" b="212"
 Persian red :  hex="c44536" r="196" g="69" b="54"
 Burnt umber : hex="772e25" r="119" g="46" b="37" */
 
+
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -307,6 +309,32 @@ table {
 2. Remove the margin in Firefox and Safari.
 3. Remove default padding in all browsers.
 */
+
+
+
+/*----------------------------------DRAG AND DROP  -----------------------------------*/
+
+.drop-container {
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  height: 200px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.drop-container.drag-over {
+  background-color: #e2e8f0;
+  border-color: #3182ce;
+}
+
+
+
+
+
 
 button,
 input,
