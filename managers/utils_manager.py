@@ -10,6 +10,11 @@
 
 class UtilsManager : 
     
+    """Just read the last ip from a file. 
+
+    Returns:
+        str: The last IP. ## dans le rapport : expliquer comment on a fait => mais se pose la question de si plusieur connexions multiples ont lieux. 
+    """
     @classmethod
     def read_last_ip(cls):
         try:
@@ -18,6 +23,8 @@ class UtilsManager :
         except FileNotFoundError:
             return "Error"
 
+        """Blacklist an IP by saving it a dedicated file. 
+        """
     @classmethod
     def black_list_ip(cls,client_ip):
         with open("./black_list.txt", "a") as f:

@@ -4,7 +4,6 @@ from managers.filePage_manager import *
 from managers.database_manager import UserDatabase
 from init_app import db_manager, mail_manager, ip_manager  # Managers initiaux
 
-# Initialisation du Blueprint
 file_blueprint = Blueprint("file", __name__, url_prefix="/file")
 
 
@@ -23,7 +22,7 @@ def file_page(username):
 
 
 
-# ICIIIII
+
 @file_blueprint.route("/page/upload", methods=["POST"])
 def upload():
     """
@@ -37,20 +36,21 @@ def upload():
     print("in UPLOAD ")
 
     # Connexion SFTP
-    # sftp = connect_sftp()
+    sftp = connect_sftp()
 
-    response, status_code = upload_file(request, user_id)
+    response, status_code = upload_file(request, user_id, sftp)
     if status_code == 200:
         username = session.get("username")
         user_info = db_manager.get_user_infos(username)
 
-        #files = list_files(str(user_id), sftp)
         files = list_files(str(user_id))
+        #files = list_files(str(user_id))
         response["files"] = files
 
         # Fermer la connexion SFTP après l'upload
-        # if sftp:
-        #     sftp.close()
+        if sftp:
+            print("close")
+            sftp.close()
 
     return response, status_code
 
@@ -60,7 +60,7 @@ def delete_file_route():
     """
     Supprime un fichier pour l'utilisateur connecté.
     """
-    print("herre")
+    print("in delete ")
     sftp = connect_sftp()
 
     user_id = session.get("user_id")

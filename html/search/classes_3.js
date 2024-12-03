@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['loghandler_0',['LogHandler',['../classlog__http_1_1_log_h_t_t_p_1_1_log_handler.html',1,'log_http::LogHTTP']]],
-  ['loghttp_1',['LogHTTP',['../classlog__http_1_1_log_h_t_t_p.html',1,'log_http.LogHTTP'],['../classlog__http__mac_1_1_log_h_t_t_p.html',1,'log_http_mac.LogHTTP']]]
+  ['passwordmanager_0',['PasswordManager',['../classprojet_1_1managers_1_1password__manager_1_1_password_manager.html',1,'projet::managers::password_manager']]]
 ];

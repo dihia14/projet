@@ -14,8 +14,8 @@ from routes.index import index_blueprint
 
 
 ### test dos 
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
+# from flask_limiter import Limiter
+# from flask_limiter.util import get_remote_address
 
 def create_app():
     """
@@ -27,11 +27,11 @@ def create_app():
     
     
     ### test : 
-    limiter = Limiter(
-        get_remote_address,
-        app=app,
-        default_limits=["100 per minute"]
-    )  
+    # limiter = Limiter(
+    #     get_remote_address,
+    #     app=app,
+    #     default_limits=["100 per minute"]
+    # )  
     
      
     app.permanent_session_lifetime = timedelta(minutes=30)  # duree de vie des sessions

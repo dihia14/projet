@@ -1,5 +1,9 @@
 import sqlite3
 
+
+
+## The UserDatabase class provides utils methods for connecting to, accessing, modifying, ... the user database. 
+
 class UserDatabase:
 
     def __init__(self, db_path='./data/users.db'):
@@ -22,7 +26,11 @@ class UserDatabase:
 
     def _initialize_database(self):
         
-        """Initialize the database by creating the users table and setting up a default admin user. With admin as a username and adminpassword as a password """
+        """Initialize the database by creating the users table and setting up a default admin user. 
+            With admin as a username and adminpassword as a password. 
+            The _initialize_database should be executed only once. 
+            
+        """
         
         conn = self._connect()
         cursor = conn.cursor()
@@ -60,6 +68,7 @@ class UserDatabase:
         Returns:
             bool: True if the user is successfully added, False otherwise.===> to be changed ! METTRE DANS UN TRY EXCEPT FINNALY 
         """
+  
         conn = self._connect()
         cursor = conn.cursor()
         cursor.execute(

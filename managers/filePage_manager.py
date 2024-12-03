@@ -16,11 +16,14 @@ def get_user_folder(user_id):
 #+++++++++++++++++++++++++ Fonction pour se connecter au serveur SFTP  +++++++++++++++++++++++++++++++++++
 
 def connect_sftp():
-    hostname = "192.168.1.17"  
+    
+    print("in connect sftp ")
+    hostname = "192.168.119.106"  
     username = "admin" 
-    private_key_path = "/home/dihia/.ssh/id_rsa_new"  
-
+    #private_key_path = "/home/dihia/.ssh/id_rsa_new"  
+    private_key_path = "/Users/jafjafnora/Desktop/NORA/projet/rsa_k"
     try:
+        print("testttt")
         # use ssh-Agent pour utilisation de la session deverouille de la cle 
         # demarrage : eval "$(ssh-agent -s)"  ssh-add private_key_path
         #private_key = paramiko.AgentKey()
@@ -42,8 +45,8 @@ def connect_sftp():
 
 #+++++++++++++++++++++++++++++++++++++++ Uploads section local + SFTP +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#def upload_file(request, user_id, sftp):
-def upload_file(request, user_id):
+def upload_file(request, user_id, sftp):
+#def upload_file(request, user_id):
     if 'files' not in request.files:
         return {"error": "No files part"}, 400
 
@@ -55,33 +58,35 @@ def upload_file(request, user_id):
     if not user_id:
         return {"error": "User name is missing"}, 400
 
-    user_folder = get_user_folder(user_id)
+    user_folder_local = get_user_folder(user_id)
 
     uploaded_files = []
     for file in files:
         if file.filename:
             filename = secure_filename(file.filename)  # Sécuriser le nom du fichier
-            file_path = os.path.join(user_folder, filename)
-            file.save(file_path)
-            uploaded_files.append(filename)
+            file_path_local = os.path.join(user_folder_local, filename) # chemin local 
+            file.save(file_path_local)
+            uploaded_files.append(filename) # en local 
 
             #
             # Upload sur le serveur SFTP - commenté juste pour tester sur une autre machine 
-            # if sftp:
-            #     user_folder = f'/uploads/{user_id}'
-            #     try:
+            if sftp:
+                user_folder_distant = f'/uploads/{user_id}'
+                try:
                     
-            #         try:
-            #             sftp.stat(user_folder)
-            #         except FileNotFoundError: 
-            #             sftp.mkdir(user_folder) # le creer si il existe pas !
+                    try:
+                        sftp.stat(user_folder_distant)
+                    except FileNotFoundError: 
+                        sftp.mkdir(user_folder_distant) # le creer si il existe pas !
                     
-            #         file_path = os.path.join(user_folder, filename)
-            #         sftp.put(file_path, file_path)  # Upload sur SFTP
-            #         print(f"Fichier uploadé sur SFTP : {file_path}")
-            #     except Exception as e:
-            #         print(f"Erreur SFTP pour {filename}: {e}")
-
+                    file_path_distant = os.path.join(user_folder_distant, filename)
+                    print("file path " , file_path_distant)
+                    sftp.put(file_path_local, file_path_distant)  # Upload sur SFTP
+                    
+                    print(f"Fichier uploadé sur SFTP : {file_path_distant}")
+                except Exception as e:
+                    print(f"Erreur SFTP pour {filename}: {e}")
+                                        
     return {"message": "Files uploaded successfully", "files": uploaded_files}, 200
 
 # Fonction pour lister les fichiers d'un utilisateur
@@ -89,7 +94,7 @@ def list_files(user_id):
     user_folder = get_user_folder(user_id)
     files =  os.listdir(user_folder)  # Renvoie la liste des fichiers dans le dossier de l'utilisateur
 
-    # if sftp:   //  a Voir !!
+    # if sftp:   ## //  a Voir !!
     #     user_folder = f'/uploads/{user_id}'
 
     return files 
@@ -105,8 +110,12 @@ def delete_file(user_id, file_name, sftp=None):
         os.remove(local_file_path)
 
         if sftp:
-                user_folder = f'/uploads/{user_id}'
-                file_path = os.path.join(user_folder, file_name)
+               # user_folder = f'/uploads/{user_id}'
+                user_folder_distant = f'/uploads/{user_id}'
+
+                file_path_distant = os.path.join(user_folder_distant, filename)
+
+              #  file_path = os.path.join(user_folder, file_name)
                 try:
                     sftp.remove(file_path)  # Supprimer le fichier distant
                     print(f"Fichier supprimé de SFTP : {file_path}")

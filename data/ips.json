@@ -178,5 +178,17 @@
         "lon": 2.3869,
         "country": "France",
         "city": "Aubervilliers"
+    },
+    "194.199.112.176": {
+        "lat": 49.1837,
+        "lon": -0.356,
+        "country": "France",
+        "city": "Caen"
+    },
+    "37.171.214.19": {
+        "lat": 48.8714,
+        "lon": 2.32141,
+        "country": "France",
+        "city": "Paris"
     }
 }

@@ -16315,3 +16315,785 @@
 2024-12-03 09:32:49,857 - INFO - User successfully logged out
 2024-12-03 09:32:49,858 - INFO - 127.0.0.1 - - [03/Dec/2024 09:32:49] "GET /logout HTTP/1.1" 200 -
 2024-12-03 09:32:50,020 - INFO - 127.0.0.1 - - [03/Dec/2024 09:32:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:23:09,830 - INFO - Application initialized successfully.
+2024-12-03 16:23:10,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:23:10,444 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:23:10,462 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:23:11,039 - INFO - Application initialized successfully.
+2024-12-03 16:23:11,192 - WARNING -  * Debugger is active!
+2024-12-03 16:23:11,206 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:23:35,580 - INFO - Application initialized successfully.
+2024-12-03 16:23:35,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:23:35,797 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:23:35,805 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:23:36,367 - INFO - Application initialized successfully.
+2024-12-03 16:23:36,560 - WARNING -  * Debugger is active!
+2024-12-03 16:23:36,573 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:23:42,856 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:23:42,886 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:42] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:23:43,135 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:43] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:23:48,359 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:23:48,361 - INFO - Login attempt for user: admin
+2024-12-03 16:23:48,711 - INFO - Admin login successful for: admin
+2024-12-03 16:23:48,713 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-03 16:23:48,793 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:23:49,042 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:49] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:23:49,283 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:49] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:23:50,953 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:50] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:23:51,104 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:23:51,106 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:51] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:23:55,843 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:55] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:23:56,171 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:56] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:23:56,677 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:23:56,681 - INFO - 127.0.0.1 - - [03/Dec/2024 16:23:56] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:24:51,973 - INFO - 127.0.0.1 - - [03/Dec/2024 16:24:51] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 16:24:56,946 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:24:57,027 - INFO - 127.0.0.1 - - [03/Dec/2024 16:24:57] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:24:57,287 - INFO - 127.0.0.1 - - [03/Dec/2024 16:24:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:25:15,916 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:15,927 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:16,565 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:25:17,747 - INFO - Application initialized successfully.
+2024-12-03 16:25:18,224 - WARNING -  * Debugger is active!
+2024-12-03 16:25:18,241 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:25:27,658 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:27,681 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:28,465 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:25:29,071 - INFO - Application initialized successfully.
+2024-12-03 16:25:29,274 - WARNING -  * Debugger is active!
+2024-12-03 16:25:29,297 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:25:38,287 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:38,336 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:38,528 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:25:39,531 - INFO - Application initialized successfully.
+2024-12-03 16:25:39,803 - WARNING -  * Debugger is active!
+2024-12-03 16:25:39,817 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:25:43,431 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:43,475 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:25:44,023 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:25:44,797 - INFO - Application initialized successfully.
+2024-12-03 16:25:45,102 - WARNING -  * Debugger is active!
+2024-12-03 16:25:45,113 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:26:17,673 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:17,681 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:18,488 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:26:19,703 - INFO - Application initialized successfully.
+2024-12-03 16:26:20,166 - WARNING -  * Debugger is active!
+2024-12-03 16:26:20,179 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:26:22,180 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:22,202 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:22,400 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:26:23,215 - INFO - Application initialized successfully.
+2024-12-03 16:26:36,609 - INFO - Application initialized successfully.
+2024-12-03 16:26:36,801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:26:36,801 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:26:36,808 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:26:37,524 - INFO - Application initialized successfully.
+2024-12-03 16:26:37,673 - WARNING -  * Debugger is active!
+2024-12-03 16:26:37,685 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:26:39,573 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:39] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:26:39,734 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:39] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:26:39,746 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:39] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:26:40,987 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:40] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:26:41,098 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:41] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:26:41,184 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:41] "GET /file/page/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-03 16:26:41,185 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:41] "GET /file/page/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-03 16:26:41,578 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:41] "GET /file/page/admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-03 16:26:51,799 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:51,823 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:26:52,000 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:26:53,489 - INFO - Application initialized successfully.
+2024-12-03 16:26:53,906 - WARNING -  * Debugger is active!
+2024-12-03 16:26:53,916 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:26:55,088 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:55] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:26:55,205 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:55] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-03 16:26:55,206 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:55] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-03 16:26:58,932 - INFO - 127.0.0.1 - - [03/Dec/2024 16:26:58] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:27:00,339 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:00] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:27:00,421 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:00] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-03 16:27:00,423 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:00] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-03 16:27:31,592 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:27:31,605 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:27:32,429 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:27:34,085 - INFO - Application initialized successfully.
+2024-12-03 16:27:34,572 - WARNING -  * Debugger is active!
+2024-12-03 16:27:34,583 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:27:35,997 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:35] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:27:37,227 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:37] "[35m[1mGET /file/page/admin HTTP/1.1[0m" 500 -
+2024-12-03 16:27:37,425 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:37] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-03 16:27:37,426 - INFO - 127.0.0.1 - - [03/Dec/2024 16:27:37] "[36mGET /file/page/admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-03 16:28:46,619 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:28:46,630 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:28:47,221 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:28:48,420 - INFO - Application initialized successfully.
+2024-12-03 16:28:48,725 - WARNING -  * Debugger is active!
+2024-12-03 16:28:48,736 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:29:49,611 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/app.py', reloading
+2024-12-03 16:29:49,625 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/app.py', reloading
+2024-12-03 16:29:50,390 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:29:51,645 - INFO - Application initialized successfully.
+2024-12-03 16:29:57,076 - INFO - Application initialized successfully.
+2024-12-03 16:29:57,203 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:29:57,204 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:29:57,212 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:29:57,758 - INFO - Application initialized successfully.
+2024-12-03 16:29:57,878 - WARNING -  * Debugger is active!
+2024-12-03 16:29:57,891 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:30:19,963 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:30:19,975 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:30:20,174 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:30:20,869 - INFO - Application initialized successfully.
+2024-12-03 16:30:20,987 - WARNING -  * Debugger is active!
+2024-12-03 16:30:21,004 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:31:05,684 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:31:05,699 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:31:06,402 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:31:07,030 - INFO - Application initialized successfully.
+2024-12-03 16:31:07,177 - WARNING -  * Debugger is active!
+2024-12-03 16:31:07,195 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:31:17,295 - INFO - Application initialized successfully.
+2024-12-03 16:31:17,453 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:31:17,453 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:31:17,465 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:31:18,330 - INFO - Application initialized successfully.
+2024-12-03 16:31:18,446 - WARNING -  * Debugger is active!
+2024-12-03 16:31:18,461 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:31:21,159 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:21] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:21,318 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:31:21,419 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:21] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:31:22,351 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:22] "[35m[1mGET /file/page/admiN HTTP/1.1[0m" 500 -
+2024-12-03 16:31:22,458 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:22] "GET /file/page/admiN?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-03 16:31:22,486 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:22] "GET /file/page/admiN?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-03 16:31:22,744 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:22] "GET /file/page/admiN?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-12-03 16:31:27,030 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:27] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:27,130 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:27] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:31:27,373 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:27] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:31:27,883 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:27] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:28,176 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:31:28,197 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:28] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:31:28,295 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:28] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:31:29,693 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:31:29,779 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:29] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:31:29,977 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:29] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:31:31,251 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:31] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:31,361 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:31] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:31,363 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:31:36,884 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:36] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:36,991 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:36] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:37,076 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:37] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:31:37,181 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:37] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:31:40,683 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:40] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-03 16:31:43,064 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:43] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:31:44,760 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:44] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:44,867 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:44] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:44,952 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:44] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:31:46,615 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:46] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:31:48,189 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:48] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:48,275 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:48] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:48,307 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:31:50,182 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:50] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:31:52,129 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:52] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:52,205 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:52] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:52,206 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:52] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:31:53,872 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:53] "[33mGET /file/download/1/dos.py HTTP/1.1[0m" 404 -
+2024-12-03 16:31:56,677 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:56] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:31:56,689 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/uploads/1/dos.py', reloading
+2024-12-03 16:31:56,972 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:31:58,272 - INFO - Application initialized successfully.
+2024-12-03 16:31:58,503 - WARNING -  * Debugger is active!
+2024-12-03 16:31:58,514 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:31:58,570 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:58] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:31:58,661 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:58] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:31:58,661 - INFO - 127.0.0.1 - - [03/Dec/2024 16:31:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:32:01,873 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:01] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-03 16:32:14,439 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:32:14,459 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:32:14,775 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:32:15,661 - INFO - Application initialized successfully.
+2024-12-03 16:32:15,821 - WARNING -  * Debugger is active!
+2024-12-03 16:32:15,839 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:32:22,623 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:32:22,652 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:32:23,027 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:32:23,728 - INFO - Application initialized successfully.
+2024-12-03 16:32:23,842 - WARNING -  * Debugger is active!
+2024-12-03 16:32:26,284 - INFO - Application initialized successfully.
+2024-12-03 16:32:26,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:32:26,408 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:32:26,415 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:32:27,072 - INFO - Application initialized successfully.
+2024-12-03 16:32:27,235 - WARNING -  * Debugger is active!
+2024-12-03 16:32:27,246 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:32:29,754 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:29] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:32:30,071 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:30] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:32:30,080 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:30] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:32:33,215 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:33] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:32:34,774 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:34] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:32:35,070 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:35] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:32:35,074 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:35] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:32:38,930 - INFO - 127.0.0.1 - - [03/Dec/2024 16:32:38] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-03 16:33:01,636 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:33:01,657 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:33:02,605 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:33:06,703 - INFO - Application initialized successfully.
+2024-12-03 16:33:06,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:33:06,899 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:33:06,920 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:33:07,835 - INFO - Application initialized successfully.
+2024-12-03 16:33:07,951 - WARNING -  * Debugger is active!
+2024-12-03 16:33:07,959 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:33:24,896 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:24] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:33:25,105 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:25] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:33:25,236 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:25] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:33:30,205 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:30] "[35m[1mPOST /file/page/upload HTTP/1.1[0m" 500 -
+2024-12-03 16:33:40,417 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:33:40,441 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:33:41,359 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:33:45,568 - INFO - Application initialized successfully.
+2024-12-03 16:33:45,866 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:33:45,866 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:33:45,889 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:33:46,985 - INFO - Application initialized successfully.
+2024-12-03 16:33:47,178 - WARNING -  * Debugger is active!
+2024-12-03 16:33:47,193 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:33:47,853 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:47] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:33:48,071 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:33:48,081 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:48] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:33:50,086 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:50] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:33:51,289 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:51] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:33:51,377 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:51] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:33:51,378 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:33:54,748 - INFO - 127.0.0.1 - - [03/Dec/2024 16:33:54] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 16:34:37,358 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:34:37,368 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:34:37,633 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:34:38,882 - INFO - Application initialized successfully.
+2024-12-03 16:34:39,231 - WARNING -  * Debugger is active!
+2024-12-03 16:34:39,244 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:34:40,385 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:34:40,404 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:34:41,426 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:34:44,637 - INFO - Application initialized successfully.
+2024-12-03 16:34:44,806 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:34:44,806 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:34:44,826 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:34:46,197 - INFO - Application initialized successfully.
+2024-12-03 16:34:46,639 - WARNING -  * Debugger is active!
+2024-12-03 16:34:46,665 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:34:47,282 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:47] "[33mPOST /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 16:34:53,687 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:34:53,733 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:53] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:34:54,009 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:54] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:34:55,333 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:34:55,423 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:55] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:34:55,634 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:55] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:34:57,943 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:57] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:34:58,251 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:58] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:34:58,255 - INFO - 127.0.0.1 - - [03/Dec/2024 16:34:58] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:00,288 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:00] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:35:00,493 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:00] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:00,494 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:00,737 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:00] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:35:00,922 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:00] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:35:16,816 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:35:16,819 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:16] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:35:17,044 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:17] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:35:18,588 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:35:18,672 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:18] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:35:18,905 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:18] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:19,886 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:19] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:35:19,980 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:19] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:19,982 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:19] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:21,245 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:21] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:35:21,516 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:21] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:21,525 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:21] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:21,562 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:21] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:35:21,716 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:21] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:35:45,319 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:35:45,322 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:45] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:35:45,523 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:45] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:35:46,621 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:35:46,701 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:46] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:35:46,839 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:49,854 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:49] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:35:49,965 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:49] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:50,040 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:51,386 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:51] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:35:51,465 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:35:51,466 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:51] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:35:51,611 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:51] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:35:51,763 - INFO - 127.0.0.1 - - [03/Dec/2024 16:35:51] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:36:11,139 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:36:11,226 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:11] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:36:11,353 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:11] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:36:12,814 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:12] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:36:12,901 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:12] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:36:12,902 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:36:14,546 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:14] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:36:14,623 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:14] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:36:14,624 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:14] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:36:14,755 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:14] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:36:14,895 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:14] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:36:18,148 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:18] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:36:45,141 - INFO - 127.0.0.1 - - [03/Dec/2024 16:36:45] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:37:02,778 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:37:02,785 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:37:03,707 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:37:04,986 - INFO - Application initialized successfully.
+2024-12-03 16:37:05,266 - WARNING -  * Debugger is active!
+2024-12-03 16:37:05,281 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:37:09,262 - INFO - Application initialized successfully.
+2024-12-03 16:37:09,424 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:37:09,425 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:37:09,435 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:37:10,069 - INFO - Application initialized successfully.
+2024-12-03 16:37:10,194 - WARNING -  * Debugger is active!
+2024-12-03 16:37:10,212 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:37:49,163 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:37:49,175 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:37:49,680 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:37:51,158 - INFO - Application initialized successfully.
+2024-12-03 16:37:51,387 - WARNING -  * Debugger is active!
+2024-12-03 16:37:51,400 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:38:13,251 - INFO - Application initialized successfully.
+2024-12-03 16:38:13,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:38:13,462 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:38:13,475 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:38:14,066 - INFO - Application initialized successfully.
+2024-12-03 16:38:14,172 - WARNING -  * Debugger is active!
+2024-12-03 16:38:14,181 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:38:33,312 - INFO - 127.0.0.1 - - [03/Dec/2024 16:38:33] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:38:33,418 - INFO - 127.0.0.1 - - [03/Dec/2024 16:38:33] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:38:33,423 - INFO - 127.0.0.1 - - [03/Dec/2024 16:38:33] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:38:53,054 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:38:53,078 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:38:53,636 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:38:55,189 - INFO - Application initialized successfully.
+2024-12-03 16:38:55,436 - WARNING -  * Debugger is active!
+2024-12-03 16:38:55,468 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:39:28,311 - INFO - 127.0.0.1 - - [03/Dec/2024 16:39:28] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:39:28,418 - INFO - 127.0.0.1 - - [03/Dec/2024 16:39:28] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:39:28,472 - INFO - 127.0.0.1 - - [03/Dec/2024 16:39:28] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:39:57,658 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:39:57,677 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 16:39:58,269 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:39:59,540 - INFO - Application initialized successfully.
+2024-12-03 16:39:59,784 - WARNING -  * Debugger is active!
+2024-12-03 16:39:59,802 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:40:03,673 - INFO - Application initialized successfully.
+2024-12-03 16:40:03,786 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 16:40:03,786 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:40:03,795 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:40:04,944 - INFO - Application initialized successfully.
+2024-12-03 16:40:05,058 - WARNING -  * Debugger is active!
+2024-12-03 16:40:05,067 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:40:05,091 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:40:05,183 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:05] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:40:05,586 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:40:06,964 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:06] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:40:07,161 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:07] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:40:07,162 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:07] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:40:08,311 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:08] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:40:08,410 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:40:08,410 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:08] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:40:08,534 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:08] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:40:08,725 - INFO - 127.0.0.1 - - [03/Dec/2024 16:40:08] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:41:28,571 - INFO - 127.0.0.1 - - [03/Dec/2024 16:41:28] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 16:47:26,875 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:26] "[33mPOST /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 16:47:32,486 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:32] "[33mGET /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 16:47:35,411 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:35] "[33mGET /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 16:47:39,841 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:47:39,879 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:39] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:47:40,143 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:40] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:47:41,728 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:47:41,817 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:41] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:47:41,937 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:41] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:47:43,120 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:43] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:47:43,310 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:47:43,312 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:43] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:47:44,964 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:44] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:47:45,085 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:45] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:47:45,086 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:45] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:47:45,316 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:45] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:47:45,417 - INFO - 127.0.0.1 - - [03/Dec/2024 16:47:45] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:48:33,291 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:48:33,311 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/routes/file.py', reloading
+2024-12-03 16:48:33,490 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:48:34,747 - INFO - Application initialized successfully.
+2024-12-03 16:48:34,979 - WARNING -  * Debugger is active!
+2024-12-03 16:48:34,988 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:49:31,610 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:31] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:49:31,761 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:31] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:49:31,787 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:49:37,041 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:37] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:49:37,180 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:37] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:49:37,191 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:37] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:49:38,537 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:38] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:49:38,726 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:38] "[33mGET /file/ HTTP/1.1[0m" 404 -
+2024-12-03 16:49:43,960 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:49:43,980 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:43] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:49:44,422 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 16:49:44,424 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:44] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 16:49:44,652 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:44] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:49:46,305 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 16:49:46,370 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:46] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 16:49:46,530 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:49:48,033 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:48] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 16:49:48,309 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:48] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:49:48,313 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:48] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:49:50,117 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:50] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:49:50,225 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:50] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:49:50,295 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:50] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:49:50,441 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:50] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:49:50,602 - INFO - 127.0.0.1 - - [03/Dec/2024 16:49:50] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:50:04,417 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:04] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:50:04,655 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:04] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:50:04,797 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:04] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:50:10,910 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:10] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:50:11,166 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:11] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 16:50:11,308 - INFO - 127.0.0.1 - - [03/Dec/2024 16:50:11] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 16:51:27,681 - INFO - 127.0.0.1 - - [03/Dec/2024 16:51:27] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 16:51:31,574 - INFO - 127.0.0.1 - - [03/Dec/2024 16:51:31] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 16:51:31,713 - INFO - 127.0.0.1 - - [03/Dec/2024 16:51:31] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 16:51:31,714 - INFO - 127.0.0.1 - - [03/Dec/2024 16:51:31] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 16:53:25,189 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:53:25,206 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:53:26,146 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:53:27,996 - INFO - Application initialized successfully.
+2024-12-03 16:53:28,265 - WARNING -  * Debugger is active!
+2024-12-03 16:53:28,284 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:54:01,655 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:54:01,665 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:54:02,648 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:54:04,233 - INFO - Application initialized successfully.
+2024-12-03 16:54:04,380 - WARNING -  * Debugger is active!
+2024-12-03 16:54:04,391 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:55:26,031 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:55:26,043 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:55:27,114 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:55:28,437 - INFO - Application initialized successfully.
+2024-12-03 16:55:28,692 - WARNING -  * Debugger is active!
+2024-12-03 16:55:28,714 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 16:55:30,966 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:55:30,982 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/query_manager.py', reloading
+2024-12-03 16:55:31,896 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 16:55:32,439 - INFO - Application initialized successfully.
+2024-12-03 16:55:32,553 - WARNING -  * Debugger is active!
+2024-12-03 16:55:32,570 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:06:29,424 - INFO - Application initialized successfully.
+2024-12-03 17:06:30,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 17:06:30,099 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 17:06:30,122 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:06:31,085 - INFO - Application initialized successfully.
+2024-12-03 17:06:31,370 - WARNING -  * Debugger is active!
+2024-12-03 17:06:31,390 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:06:33,505 - INFO - 127.0.0.1 - - [03/Dec/2024 17:06:33] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:06:34,055 - INFO - 127.0.0.1 - - [03/Dec/2024 17:06:34] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:06:34,055 - INFO - 127.0.0.1 - - [03/Dec/2024 17:06:34] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:07:55,649 - INFO - 127.0.0.1 - - [03/Dec/2024 17:07:55] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:10:25,365 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:10:26,056 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:10:30,009 - INFO - Application initialized successfully.
+2024-12-03 17:10:30,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 17:10:30,228 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 17:10:30,241 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:10:31,712 - INFO - Application initialized successfully.
+2024-12-03 17:10:31,867 - WARNING -  * Debugger is active!
+2024-12-03 17:10:31,900 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:10:32,044 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:32] "[33mPOST /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 17:10:34,893 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:34] "[33mGET /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 17:10:38,804 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 17:10:38,826 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:38] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 17:10:39,000 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:39] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:10:40,984 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 17:10:41,087 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:41] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 17:10:43,700 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:43] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:10:44,949 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:44] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 17:10:46,159 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:46] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:10:46,160 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:46] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:10:47,453 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:47] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:10:47,707 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:47] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:10:47,711 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:47] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:10:47,792 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:47] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:10:47,872 - INFO - 127.0.0.1 - - [03/Dec/2024 17:10:47] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 17:11:00,728 - INFO - 127.0.0.1 - - [03/Dec/2024 17:11:00] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:11:00,805 - INFO - 127.0.0.1 - - [03/Dec/2024 17:11:00] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:11:00,806 - INFO - 127.0.0.1 - - [03/Dec/2024 17:11:00] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:12:19,781 - INFO - 127.0.0.1 - - [03/Dec/2024 17:12:19] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:21:50,998 - INFO - Home page loaded from 37.171.214.19
+2024-12-03 17:21:51,004 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:51] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 17:21:51,233 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:51] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:21:53,430 - INFO - Admin page accessed by admin from 37.171.214.19
+2024-12-03 17:21:53,831 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:53] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 17:21:54,158 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:54] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:21:55,886 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:55] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 17:21:56,126 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:56] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:21:56,130 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:56] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:21:57,535 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:57] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:21:57,755 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:57] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:21:57,763 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:21:57,823 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:57] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:21:57,976 - INFO - 127.0.0.1 - - [03/Dec/2024 17:21:57] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 17:22:02,528 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:22:02,771 - INFO - Authentication (publickey) successful!
+2024-12-03 17:22:03,220 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:22:03,241 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:22:03,244 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:03] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 17:22:05,511 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:05] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:22:05,664 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:05] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:22:05,665 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:22:05,778 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:05] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:22:10,512 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:22:10,724 - INFO - Authentication (publickey) successful!
+2024-12-03 17:22:11,200 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:22:11,219 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:22:11,221 - INFO - 127.0.0.1 - - [03/Dec/2024 17:22:11] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:31:54,975 - INFO - Home page loaded from 2a04:cec0:c021:a6da:ddf:e845:d900:282c
+2024-12-03 17:31:54,984 - INFO - 127.0.0.1 - - [03/Dec/2024 17:31:54] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 17:31:55,003 - INFO - Home page loaded from 2a04:cec0:c021:a6da:ddf:e845:d900:282c
+2024-12-03 17:31:55,005 - INFO - 127.0.0.1 - - [03/Dec/2024 17:31:55] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 17:31:57,011 - INFO - 127.0.0.1 - - [03/Dec/2024 17:31:57] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:32:11,344 - INFO - Admin page accessed by admin from 37.171.214.19
+2024-12-03 17:32:11,462 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:11] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 17:32:12,110 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:12] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:32:16,699 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:16] "GET /admin/admin_users_manager HTTP/1.1" 200 -
+2024-12-03 17:32:17,595 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:17] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:32:37,500 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:37] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2024-12-03 17:32:37,733 - INFO - Home page loaded from 2a04:cec0:c021:a6da:ddf:e845:d900:282c
+2024-12-03 17:32:37,735 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:37] "[32mGET /?loging_msg=Un+email+avec+votre+nouveau+mot+de+passe+a+été+envoyé. HTTP/1.1[0m" 302 -
+2024-12-03 17:32:38,086 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:38] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:32:54,445 - INFO - Home page loaded from 2a04:cec0:c021:a6da:ddf:e845:d900:282c
+2024-12-03 17:32:54,453 - INFO - Login attempt for user: t
+2024-12-03 17:32:54,803 - INFO - User login successful for: t
+2024-12-03 17:32:54,804 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-03 17:32:56,479 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:56] "GET /user/user_settings_page/t HTTP/1.1" 200 -
+2024-12-03 17:32:57,510 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:57] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:32:59,131 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:59] "GET /file/page/t HTTP/1.1" 200 -
+2024-12-03 17:32:59,612 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:59] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:32:59,614 - INFO - 127.0.0.1 - - [03/Dec/2024 17:32:59] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 17:33:07,265 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:33:07,525 - INFO - Authentication (publickey) successful!
+2024-12-03 17:33:07,985 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:33:08,028 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:33:08,032 - INFO - 127.0.0.1 - - [03/Dec/2024 17:33:08] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:34:50,350 - INFO - 127.0.0.1 - - [03/Dec/2024 17:34:50] "[33mPOST /delete_file HTTP/1.1[0m" 404 -
+2024-12-03 17:35:05,428 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:35:05,689 - INFO - Authentication (publickey) successful!
+2024-12-03 17:35:06,166 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:35:06,233 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:35:06,235 - INFO - 127.0.0.1 - - [03/Dec/2024 17:35:06] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:40:07,293 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:40:07,309 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:40:08,451 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:40:09,692 - INFO - Application initialized successfully.
+2024-12-03 17:40:09,982 - WARNING -  * Debugger is active!
+2024-12-03 17:40:10,040 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:40:30,373 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:40:30,386 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:40:31,388 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:40:36,786 - INFO - Application initialized successfully.
+2024-12-03 17:40:36,975 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.119.165:9000
+2024-12-03 17:40:36,976 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 17:40:36,995 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:40:37,571 - INFO - Application initialized successfully.
+2024-12-03 17:40:37,680 - WARNING -  * Debugger is active!
+2024-12-03 17:40:37,693 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:40:48,815 - INFO - 127.0.0.1 - - [03/Dec/2024 17:40:48] "GET /file/page/t HTTP/1.1" 200 -
+2024-12-03 17:40:49,048 - INFO - 127.0.0.1 - - [03/Dec/2024 17:40:49] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:40:49,078 - INFO - 127.0.0.1 - - [03/Dec/2024 17:40:49] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 17:40:51,777 - INFO - 127.0.0.1 - - [03/Dec/2024 17:40:51] "GET /user/user_settings_page/t HTTP/1.1" 200 -
+2024-12-03 17:41:05,421 - INFO - 127.0.0.1 - - [03/Dec/2024 17:41:05] "GET /file/page/t HTTP/1.1" 200 -
+2024-12-03 17:41:05,641 - INFO - 127.0.0.1 - - [03/Dec/2024 17:41:05] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:41:05,643 - INFO - 127.0.0.1 - - [03/Dec/2024 17:41:05] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:42:15,465 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:42:15,930 - INFO - Authentication (publickey) successful!
+2024-12-03 17:42:16,433 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:42:22,286 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:42:22,291 - INFO - 127.0.0.1 - - [03/Dec/2024 17:42:22] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:44:50,715 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:44:50,732 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:44:51,476 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:44:52,675 - INFO - Application initialized successfully.
+2024-12-03 17:44:52,913 - WARNING -  * Debugger is active!
+2024-12-03 17:44:52,931 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:04,594 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:04,621 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:05,210 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:06,274 - INFO - Application initialized successfully.
+2024-12-03 17:45:06,478 - WARNING -  * Debugger is active!
+2024-12-03 17:45:06,494 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:41,428 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:41,459 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:41,882 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:42,825 - INFO - Application initialized successfully.
+2024-12-03 17:45:43,072 - WARNING -  * Debugger is active!
+2024-12-03 17:45:43,105 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:44,011 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:44,037 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:44,299 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:45,223 - INFO - Application initialized successfully.
+2024-12-03 17:45:45,396 - WARNING -  * Debugger is active!
+2024-12-03 17:45:45,413 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:47,093 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:47,118 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:47,569 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:48,391 - INFO - Application initialized successfully.
+2024-12-03 17:45:48,540 - WARNING -  * Debugger is active!
+2024-12-03 17:45:48,548 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:48,603 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:48,622 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:49,678 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:50,512 - INFO - Application initialized successfully.
+2024-12-03 17:45:50,622 - WARNING -  * Debugger is active!
+2024-12-03 17:45:50,635 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:45:54,853 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:54,878 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:45:55,801 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:45:56,584 - INFO - Application initialized successfully.
+2024-12-03 17:45:56,772 - WARNING -  * Debugger is active!
+2024-12-03 17:45:56,782 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:46:18,807 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:46:18,822 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:46:19,046 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:46:20,252 - INFO - Application initialized successfully.
+2024-12-03 17:46:20,688 - WARNING -  * Debugger is active!
+2024-12-03 17:46:20,727 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:46:25,430 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:46:25,450 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:46:26,025 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:46:26,901 - INFO - Application initialized successfully.
+2024-12-03 17:46:27,032 - WARNING -  * Debugger is active!
+2024-12-03 17:46:27,043 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:46:47,718 - INFO - Application initialized successfully.
+2024-12-03 17:46:47,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.119.165:9000
+2024-12-03 17:46:47,839 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 17:46:47,847 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:46:48,465 - INFO - Application initialized successfully.
+2024-12-03 17:46:48,587 - WARNING -  * Debugger is active!
+2024-12-03 17:46:48,603 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:46:51,738 - INFO - 127.0.0.1 - - [03/Dec/2024 17:46:51] "GET /user/user_settings_page/t HTTP/1.1" 200 -
+2024-12-03 17:46:51,943 - INFO - 127.0.0.1 - - [03/Dec/2024 17:46:51] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:46:53,363 - INFO - 127.0.0.1 - - [03/Dec/2024 17:46:53] "GET /file/page/t HTTP/1.1" 200 -
+2024-12-03 17:46:53,523 - INFO - 127.0.0.1 - - [03/Dec/2024 17:46:53] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:46:53,563 - INFO - 127.0.0.1 - - [03/Dec/2024 17:46:53] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:47:19,251 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:47:19,456 - INFO - Authentication (publickey) successful!
+2024-12-03 17:47:19,896 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:47:20,016 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:47:20,018 - INFO - 127.0.0.1 - - [03/Dec/2024 17:47:20] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:51:38,066 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:51:38,099 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:51:38,716 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:51:39,429 - INFO - Application initialized successfully.
+2024-12-03 17:51:39,542 - WARNING -  * Debugger is active!
+2024-12-03 17:51:39,551 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:51:49,091 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:51:49,399 - INFO - Authentication (publickey) successful!
+2024-12-03 17:51:50,137 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:51:50,255 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:51:50,258 - INFO - 127.0.0.1 - - [03/Dec/2024 17:51:50] "POST /file/page/upload HTTP/1.1" 200 -
+2024-12-03 17:53:08,886 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:53:08,895 - INFO -  * Detected change in '/Users/jafjafnora/Desktop/NORA/projet/managers/filePage_manager.py', reloading
+2024-12-03 17:53:09,288 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:53:09,956 - INFO - Application initialized successfully.
+2024-12-03 17:53:10,085 - WARNING -  * Debugger is active!
+2024-12-03 17:53:10,097 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:59:01,743 - INFO - Application initialized successfully.
+2024-12-03 17:59:02,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://192.168.119.165:9000
+2024-12-03 17:59:02,167 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 17:59:02,192 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 17:59:03,049 - INFO - Application initialized successfully.
+2024-12-03 17:59:03,199 - WARNING -  * Debugger is active!
+2024-12-03 17:59:03,214 - INFO -  * Debugger PIN: 145-276-636
+2024-12-03 17:59:03,880 - INFO - Admin page accessed by admin from 37.171.214.19
+2024-12-03 17:59:03,999 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:03] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 17:59:04,397 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:04] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:59:06,387 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:06] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 17:59:06,840 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:59:06,842 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:06] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:59:07,945 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:07] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 17:59:08,216 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:08] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 17:59:08,216 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:08] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 17:59:08,291 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:08] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 17:59:08,474 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:08] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 17:59:12,408 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2024-12-03 17:59:13,136 - INFO - Authentication (publickey) successful!
+2024-12-03 17:59:13,617 - INFO - [chan 0] Opened sftp connection (server version 3)
+2024-12-03 17:59:13,760 - INFO - [chan 0] sftp session closed.
+2024-12-03 17:59:13,763 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:13] "POST /file/delete HTTP/1.1" 200 -
+2024-12-03 17:59:48,366 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:48] "[31m[1mGET /file/delete HTTP/1.1[0m" 405 -
+2024-12-03 17:59:55,791 - INFO - Home page loaded from 194.199.112.176
+2024-12-03 17:59:55,816 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:55] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-03 17:59:55,999 - INFO - 127.0.0.1 - - [03/Dec/2024 17:59:55] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 18:00:01,743 - INFO - Admin page accessed by admin from 194.199.112.176
+2024-12-03 18:00:01,837 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:01] "GET /admin/admin HTTP/1.1" 200 -
+2024-12-03 18:00:01,932 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:01] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 18:00:04,896 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:04] "GET /admin/file_page/admin HTTP/1.1" 200 -
+2024-12-03 18:00:04,988 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:04] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 18:00:04,988 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:04] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 18:00:06,280 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:06] "GET /file/page/admin HTTP/1.1" 200 -
+2024-12-03 18:00:06,427 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:06] "[36mGET /static/file.js HTTP/1.1[0m" 304 -
+2024-12-03 18:00:06,430 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:06] "[36mGET /static/output.css HTTP/1.1[0m" 304 -
+2024-12-03 18:00:06,453 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:06] "GET /static/output.css HTTP/1.1" 200 -
+2024-12-03 18:00:06,503 - INFO - 127.0.0.1 - - [03/Dec/2024 18:00:06] "GET /static/file.js HTTP/1.1" 200 -
+2024-12-03 18:06:13,720 - INFO - Application initialized successfully.
+2024-12-03 18:06:14,022 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://10.229.46.176:9000
+2024-12-03 18:06:14,022 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 18:06:14,040 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 18:06:14,649 - INFO - Application initialized successfully.
+2024-12-03 18:06:14,778 - WARNING -  * Debugger is active!
+2024-12-03 18:06:14,792 - INFO -  * Debugger PIN: 145-276-636
