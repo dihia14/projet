@@ -41,19 +41,18 @@ def new_password(username):
     #update the db 
     db_manager.update_password_username(username, hashed_password) ##
     print(f"NEW password requested for user: {username}")
-    return render_template('user_settings_page.html', user_info=user_info)  
-
+    return render_template('user_settings_page.html', user_info=user_info) ,  200 # OK 
+###### INSTEAD OF RENDER_TEMPLATE => REDIRECT 
 
 
 @user_blueprint.route("/user_settings_page/<username>")
 def user_settings_page(username):
     # ID , username, hash password, mail, privilèges 
-    #user_info = get_user_infos(username)
     user_info = db_manager.get_user_infos(username)
     print(user_info)
     print(f"Current session: {dict(session)}")  
 
-    return render_template('user_settings_page.html', user_info=user_info)  #
+    return render_template('user_settings_page.html', user_info=user_info)  , 200 
 
 
 

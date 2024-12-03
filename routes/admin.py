@@ -20,7 +20,7 @@ def admin(username):
     """
 
     if 'username' not in session or not session.get('is_admin', False):
-        return redirect(url_for('index.index', loging_msg="Unauthorized access"))
+        return redirect(url_for('index.index', loging_msg="Unauthorized access")) , 401 # unauthorized 
 
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     logging.info(f"Admin page accessed by {session['username']} from {client_ip}")
@@ -28,7 +28,6 @@ def admin(username):
     user_info = db_manager.get_user_infos(username)
 
     # logs et alertes
-    #recent_logs = FileManager.get_last_logs()
     recent_logs = UtilsManager.get_last_logs()
     ids_alerts = LogParserIdsAlert.load_last_alerts(last_n=6)
 
@@ -65,7 +64,7 @@ def admin_file_page(username):
     """
     Redirection vers la gestion des fichiers.
     """
-    return redirect(url_for("file.file_page", username=username))
+    return redirect(url_for("file.file_page", username=username)), 200  # ? 
 
 @admin_blueprint.route("/admin_users_manager")
 def gestion_users():
@@ -81,7 +80,7 @@ def delete_user(user_id):
     Supprime un utilisateur.
     """
     db_manager.delete_user(user_id)
-    return redirect(url_for("admin.gestion_users"))
+    return redirect(url_for("admin.gestion_users")), 200 # ok 
 
 @admin_blueprint.route("/add_user", methods=["POST"])
 def add_user_route():
@@ -96,9 +95,9 @@ def add_user_route():
     try:
         db_manager.add_user(username, hashed_password, email, is_admin=False)
         mail_manager.send_confirmation_mail_user(username, email, password, True)
-        return redirect(url_for('admin.admin', username=session['username'], success=f"User {username} has been successfully added."))
+        return redirect(url_for('admin.admin', username=session['username'], success=f"User {username} has been successfully added.")), 200 
     except sqlite3.IntegrityError as e:
         error_message = "The email is already in use. Please choose another one." if "UNIQUE constraint failed" in str(e) else "An error occurred while adding the user."
-        return redirect(url_for('admin.admin', username=session['username'], error=error_message))
+        return redirect(url_for('admin.admin', username=session['username'], error=error_message)) ## TODO 
     except Exception as e:
-        return redirect(url_for('admin.admin', username=session['username'], error=f"Unexpected error: {str(e)}"))
+        return redirect(url_for('admin.admin', username=session['username'], error=f"Unexpected error: {str(e)}")), 400 ## ??? 

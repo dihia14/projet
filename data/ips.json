@@ -166,5 +166,17 @@
         "lon": 2.4075,
         "country": "France",
         "city": "Paris"
+    },
+    "2a04:cec0:1936:3b6c:8555:8fcc:97e6:74ac": {
+        "lat": 48.9163,
+        "lon": 2.3869,
+        "country": "France",
+        "city": "Aubervilliers"
+    },
+    "2a04:cec0:1936:3b6c:bc44:c1:6ea5:a5b9": {
+        "lat": 48.9163,
+        "lon": 2.3869,
+        "country": "France",
+        "city": "Aubervilliers"
     }
 }

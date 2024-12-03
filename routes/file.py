@@ -77,7 +77,7 @@ def delete_file_route():
     if sftp:
             sftp.close()
 
-    return redirect(url_for("file.file_page", username=username))
+    return redirect(url_for("file.file_page", username=username)), 200 
 
 
 
